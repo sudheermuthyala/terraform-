@@ -81,5 +81,5 @@ The AWS provider offers a flexible means of providing credentials for authentica
     terraform configuration database (in simple terms) what ever the resource we create in aws it will creat  a reference file that is nothing but terraform.statefiletfstate
     terraform configuration database (in simple terms) what ever the resource we create in aws it will creat  a reference file that is nothing but terraform.    terraform configuration database (in simple terms) what ever the resource we create in aws it will creat  a reference file that is nothing but terraform.tfstate file
 
-terraform destroy 
+terraform destroy --auto-approve (this is to destroy the )
 */
