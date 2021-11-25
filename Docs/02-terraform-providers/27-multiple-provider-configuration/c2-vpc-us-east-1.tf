@@ -1,3 +1,4 @@
-resource "aws_vpc" "my_us-east-1" {
+resource "aws_vpc" "my_us-east-1-vpc" {
+  
   
 }
