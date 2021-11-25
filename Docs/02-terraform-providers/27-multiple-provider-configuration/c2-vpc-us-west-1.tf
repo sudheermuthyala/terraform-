@@ -9,5 +9,6 @@ resource "aws_vpc" "my_vpc_us-west-1" {
 }
 
 /*
+Addition Note;
 
 */
