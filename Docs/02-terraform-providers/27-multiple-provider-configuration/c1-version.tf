@@ -26,3 +26,5 @@ provider "aws" {
     alias = "aws-west-1" 
   
 }
+
+provider-3
