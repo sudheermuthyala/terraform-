@@ -21,5 +21,6 @@ provider "aws" {
 #Provider-2     for US-west-1 (second provider)
 
 provider "aws" {
+    profile = 
   
 }
