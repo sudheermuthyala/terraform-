@@ -17,3 +17,7 @@ terraform {
 /*
 # Provider Block
 */
+
+provider "aws" {
+  
+}
