@@ -12,6 +12,6 @@ resource "aws_s3_bucket" "sample" {
 
 resource "random_pet" "petname" {
     length = 6
-    
+    separator = "-"
   
 }
