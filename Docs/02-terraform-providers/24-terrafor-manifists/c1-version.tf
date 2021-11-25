@@ -43,7 +43,8 @@ The AWS provider offers a flexible means of providing credentials for authentica
       Usage:
       provider "aws" {}
 
-      Note: 
+      Note: We need to export the credentials 
+
 - Shared credentials/configuration file
 - CodeBuild, ECS, and EKS Roles
 - EC2 Instance Metadata Service (IMDS and IMDSv2)
