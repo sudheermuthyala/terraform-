@@ -1,6 +1,6 @@
 /*
 Resource block
-Resource-1
+Resource-1  = Create Vpc
 */
 
 resource "aws_vpc" "MyVpc-1" {
