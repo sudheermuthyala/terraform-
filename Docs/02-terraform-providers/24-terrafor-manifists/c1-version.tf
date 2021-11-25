@@ -1,6 +1,7 @@
 /*
 Terraform Block 
-terraform configuration
+terraform configuration block
+
 
 terraform {
   required_version = "~> 1.0.11"
