@@ -28,6 +28,8 @@ Authentication
 The AWS provider offers a flexible means of providing credentials for authentication. The following methods are supported, in this order, and explained below:
 
 - Static credentials
+      Static credentials can be provided by adding an access_key and secret_key in-line in the AWS provider block:
+
 
 - Environment variables
 - Shared credentials/configuration file
