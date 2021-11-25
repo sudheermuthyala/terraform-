@@ -9,3 +9,7 @@ resource "aws_s3_bucket" "sample" {
     acl     =  "public-read"
     #region  =  "us-east-1" 
 }
+
+resource "ran" "name" {
+  
+}
