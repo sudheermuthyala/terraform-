@@ -1,4 +1,4 @@
-resource "ran" "name" {
+resource "random_pet" "name" {
   
 }
 
