@@ -28,6 +28,7 @@ Authentication
 The AWS provider offers a flexible means of providing credentials for authentication. The following methods are supported, in this order, and explained below:
 
 - Static credentials
+
 - Environment variables
 - Shared credentials/configuration file
 - CodeBuild, ECS, and EKS Roles
