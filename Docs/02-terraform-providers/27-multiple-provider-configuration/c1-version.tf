@@ -18,4 +18,4 @@ provider "aws" {
 }
 
 
-#Provider-1     for US-east-1 (default-provider
+#Provider-1     for US-west-1 (second provider)
