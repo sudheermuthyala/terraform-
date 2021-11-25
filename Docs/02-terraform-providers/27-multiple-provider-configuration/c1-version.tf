@@ -10,3 +10,8 @@ terraform {
 }
 
 
+#Provider-1
+provider "aws" {
+    
+  
+}
