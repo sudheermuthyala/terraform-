@@ -5,6 +5,7 @@ resource "random_pet" "petname" {
 }
 
 resource "aws_s3_bucket" "sample" {
+    bucket = 
 
   
 }
