@@ -59,6 +59,9 @@ The AWS provider offers a flexible means of providing credentials for authentica
           aws_secret_access_key=wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY
 
       2)  ~/.aws/config
+          [default]
+          region=us-west-2
+          output=json
       Usage:
 
 
