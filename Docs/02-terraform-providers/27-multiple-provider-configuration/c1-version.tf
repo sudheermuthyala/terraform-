@@ -28,3 +28,8 @@ provider "aws" {
 }
 
 #   provider-3      for ap-south-1
+
+provider "aws" {
+    pr
+  
+}
