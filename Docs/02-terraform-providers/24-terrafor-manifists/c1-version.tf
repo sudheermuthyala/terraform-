@@ -62,6 +62,7 @@ The AWS provider offers a flexible means of providing credentials for authentica
           [default]
           region=us-west-2
           output=json
+          
       Usage:
       provider "aws" {
       region                  = "us-west-2"
