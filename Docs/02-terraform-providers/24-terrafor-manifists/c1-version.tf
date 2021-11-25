@@ -55,8 +55,8 @@ The AWS provider offers a flexible means of providing credentials for authentica
       
       1)  ~/.aws/credentials
           [default]
-aws_access_key_id=AKIAIOSFODNN7EXAMPLE
-aws_secret_access_key=wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY
+          aws_access_key_id=AKIAIOSFODNN7EXAMPLE
+          aws_secret_access_key=wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY
 
 
       Usage:
