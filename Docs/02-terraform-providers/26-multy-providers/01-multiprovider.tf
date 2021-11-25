@@ -6,3 +6,4 @@ Multiple providers
 ->  we can ues alternate provider in a resource, data or module by refering it <Provider-name><alias-name>
 
 */
+
