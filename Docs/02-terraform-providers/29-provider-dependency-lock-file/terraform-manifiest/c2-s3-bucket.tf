@@ -5,7 +5,7 @@
 # }
 
 resource "aws_s3_bucket" "sample" {
-    bucket  =  my
+    bucket  =  mydevops5
     acl     =  "public-read"
     region  =  "us-east-1" 
 }
