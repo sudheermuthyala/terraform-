@@ -28,5 +28,4 @@
  - Resource Behaviour ? -> How terraform Handiles resource decleration ?
  - provisioners ?       -> we can configure Resource Post creation Action ?
   
-
 ```
