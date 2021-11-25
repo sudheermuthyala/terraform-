@@ -1,6 +1,6 @@
 /*
 Multiple providers
 
-->  we can define the multiple configuretion 
+->  we can define the multiple configuretion for same provider
 
 */
