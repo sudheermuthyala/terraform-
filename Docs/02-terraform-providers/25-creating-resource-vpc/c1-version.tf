@@ -3,7 +3,7 @@ Terraform Block
 terraform configuration block
 terraform settings block
 terraform.tfstate   
-
+terraform destroy
 
 */
 
