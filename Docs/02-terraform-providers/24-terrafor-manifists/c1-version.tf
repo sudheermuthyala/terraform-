@@ -44,10 +44,11 @@ The AWS provider offers a flexible means of providing credentials for authentica
       provider "aws" {}
 
       Note: We need to export the credentials 
+            
             export AWS_ACCESS_KEY_ID="anaccesskey"
-$ export AWS_SECRET_ACCESS_KEY="asecretkey"
-$ export AWS_DEFAULT_REGION="us-west-2"
-$ terraform plan
+$           export AWS_SECRET_ACCESS_KEY="asecretkey"
+$           export AWS_DEFAULT_REGION="us-west-2"
+$           terraform plan
 
 - Shared credentials/configuration file
 - CodeBuild, ECS, and EKS Roles
