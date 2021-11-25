@@ -10,5 +10,5 @@ required_providers {
 
 
 provider "aws" {
-  
+ region = us 
 }
