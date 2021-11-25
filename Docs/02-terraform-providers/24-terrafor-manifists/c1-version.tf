@@ -64,9 +64,8 @@ The AWS provider offers a flexible means of providing credentials for authentica
           output=json
       Usage:
       provider "aws" {
-  region                  = "us-west-2"
-  shared_credentials_file = "/Users/tf_user/.aws/creds"
-  profile                 = "customprofile"
+      region                  = "us-west-2"
+      profile                 = "customprofile"
 }
 
 - CodeBuild, ECS, and EKS Roles
