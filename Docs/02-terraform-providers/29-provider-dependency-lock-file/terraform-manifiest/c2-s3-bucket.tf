@@ -18,6 +18,6 @@ resource "aws_s3_bucket" "sample" {
     #region  =  "us-east-1"  #comment this if you are you using AWS v3.x versioon 
 
     tags = {
-      "Name" = "value"
+      "Name" = "Demo"
     }
 }
