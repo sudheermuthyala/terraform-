@@ -8,7 +8,7 @@ required_providers {
 
 random  ={
     source = "hashicorp/aws"
-    version = 
+    version = "3.0.0"
 }
 
   }
