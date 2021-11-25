@@ -27,4 +27,4 @@ provider "aws" {
   
 }
 
-provider-3      for us
+provider-3      for ap-south-1
