@@ -10,7 +10,7 @@ terraform {
 }
 
 
-#Provider-1     for US
+#Provider-1     for US-east-1 (default-provider)
 provider "aws" {
     profile = "default"
     region  = "us-east-1"
