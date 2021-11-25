@@ -6,7 +6,9 @@ required_providers {
       version = "~> 3.0"
     }
 
-random
+random  ={
+    sousource = "value"
+}
 
   }
 }
