@@ -1,1 +1,11 @@
-![WhatsApp Image 2021-11-25 at 10.21.34 AM.jpeg](/.attachments/WhatsApp%20Image%202021-11-25%20at%2010.21.34%20AM-520864c6-64bc-4dcb-ac64-21388b79b594.jpeg)
+#Terraform Workflow with providers
+![img_1.png](img_1.png) 
+
+#Terraform Providers 
+![img_2.png](img_2.png)
+
+# Terraform Required providers & required version
+![img_3.png](img_3.png)
+
+#Terraform Registry (Provider Badges)
+![img_4.png](img_4.png)
