@@ -38,6 +38,7 @@ The AWS provider offers a flexible means of providing credentials for authentica
       }
 
 - Environment variables
+  
 - Shared credentials/configuration file
 - CodeBuild, ECS, and EKS Roles
 - EC2 Instance Metadata Service (IMDS and IMDSv2)
