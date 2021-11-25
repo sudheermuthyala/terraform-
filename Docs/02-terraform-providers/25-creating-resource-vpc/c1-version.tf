@@ -77,6 +77,7 @@ The AWS provider offers a flexible means of providing credentials for authentica
 
 #terraform.tfstate   
     
-    terraform.tfstate  will creats while we creat any resource this terraform.tfstate ile is nothing but aa 
+    terraform.tfstate  will creats while we creat any resource this terraform.tfstate ile is nothing but a
+    
 
 */
