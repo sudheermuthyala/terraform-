@@ -10,6 +10,6 @@ resource "aws_s3_bucket" "sample" {
     #region  =  "us-east-1" 
 }
 
-resource "ran" "name" {
+resource "random_pet" "name" {
   
 }
