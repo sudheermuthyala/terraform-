@@ -1,3 +1,3 @@
-resource "aws_s3" "name" {
+resource "aws_s3_bucket" "name" {
   
 }
