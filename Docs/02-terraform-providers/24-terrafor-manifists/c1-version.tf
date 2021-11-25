@@ -44,6 +44,7 @@ The AWS provider offers a flexible means of providing credentials for authentica
       provider "aws" {}
 
       Note: We need to export the credentials 
+          
 
 - Shared credentials/configuration file
 - CodeBuild, ECS, and EKS Roles
