@@ -30,7 +30,7 @@ provider "aws" {
 #   provider-3      for ap-south-1 
 
 provider "aws" {
-    profile = default
+    profile = "default"
     region = "ap-south-1"
     alias = "aws-south-1"
   
