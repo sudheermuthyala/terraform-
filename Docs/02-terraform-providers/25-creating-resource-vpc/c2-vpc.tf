@@ -1,5 +1,6 @@
 /*
 Resource block
+Resource-1
 */
 
 resource "aws_vpc" "MyVpc-1" {
