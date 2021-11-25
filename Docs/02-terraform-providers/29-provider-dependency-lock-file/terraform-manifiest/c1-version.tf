@@ -10,5 +10,6 @@ required_providers {
 
 
 provider "aws" {
- region = us 
+ region = us-east-1
+ profile = "default" 
 }
