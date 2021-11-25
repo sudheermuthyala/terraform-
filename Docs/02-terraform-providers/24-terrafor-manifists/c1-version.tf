@@ -65,7 +65,7 @@ The AWS provider offers a flexible means of providing credentials for authentica
       Usage:
       provider "aws" {
       region                  = "us-west-2"
-      profile                 = "customprofile"  (if profile not )
+      profile                 = "customprofile"  (if profile not define it will take default profile)
 }
 
 - CodeBuild, ECS, and EKS Roles
