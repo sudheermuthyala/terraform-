@@ -31,6 +31,6 @@ provider "aws" {
 
 provider "aws" {
     profile = default
-    region = 
+    region = "ap-south-1"
   
 }
