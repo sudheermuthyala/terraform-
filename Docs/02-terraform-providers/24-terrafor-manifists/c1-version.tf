@@ -30,7 +30,11 @@ The AWS provider offers a flexible means of providing credentials for authentica
 - Static credentials
       Static credentials can be provided by adding an access_key and secret_key in-line in the AWS provider block:
       Usage:
-      
+      provider "aws" {
+      region     = "us-west-2"
+      access_key = "my-access-key"
+      secret_key = "my-secret-key"
+}
 
 - Environment variables
 - Shared credentials/configuration file
