@@ -16,3 +16,6 @@ provider "aws" {
     region  = "us-east-1"
   
 }
+
+
+#Provider-1     for US-east-1 (default-provider
