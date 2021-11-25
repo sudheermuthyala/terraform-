@@ -78,5 +78,5 @@ The AWS provider offers a flexible means of providing credentials for authentica
 #terraform.tfstate   
     
     terraform.tfstate  will creats while we creat any resource this terraform.tfstate ile is nothing but a
-    terraform configuration database (in simple terms) what ever the resource we create in aws it will creat  a reference file that is nothing but terraform.statefile
+    terraform configuration database (in simple terms) what ever the resource we create in aws it will creat  a reference file that is nothing but terraform.    terraform configuration database (in simple terms) what ever the resource we create in aws it will creat  a reference file that is nothing but terraform.statefiletfstate
 */
