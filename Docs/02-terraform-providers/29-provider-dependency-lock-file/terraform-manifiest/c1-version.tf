@@ -7,7 +7,8 @@ required_providers {
     }
 
 random  ={
-    sousource = "hashicorp/aws"
+    source = "hashicorp/aws"
+    version = 
 }
 
   }
