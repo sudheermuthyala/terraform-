@@ -16,4 +16,6 @@ resource "aws_s3_bucket" "sample" {
     bucket  =  random_pet.petname.id
     acl     =  "public-read"
     #region  =  "us-east-1"  #comment this if you are you using AWS v3.x versioon 
+
+    tags = 
 }
