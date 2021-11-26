@@ -9,3 +9,4 @@ resource "aws_vpc" "MY_DEV_VPC" {
     }
   
 }
+
