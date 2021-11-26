@@ -27,4 +27,4 @@ resource "aws_internet_gateway" "MY_DEV_IGW" {
 }
 
 
-#   Resource-: Create Subnets
+#   Resource-4: Create rout
