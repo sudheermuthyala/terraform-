@@ -55,8 +55,8 @@ resource "aws_security_group" "MY_DEV_SG" {
   vpc_id      = aws_vpc.main.id
 
   ingress {
-    description      = "TLS from VPC"
-    from_port        = 443
+    description      = "MY_DEV_DEFAULT_SG"
+    from_port        = 22
     to_port          = 443
     protocol         = "tcp"
     cidr_blocks      = [aws_vpc.main.cidr_block]
