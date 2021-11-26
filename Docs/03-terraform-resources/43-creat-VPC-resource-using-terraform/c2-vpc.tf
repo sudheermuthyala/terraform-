@@ -50,7 +50,7 @@ resource "aws_route_table_association" "MY_DEV_ROUT_TABLE_ASSOCIATION" {
 
 
 resource "aws_security_group" "MY_DEV_SG" {
-  name        = "MY_DEV_SG"
+  name        = "MY_DEV_DEFAULT_SG"
   description = "Allow TLS inbound traffic"
   vpc_id      = aws_vpc.main.id
 
