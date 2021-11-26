@@ -8,8 +8,8 @@ resource "aws_instance" "MY_ec2_vm" {
 
   tags = {
     "Name"          = "Demo-Ec2-vm"
-    # "update-tag"    = "Tag-1"
-    # "update-tage-1" = "Tage-2"
+    "update-tag"    = "Tag-1"
+    "update-tage-1" = "Tage-2"
   }
 
 }
