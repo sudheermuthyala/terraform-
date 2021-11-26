@@ -10,3 +10,8 @@ terraform {
 }
 
 # provider block
+
+provider "aws" {
+    
+  
+}
