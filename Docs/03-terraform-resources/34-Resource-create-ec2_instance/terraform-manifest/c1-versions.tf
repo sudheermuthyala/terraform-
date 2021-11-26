@@ -1,1 +1,3 @@
-ter
+terraform {
+  required_version = "value"
+}
