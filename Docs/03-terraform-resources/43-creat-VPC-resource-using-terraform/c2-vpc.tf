@@ -34,6 +34,7 @@ resource "aws_route_table" "MY_DEV_ROUT_TABLE" {
 
 #   Resource-4: Create rout in rout Table for internet access
 
-resource "aws_route" "MY_DEV_ROUT_TABLE" {
+resource "aws_route" "MY_DEV_ROUT" {
+    
   
 }
