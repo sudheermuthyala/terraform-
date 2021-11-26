@@ -10,7 +10,7 @@ resource "aws_vpc" "MY_DEV_VPC" {
   
 }
 
-resource "aws" "name" {
+resource "aws_subnet" "name" {
   
 }
 
