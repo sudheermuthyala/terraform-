@@ -40,3 +40,5 @@ resource "aws_route" "MY_DEV_ROUT" {
     gateway_id = aws_internet_gateway.MY_DEV_IGW.id 
   
 }
+- Resource-6: Associate Route Table with Subnet
+- Resource-7: Create Security Group in the VPC with port 80, 22 as inbound open
