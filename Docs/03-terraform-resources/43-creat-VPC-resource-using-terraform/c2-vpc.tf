@@ -37,6 +37,6 @@ resource "aws_route_table" "MY_DEV_ROUT_TABLE" {
 resource "aws_route" "MY_DEV_ROUT" {
     route_table_id = aws_route_table.MY_DEV_ROUT_TABLE.id
     destination_cidr_block = "0.0.0.0/0"
-    
+    gateway_id = 
   
 }
