@@ -19,4 +19,8 @@ resource "aws_subnet" "MY_DEV_VPC_PUBLIC_SUBNET-1" {
   
 }
 
-#   Resource-3: Create internetgate-way
+#   Resource-3: Create internet-gateway
+
+resource "aws" "name" {
+  
+}
