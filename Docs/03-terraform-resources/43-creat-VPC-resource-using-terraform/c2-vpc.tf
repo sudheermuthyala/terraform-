@@ -22,6 +22,6 @@ resource "aws_subnet" "MY_DEV_VPC_PUBLIC_SUBNET-1" {
 #   Resource-3: Create internet-gateway
 
 resource "aws_internet_gateway" "MY_DEV_IGW" {
-    
+    vpc_id = 
   
 }
