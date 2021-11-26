@@ -25,3 +25,6 @@ resource "aws_internet_gateway" "MY_DEV_IGW" {
     vpc_id = aws_vpc.MY_DEV_VPC.id
   
 }
+
+
+#   Resource-: Create Subnets
