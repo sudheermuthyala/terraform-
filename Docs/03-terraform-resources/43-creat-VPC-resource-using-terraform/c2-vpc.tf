@@ -19,3 +19,4 @@ resource "aws_subnet" "MY_DEV_VPC_PUBLIC_SUBNET-1" {
   
 }
 
+#   Resource-2: Create Subnets
