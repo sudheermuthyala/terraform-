@@ -3,12 +3,14 @@
 
 #02: Create VPC using 
 ```
+Resources Block
+#  Create VPC
 Create VPC Resources listed below
-Create VPC
-Create Subnet
-Create Internet Gateway
-Create Route Table
-Create Route in Route Table for Internet Access
-Associate Route Table with Subnet
-Create Security Group in the VPC with port 80, 22 as inbound open
+Resource-1:Create VPC
+Resource-1:Create Subnet
+Resource-1:Create Internet Gateway
+Resource-1:Create Route Table
+Resource-1:Create Route in Route Table for Internet Access
+Resource-1:Associate Route Table with Subnet
+Resource-1:Create Security Group in the VPC with port 80, 22 as inbound open
 ```
