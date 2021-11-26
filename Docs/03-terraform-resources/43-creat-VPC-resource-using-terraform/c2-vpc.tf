@@ -32,7 +32,7 @@ resource "aws_route_table" "MY_DEV_ROUT_TABLE" {
   vpc_id = aws_vpc.MY_DEV_VPC.id  
 }
 
-#   Resource-4: Create rout in rout Table for internet access
+#   Resource-5: Create rout in rout Table for internet access
 
 resource "aws_route" "MY_DEV_ROUT" {
     route_table_id = aws_route_table.MY_DEV_ROUT_TABLE.id
