@@ -1,4 +1,0 @@
-# treeaform Block
-terraform {
-  
-}
