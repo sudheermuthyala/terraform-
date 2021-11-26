@@ -42,7 +42,7 @@ resource "aws_route" "MY_DEV_ROUT" {
 }
 #   - Resource-6: Associate Route Table with Subnet
 resource "aws_route_table_association" "MY_DEV_ROUT_TABLE_ASSOCIATION" {
-    route_table_id = 
+    route_table_id = aws_route_table.MY_DEV_ROUT_TABLE.i
   
 }
 #   - Resource-7: Create Security Group in the VPC with port 80, 22 as inbound open
