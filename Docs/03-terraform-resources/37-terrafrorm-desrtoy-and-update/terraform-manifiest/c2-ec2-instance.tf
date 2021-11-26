@@ -4,7 +4,7 @@
 resource "aws_instance" "MY_ec2_vm" {
   ami               = "ami-04902260ca3d33422"
   #availability_zone = "us-east-1a"
-  availability_zone = "us-east-1a"
+  availability_zone = "us-east-1b"
   instance_type     = "t2.micro"
 
   tags = {
