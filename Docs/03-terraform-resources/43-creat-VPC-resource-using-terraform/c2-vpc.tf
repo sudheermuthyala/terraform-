@@ -11,6 +11,7 @@ resource "aws_vpc" "MY_DEV_VPC" {
 }
 
 resource "aws_subnet" "MY_DEV_VPC_PUBLIC_SUBNET-1" {
+    
   
 }
 
