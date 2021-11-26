@@ -72,6 +72,6 @@ resource "aws_security_group" "MY_DEV_SG" {
   }
 
   tags = {
-    Name = "MY"
+    Name = "MY-VPC-SG"
   }
 }
