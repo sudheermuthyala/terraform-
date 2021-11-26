@@ -41,4 +41,7 @@ resource "aws_route" "MY_DEV_ROUT" {
   
 }
 #   - Resource-6: Associate Route Table with Subnet
-#- Resource-7: Create Security Group in the VPC with port 80, 22 as inbound open
+resource "aws_" "name" {
+  
+}
+#   - Resource-7: Create Security Group in the VPC with port 80, 22 as inbound open
