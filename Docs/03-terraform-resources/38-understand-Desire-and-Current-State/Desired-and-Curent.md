@@ -1,2 +1,2 @@
 # Understanding Desired and current States
-Desired State:  
+Desired State:  Local Terraform Manifiest(All .tf )
