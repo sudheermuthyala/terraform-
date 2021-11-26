@@ -27,4 +27,5 @@ resource "aws_internet_gateway" "MY_DEV_IGW" {
 }
 
 
-#   Resource-4: Create rout
+#   Resource-4: Create rout table
+
