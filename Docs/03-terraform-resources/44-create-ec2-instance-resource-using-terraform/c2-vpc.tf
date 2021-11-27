@@ -40,5 +40,6 @@ resource "aws_internet_gateway" "DEV_IGW" {
 #   Resource-4: Create rout table
 
 resource "aws_route_table" "DEV_R_TABLE" {
-  vpc_id = 
+  vpc_id = aws_vpc.DEV-VPC.id
+  
 }
