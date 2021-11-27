@@ -22,7 +22,7 @@ resource "aws_subnet" "DEV_SUBNET" {
   cidr_block = "10.0.1.0/24"
   vpc_id = aws_vpc.DEV-VPC.id
   availability_zone = "us-east-1a"
-  map_public_ip_on_launch =  tr
+  map_public_ip_on_launch =  true
 
   tags = {
     Name  = "DEV-VPC-SUBNET"
