@@ -44,3 +44,4 @@ resource "aws_route_table" "DEV_R_TABLE" {
   
 }
 
+#   Resource-5: Create rout in rout Table for internet access
