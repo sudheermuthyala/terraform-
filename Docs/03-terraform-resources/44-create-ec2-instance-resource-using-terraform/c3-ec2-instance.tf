@@ -6,6 +6,8 @@ resource "aws_instance" "MY_DEV_VM" {
     subnet_id = aws_subnet.DEV_SUBNET.id
     vpc_security_group_ids = [ aws_security_group.DEV_PUB_SG.id ]
     #user_data = file(apache-install.sh)
-    user_data = >>-EOF
-    
+    user_data = <<-EOF
+
+    EOF
+
 }
