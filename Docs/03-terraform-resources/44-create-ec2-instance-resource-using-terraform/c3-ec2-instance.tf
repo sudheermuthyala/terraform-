@@ -1,6 +1,6 @@
 # resource aws_ec2_instance 
 resource "aws_instance" "MY_DEV_VM" {
-    ami = "aami-04902260ca3d33422 "
+    ami = "ami-04902260ca3d33422 "
     instance_type = "t2.micro"
     key_name = "terraform_k"
     subnet_id = aws_subnet.DEV_SUBNET.id
