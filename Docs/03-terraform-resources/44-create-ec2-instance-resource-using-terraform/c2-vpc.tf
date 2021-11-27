@@ -51,5 +51,7 @@ resource "aws_route" "DEV_ROUT" {
   gateway_id = aws_internet_gateway.DEV_IGW.id
   
 }
-
 #   Resource-6: Associate Route Table with Subnet
+resource "" "name" {
+  
+}
