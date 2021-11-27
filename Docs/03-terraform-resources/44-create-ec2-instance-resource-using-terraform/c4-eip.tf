@@ -7,7 +7,7 @@ resource "aws_eip" "DEV_web_server_eip" {
   depends_on = [ aws_internet_gateway.DEV_IGW ]
 
  tags = {
-   "Name" = "DEV_webserver_"
+   "Name" = "DEV_webserver_eip"
  }
 
 }
