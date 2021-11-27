@@ -29,6 +29,7 @@ resource "aws_subnet" "DEV_SUBNET" {
 }
 #   Resource-3: Create internet-gateway
 
-resource "aws_internet_gateway" "DEV_IGT" {
+resource "aws_internet_gateway" "DEV_IGW" {
+  
   
 }
