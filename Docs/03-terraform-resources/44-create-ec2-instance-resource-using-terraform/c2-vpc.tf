@@ -43,3 +43,4 @@ resource "aws_route_table" "DEV_R_TABLE" {
   vpc_id = aws_vpc.DEV-VPC.id
   
 }
+
