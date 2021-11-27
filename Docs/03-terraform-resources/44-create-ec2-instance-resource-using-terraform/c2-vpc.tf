@@ -53,6 +53,6 @@ resource "aws_route" "DEV_ROUT" {
 }
 #   Resource-6: Associate Route Table with Subnet
 resource "aws_route_table_association" "DEV_R_T_ASSOCIATION" {
-  route_table_id = 
+  route_table_id = aws_route_table.DEV_R_TABLE
   
 }
