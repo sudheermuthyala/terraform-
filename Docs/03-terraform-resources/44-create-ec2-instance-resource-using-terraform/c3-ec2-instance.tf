@@ -4,6 +4,6 @@ resource "aws_instance" "MY_DEV_VM" {
     instance_type = "t2.micro"
     key_name = "terraform_k"
     subnet_id = aws_subnet.DEV_SUBNET.id
-    vp
+    vpc_security_group_ids = aw
   
 }
