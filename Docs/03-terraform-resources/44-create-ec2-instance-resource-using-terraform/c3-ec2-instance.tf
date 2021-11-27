@@ -16,6 +16,6 @@ resource "aws_instance" "MY_DEV_VM" {
     EOF
 
     tags = {
-      "Name" = "value"
+      "Name" = "webserver"
     }
 }
