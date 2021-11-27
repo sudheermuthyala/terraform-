@@ -5,3 +5,6 @@ resource "aws_eip" "DEV_web_server_eip" {
   vpc = true
   depends_on = [
     
+  ]
+  
+}
