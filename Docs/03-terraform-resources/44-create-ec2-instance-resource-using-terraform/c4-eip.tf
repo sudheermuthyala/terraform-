@@ -1,1 +1,5 @@
-#Resource-9 
+#Resource-9 creating elastic ip
+
+resource "" "name" {
+  
+}
