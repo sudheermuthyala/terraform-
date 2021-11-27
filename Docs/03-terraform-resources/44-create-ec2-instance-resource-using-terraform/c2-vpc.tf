@@ -21,4 +21,5 @@ resource "aws_vpc" "DEV-VPC" {
 resource "aws_subnet" "DEV_SUBNET" {
   cidr_block = "10.0.1.0/24"
   
+  
 }
