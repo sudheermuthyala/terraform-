@@ -5,5 +5,7 @@ resource "aws_eip" "DEV_web_server_eip" {
   vpc = true
   #Meta aurgement
   depends_on = [ aws_internet_gateway.DEV_IGW ]
+
+ 
   
 }
