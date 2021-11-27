@@ -1,5 +1,5 @@
 #Resource-9 creating elastic ip
 
-resource "" "name" {
+resource "aws_eip" "" {
   
 }
