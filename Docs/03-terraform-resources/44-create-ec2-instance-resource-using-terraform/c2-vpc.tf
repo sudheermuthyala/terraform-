@@ -9,6 +9,7 @@
 ####################################################################################
 
 #   Resource-1: Create VPC
-resource "aws_vpc" "name" {
+resource "aws_vpc" "DEV-VPC" {
+  
   
 }
