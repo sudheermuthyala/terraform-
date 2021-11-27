@@ -52,6 +52,6 @@ resource "aws_route" "DEV_ROUT" {
   
 }
 #   Resource-6: Associate Route Table with Subnet
-resource" "name" {
+resource "aws" "name" {
   
 }
