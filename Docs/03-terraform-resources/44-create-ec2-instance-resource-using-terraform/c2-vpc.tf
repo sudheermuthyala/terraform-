@@ -23,7 +23,7 @@ resource "aws_subnet" "DEV_SUBNET" {
   vpc_id = aws_vpc.DEV-VPC.id
 
   tags = {
-    Name  = "DEV-VPC"
+    Name  = "DEV-VPC-SUBNET"
   } 
   
 }
