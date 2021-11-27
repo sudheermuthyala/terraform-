@@ -57,6 +57,6 @@ resource "aws_route_table_association" "DEV_R_T_ASSOCIATION" {
   subnet_id = aws_subnet.DEV_SUBNET.id
   
 }
-resource "aws_se" "name" {
+resource "aws_security_group" "name" {
   
 }
