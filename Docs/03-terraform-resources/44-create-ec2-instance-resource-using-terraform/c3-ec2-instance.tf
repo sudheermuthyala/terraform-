@@ -13,7 +13,6 @@ resource "aws_instance" "MY_DEV_VM" {
     sudo systemctl  start  httpd
     sudo systemctl enable httpd
     echo "<h1>Welcome to DevOps World ! AWS Infra created using Terraform in us-east-1 Region</h1>" > /var/www/html/index.html
-
     EOF
 
 }
