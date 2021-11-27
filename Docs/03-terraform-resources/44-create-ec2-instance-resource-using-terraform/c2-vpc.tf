@@ -46,6 +46,6 @@ resource "aws_route_table" "DEV_R_TABLE" {
 
 #   Resource-5: Create rout in rout Table for internet access
 resource "aws_route" "DEV_ROUT" {
-  ro
+  route_table_id = aws_route_table.DEV_R_TABLE.id
   
 }
