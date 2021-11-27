@@ -47,6 +47,6 @@ resource "aws_route_table" "DEV_R_TABLE" {
 #   Resource-5: Create rout in rout Table for internet access
 resource "aws_route" "DEV_ROUT" {
   route_table_id = aws_route_table.DEV_R_TABLE.id
-  destination_cidr_block = 
+  destination_cidr_block = "0.0.0.0/"
   
 }
