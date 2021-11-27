@@ -17,3 +17,4 @@ resource "aws_vpc" "DEV-VPC" {
   } 
   
 }
+#   Resource-2: Create Subnets
