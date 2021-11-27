@@ -6,6 +6,6 @@ resource "aws_eip" "DEV_web_server_eip" {
   #Meta aurgement
   depends_on = [ aws_internet_gateway.DEV_IGW ]
 
- 
-  
+ tags = 
+
 }
