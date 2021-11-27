@@ -89,6 +89,6 @@ resource "aws_security_group" "DEV_PUB_SG" {
   }
 
   tags = {
-    Name = "allow_tls"
+    Name = "DEV_PUB_SG"
   }
 }
