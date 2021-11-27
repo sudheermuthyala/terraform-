@@ -1,1 +1,1 @@
-# aws_ec2
+# resourceaws_ec2_instance 
