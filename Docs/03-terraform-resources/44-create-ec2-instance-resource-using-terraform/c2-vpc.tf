@@ -61,7 +61,7 @@ resource "aws_route_table_association" "DEV_R_T_ASSOCIATION" {
 
 resource "aws_security_group" "DEV_PUB_SG" {
   name        = "DEV_PUB_SG"
-  description = "Allow TLS inbound traffic"
+  description = "Allow TLS inbound public traffic"
   vpc_id      = aws_vpc.main.id
 
   ingress {
