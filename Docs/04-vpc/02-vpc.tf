@@ -26,6 +26,6 @@ resource "aws_vpc" "MY_DEV_VPC" {
 
 resource "aws_subnet" "DEV-SUBNET-1" {
     cidr_block = "10.0.0.0/24"
-    v
+    vpc_id = 
   
 }
