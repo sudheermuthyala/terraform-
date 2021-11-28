@@ -1,0 +1,1 @@
+# resource ec2 indtance 
