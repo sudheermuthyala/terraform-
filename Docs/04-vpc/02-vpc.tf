@@ -64,6 +64,6 @@ resource "aws_route" "DEV_ROUT" {
 }
 
 #   step-6  Associate Route Table with Subnet
-resource "aws_route_table_association" "ROUT_TABLE_ASSO" {
+resource "aws_route_table_association" "DEV_ROUT_TABLE_ASSO" {
   
 }
