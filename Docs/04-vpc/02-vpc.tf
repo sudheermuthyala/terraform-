@@ -41,5 +41,7 @@ resource "aws_subnet" "DEV-SUBNET-1" {
 resource "aws_internet_gateway" "DEV_IGW" {
     vpc_id = aws_vpc.MY_DEV_VPC.id
   
-  tags = 
+  tags = {
+    "Name" = "DEV_IGW"
+  }
 }
