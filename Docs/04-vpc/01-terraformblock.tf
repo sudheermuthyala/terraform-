@@ -21,4 +21,4 @@ provider "aws" {
   secret_key = "my-secret-key"
 }
 
-export AWS_ACCESS_KEY_ID="anaccesskey"
+export AWS_ACCESS_KEY_ID="xxx"
