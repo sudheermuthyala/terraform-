@@ -1,9 +1,9 @@
 /*
 Create VPC using manual
 
-step1-  Create VPC Resources listed below
+  Create VPC Resources listed below
 step1-  Create VPC
-step1-Create Subnet
+step1-  Create Subnet
 step1-Create Internet Gateway
 step1-Create Route Table
 step1-Create Route in Route Table for Internet Access
