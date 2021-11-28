@@ -1,7 +1,7 @@
 /*
-Create VPC using Terraform
+Create VPC using 
 
-Create VPC Resources listed below
+stepCreate VPC Resources listed below
 Create VPC
 Create Subnet
 Create Internet Gateway
