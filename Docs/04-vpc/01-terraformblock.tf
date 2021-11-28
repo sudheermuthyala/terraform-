@@ -21,6 +21,3 @@ provider "aws" {
   secret_key = "my-secret-key"
 }
 
-export AWS_ACCESS_KEY_ID="AKIA4FYYN4EAJGE5KV7G"
-export AWS_SECRET_ACCESS_KEY="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"
-export AWS_DEFAULT_REGION="us-west-2"
