@@ -1,5 +1,6 @@
 # resource ec2 indtance 
 
-resource "aws_instance" "MY_" {
+resource "aws_instance" "MY_ec2_vM" {
+    
   
 }
