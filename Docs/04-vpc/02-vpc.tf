@@ -104,4 +104,4 @@ resource "aws_security_group" "DEV_allo_public" {
   tags = {
     Name = "allow_ssh_Http"
   }
-
+  }
