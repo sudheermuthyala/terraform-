@@ -12,3 +12,8 @@ terraform {
   }
 }
 
+#provider block
+
+provider "" {
+  
+}
