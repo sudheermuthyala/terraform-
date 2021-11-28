@@ -80,8 +80,8 @@ resource "aws_security_group" "DEV_allo_public" {
 
   ingress {
     description      = "Allow ssh "
-    from_port        = 443
-    to_port          = 443
+    from_port        = 22
+    to_port          = 22
     protocol         = "tcp"
     cidr_blocks      = [aws_vpc.main.cidr_block]
     ipv6_cidr_blocks = [aws_vpc.main.ipv6_cidr_block]
