@@ -55,3 +55,4 @@ resource "aws_route_table" "DEV_ROUT_TABLE" {
       "Name" = "DEV_ROUT_TABLE"
     }
 }
+
