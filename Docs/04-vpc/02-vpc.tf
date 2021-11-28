@@ -71,6 +71,7 @@ resource "aws_route_table_association" "DEV_ROUT_TABLE_ASSO" {
 
 
 
+step-7  Create Security Group in the VPC with port 22 as inbound open
 
 resource "aws_security_group" "allow_tls" {
   name        = "allow_tls"
