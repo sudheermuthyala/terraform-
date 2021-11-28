@@ -11,6 +11,8 @@ step-6  Associate Route Table with Subnet
 step-7  Create Security Group in the VPC with port 22 as inbound open
 */
 
+#step-1  Create VPC
+
 resource "aws_vpc" "MY_DEV_VPC" {
   cidr_block = "10.0.0.0/16"
 
