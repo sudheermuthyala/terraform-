@@ -84,7 +84,6 @@ resource "aws_security_group" "DEV_allo_public" {
     to_port          = 22
     protocol         = "tcp"
     cidr_blocks      = [aws_vpc.main.cidr_block]
-    ipv6_cidr_blocks = [aws_vpc.main.ipv6_cidr_block]
   }
 
   egress {
