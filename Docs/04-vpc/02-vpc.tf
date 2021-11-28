@@ -12,5 +12,5 @@ step-7  Create Security Group in the VPC with port 22 as inbound open
 */
 
 resource "aws_vpc" "MY_DEV_VPC" {
-  cidr_block = 
+  cidr_block = "10.0.0.0/16"
 }
