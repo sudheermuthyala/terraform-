@@ -1,5 +1,6 @@
 /*
-Step-04-02: Create VPC using Terraform
+Create VPC using Terraform
+
 Create VPC Resources listed below
 Create VPC
 Create Subnet
