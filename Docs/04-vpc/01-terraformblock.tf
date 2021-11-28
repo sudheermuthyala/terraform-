@@ -22,3 +22,4 @@ provider "aws" {
 }
 
 export AWS_ACCESS_KEY_ID="AKIA4FYYN4EAJGE5KV7G"
+export AWS_SECRET_ACCESS_KEY="asecretkey"
