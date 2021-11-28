@@ -57,6 +57,6 @@ resource "aws_route_table" "DEV_ROUT_TABLE" {
 }
 
 # step-5  Create Route in Route Table for Internet Access
-resource "aws_rout" "name" {
+resource "aws_route" "DEV_ROUT" {
   
 }
