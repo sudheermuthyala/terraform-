@@ -79,7 +79,7 @@ resource "aws_security_group" "DEV_allo_public" {
   vpc_id      = aws_vpc.MY_DEV_VPC.id
 
   ingress {
-    description      = "TLS from VPC"
+    description      = "Allow ssh "
     from_port        = 443
     to_port          = 443
     protocol         = "tcp"
