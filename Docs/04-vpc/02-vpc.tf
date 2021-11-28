@@ -73,7 +73,7 @@ resource "aws_route_table_association" "DEV_ROUT_TABLE_ASSO" {
 
 #step-7  Create Security Group in the VPC with port 22 as inbound open
 
-resource "aws_security_group" "allow_tls" {
+resource "aws_security_group" "DEV_A" {
   name        = "allow_tls"
   description = "Allow TLS inbound traffic"
   vpc_id      = aws_vpc.main.id
