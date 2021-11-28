@@ -48,6 +48,6 @@ resource "aws_internet_gateway" "DEV_IGW" {
 
 #   step-4  Create Route Table
 
-resource "" "name" {
+resource "aws_route_table" "DEV_" {
   
 }
