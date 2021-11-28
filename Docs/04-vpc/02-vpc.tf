@@ -37,3 +37,7 @@ resource "aws_subnet" "DEV-SUBNET-1" {
 }
 
 #   step-3  Create Internet Gateway (Attach to required vpc EX: my vpc)
+
+resource "" "name" {
+  
+}
