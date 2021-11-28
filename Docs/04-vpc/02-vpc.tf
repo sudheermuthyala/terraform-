@@ -25,6 +25,6 @@ resource "aws_vpc" "MY_DEV_VPC" {
 #   step-2  Create Subnet
 
 resource "aws_subnet" "DEV-SUBNET-1" {
-    
+    cidr_block = 
   
 }
