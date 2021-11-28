@@ -60,7 +60,8 @@ resource "aws_route_table" "DEV_ROUT_TABLE" {
 resource "aws_route" "DEV_ROUT" {
     route_table_id = aws_route_table.DEV_ROUT_TABLE.id
     destination_cidr_block = "0.0.0.0/0"
+    
 
 
-  g
+  
 }
