@@ -58,6 +58,7 @@ resource "aws_route_table" "DEV_ROUT_TABLE" {
 
 # step-5  Create Route in Route Table for Internet Access
 resource "aws_route" "DEV_ROUT" {
-    route_table_id = aw
+    route_table_id = aws_route_table.DEV_ROUT_TABLE.id
+    de
   
 }
