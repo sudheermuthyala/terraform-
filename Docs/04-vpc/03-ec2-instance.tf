@@ -5,6 +5,6 @@ resource "aws_instance" "MY_ec2_vM" {
     key_name = "terraform"
     instance_type = "t2.micro"
     subnet_id = aws_subnet.DEV-SUBNET-1
-    security_groups = aws_security_group
+    vpc_security_group_ids = 
   
 }
