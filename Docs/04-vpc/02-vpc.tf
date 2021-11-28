@@ -20,3 +20,7 @@ resource "aws_vpc" "MY_DEV_VPC" {
     "Name" = "MY_DEV_VPC"
   }
 }
+
+
+#   step-2  Create Subnet
+
