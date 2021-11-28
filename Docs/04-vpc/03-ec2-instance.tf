@@ -2,6 +2,7 @@
 
 resource "aws_instance" "MY_ec2_vM" {
     ami = "ami-0d718c3d715cec4a7"
-    key_name = 
+    key_name = "terraform"
+    
   
 }
