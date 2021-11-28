@@ -11,3 +11,6 @@ step-6  Associate Route Table with Subnet
 step-7  Create Security Group in the VPC with port 22 as inbound open
 */
 
+resource "" "name" {
+  
+}
