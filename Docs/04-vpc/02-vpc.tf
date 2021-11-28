@@ -45,3 +45,4 @@ resource "aws_internet_gateway" "DEV_IGW" {
     "Name" = "DEV_IGW"
   }
 }
+
