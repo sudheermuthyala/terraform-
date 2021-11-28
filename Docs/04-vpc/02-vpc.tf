@@ -8,5 +8,5 @@ step-3  Create Internet Gateway (Attach to required vpc EX: my vpc)
 step-4  Create Route Table
 step-5  Create Route in Route Table for Internet Access
 step-6  Associate Route Table with Subnet
-step-7 Create Security Group in the VPC with port 80, 22 as inbound open
+step-7  Create Security Group in the VPC with port 80, 22 as inbound open
 */
