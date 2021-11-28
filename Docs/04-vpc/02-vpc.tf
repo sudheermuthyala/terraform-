@@ -62,3 +62,5 @@ resource "aws_route" "DEV_ROUT" {
     destination_cidr_block = "0.0.0.0/0"
     gateway_id = aws_internet_gateway.DEV_IGW.id
 }
+
+#   step-6  Associate Route Table with Subnet
