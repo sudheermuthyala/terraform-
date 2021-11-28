@@ -21,4 +21,3 @@ resource "aws_instance" "MY_ec2_vM" {
 }
 
 
-<<
