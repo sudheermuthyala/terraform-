@@ -7,8 +7,9 @@ terraform {
             
     }
   }
-}#providerblock
+}
+#providerblock
 
 provider "aws" {
-  
+  prof
 }
