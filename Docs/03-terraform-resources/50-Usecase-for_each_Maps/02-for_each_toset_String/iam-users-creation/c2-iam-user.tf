@@ -5,6 +5,7 @@ resource "aws_iam_user" "MyUser" {
 
 
 /*
-for
+for_each set of strings 
+
 
 */
