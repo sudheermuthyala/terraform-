@@ -11,5 +11,6 @@ terraform {
 #providerblock
 
 provider "aws" {
-  prof
+  version = "value"
+  
 }
