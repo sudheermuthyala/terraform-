@@ -15,8 +15,8 @@ resource "aws_s3_bucket" "b" {
   acl    = "private"
 
   tags = {
-    Environment = each.key
-    Bucketname  = "${each.key}-${each.value}"
+    environment = each.key
+    ucketname  = "${each.key}-${each.value}"
     EachValue   = each.value
   }
 }
