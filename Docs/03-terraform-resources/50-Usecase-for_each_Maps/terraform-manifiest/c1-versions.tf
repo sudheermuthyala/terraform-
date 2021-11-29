@@ -11,7 +11,8 @@ terraform {
 
 #Provider Block
 
-provider "" {
+provider "aws" {
+    profile = 
   
 }
 
