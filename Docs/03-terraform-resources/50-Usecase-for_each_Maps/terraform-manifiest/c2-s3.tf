@@ -2,7 +2,7 @@
 resource "aws_s3_bucket" "b" {
 
     for_each = {
-        dev = "value"
+        dev = "my-tf-test-bucket"
     }
   bucket = "my-tf-test-bucket"
   acl    = "private"
