@@ -5,7 +5,7 @@ resource "aws_s3_bucket" "b" {
         dev = "dev-my-tf-test-bucket"
         qa = "qa-my-tf-test-bucket"
         stag = "stag-my-tf-test-bucket"
-        dev = "dev-my-tf-test-bucket"
+        pre-prod = "dev-my-tf-test-bucket"
         dev = "dev-my-tf-test-bucket"
 
     }
