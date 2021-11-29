@@ -1,3 +1,3 @@
-resource "aws_inst" "name" {
+resource "" "name" {
   
 }
