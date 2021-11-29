@@ -10,7 +10,7 @@ resource "aws_s3_bucket" "b" {
 
   }
 
-
+  
   bucket = "${each.key}-${each.value}"
   acl    = "private"
 
