@@ -6,6 +6,6 @@ resource "aws_instance" "web" {
     count = 5
 
     tags     ={
-        ""
+        "Name"  = "web"
     }
 }
