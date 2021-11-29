@@ -1,18 +1,17 @@
-#terraform block
+# treeaform Block
 terraform {
   required_version = "~> 1.0.11"
   required_providers {
     aws = {
-      source = "hashicrop/aws"
-      version = "~> 3.0"
-            
+        version = "~> 3.0"
+        source = "hashicorp/aws"
     }
   }
 }
 
-#providerblock
+#provider block
+
 provider "aws" {
   profile = "default"
-  region  = "us-east-1"
-  
+  region =  "us-east-1"
 }
