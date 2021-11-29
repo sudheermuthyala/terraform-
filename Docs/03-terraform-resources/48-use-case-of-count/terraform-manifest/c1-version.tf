@@ -7,4 +7,7 @@ terraform {
             
     }
   }
+}#providerblock
+
+provider "aws" = {
 }
