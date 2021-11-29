@@ -3,7 +3,7 @@ resource "aws_s3_bucket" "b" {
 
     for_each = {
         dev = "dev-my-tf-test-bucket"
-        dev = "dev-my-tf-test-bucket"
+        qa = "qa-my-tf-test-bucket"
         dev = "dev-my-tf-test-bucket"
         dev = "dev-my-tf-test-bucket"
         dev = "dev-my-tf-test-bucket"
