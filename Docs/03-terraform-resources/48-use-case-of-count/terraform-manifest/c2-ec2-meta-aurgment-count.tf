@@ -8,7 +8,6 @@ resource "aws_instance" "web" {
     tags     ={
         "Name"  = "web"
         #"Name"  = "web-${count.index}"
-
     }
-    
+
 }
