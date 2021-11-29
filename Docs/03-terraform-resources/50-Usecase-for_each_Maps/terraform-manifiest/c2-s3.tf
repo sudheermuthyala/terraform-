@@ -17,6 +17,6 @@ resource "aws_s3_bucket" "b" {
   tags = {
     Environment = each.key
     Bucketname  = ${each.key}-${each.value}
-    EachValue   = each.val
+    EachValue   = each.value
   }
 }
