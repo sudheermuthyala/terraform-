@@ -1,3 +1,4 @@
-resource "aws_instance" "" {
+resource "aws_instance" "web" {
+
   
 }
