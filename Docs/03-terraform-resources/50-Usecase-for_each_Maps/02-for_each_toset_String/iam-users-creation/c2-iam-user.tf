@@ -6,6 +6,6 @@ resource "aws_iam_user" "MyUser" {
 
 /*
 for_each set of strings 
-
+eack
 
 */
