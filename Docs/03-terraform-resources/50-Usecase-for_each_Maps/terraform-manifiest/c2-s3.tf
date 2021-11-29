@@ -1,4 +1,4 @@
 #terraform s3  resources
-resource "aws" "name" {
+resource "aws_s3_bucket" "name" {
   
 }
