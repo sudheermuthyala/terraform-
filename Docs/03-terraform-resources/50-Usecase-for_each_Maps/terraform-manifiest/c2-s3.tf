@@ -1,4 +1,4 @@
 #terraform s3  resources
-terraform {
+resource "aws" "name" {
   
 }
