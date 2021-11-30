@@ -10,7 +10,7 @@ resource "aws_instance" "DEMO_ON_META_AURGEMENT_LIFECYCLE_ignore_chainges" {
 
 
     tags = {
-      "Name" = "web-1"
+      "Name" = ""
     }
 
       /* this is a meta aurgement with a lifecycle of  prevent_destroy
