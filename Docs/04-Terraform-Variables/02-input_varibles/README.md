@@ -13,4 +13,3 @@
 - v9: Implement Custom Validation Rules in Variables
 - v10: Protect Sensitive Input Variables
 - v11: Understand about File function
-- v12
