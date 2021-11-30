@@ -10,7 +10,7 @@ resource "aws_instance" "DEMO_ON_META_AURGEMENT_LIFECYCLE_create_before_destroy"
 
 
     tags = {
-      "Name" = "web"
+      "Name" = "create_before_destroy"
     }
 
       /* this is a meta aurgement with a lifecycle of create_before_destroy 
