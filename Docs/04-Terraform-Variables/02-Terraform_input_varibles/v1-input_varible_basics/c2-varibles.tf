@@ -1,4 +1,4 @@
-# count
+#region
 variable "aws_region" {
   description = "Region in which AWS resource to be created"
   type = string
@@ -12,3 +12,7 @@ variable "ec2_ami_id" {
   default = "ami-04902260ca3d33422"
 }
 
+# count
+variable "ec2" {
+  
+}
