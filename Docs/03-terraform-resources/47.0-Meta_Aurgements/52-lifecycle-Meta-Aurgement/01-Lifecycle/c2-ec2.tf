@@ -9,5 +9,7 @@ resource "aws_instance" "DEMO_ON_WITHOUT_META_AURGEMENT_LIFECYCLE_" {
       instance_type     = "t2.micro"
 
 
-    tags = 
+    tags = {
+      "Name" = "value"
+    }
 }
