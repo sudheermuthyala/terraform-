@@ -4,6 +4,7 @@ resource "aws_instance" "MY_ec2_VM" {
     instance_type = "t2.micro"
     key_name = "terraform-k"
     count = var.ec2_count
+    vpc_security_group_ids = [ "value" ]
     #user_data = file("apache-install.sh")
     user_data = <<-EOF
     #! /bin/bash
