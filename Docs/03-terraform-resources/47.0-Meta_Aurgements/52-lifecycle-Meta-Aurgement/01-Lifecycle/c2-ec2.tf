@@ -1,3 +1,3 @@
-resource "aws" "name" {
+resource "aws_instance" "DEMO_ON_LIFECYCLE_" {
   
 }
