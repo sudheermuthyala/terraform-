@@ -1,5 +1,5 @@
-#Terraform Input Variables
-#Step-00: Introduction
+# Terraform Input Variables
+# Step-00: Introduction
 
 - v1: Input Variables - Basics
 - v2: Provide Input Variables when prompted during terraform plan or apply
