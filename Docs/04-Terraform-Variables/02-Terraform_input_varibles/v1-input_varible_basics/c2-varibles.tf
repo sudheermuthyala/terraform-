@@ -15,7 +15,7 @@ variable "ec2_ami_id" {
 # count
 variable "ec2_count" {
     description = "Ec2_innstance count"
-    type = string
+    type = number
     default = 
   
 }
