@@ -13,7 +13,7 @@ resource "aws_instance" "DEMO_ON_WITHOUT_META_AURGEMENT_LIFECYCLE_" {
       "Name" = "web-1"
     }
 
-      /* this is a meta aurgement with a lifecycle of create_before_destroy 
+      /* this is a meta aurgement with a lifecycle of pr 
         this will do the. action create the resource befor it destroy 
       */
 
