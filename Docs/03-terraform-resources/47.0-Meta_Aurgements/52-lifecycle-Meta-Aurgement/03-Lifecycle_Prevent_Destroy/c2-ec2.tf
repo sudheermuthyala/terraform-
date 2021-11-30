@@ -18,7 +18,7 @@ resource "aws_instance" "DEMO_ON_META_AURGEMENT_LIFECYCLE_prevent_destroy" {
       */
 
     lifecycle {     
-      prevent_destroy = false  #Default is false
+      prevent_destroy = true  #Default is false
     }
 
 }
