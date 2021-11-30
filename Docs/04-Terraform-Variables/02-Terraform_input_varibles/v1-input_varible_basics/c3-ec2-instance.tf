@@ -4,4 +4,5 @@ resource "aws_instance" "MY_ec2_VM" {
     instance_type = "t2.micro"
     key_name = "terraform-k"
   
+  
 }
