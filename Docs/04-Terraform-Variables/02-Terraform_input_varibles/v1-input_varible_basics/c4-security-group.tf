@@ -28,7 +28,7 @@ resource "aws_security_group" "allow_ssh" {
 
 # Create Security Group - Web Traffic
 
-resource "aws_security_group" "vpc-web" {
+resource "aws_security_group" "-wevpcb" {
   name        = "vpc-web"
   description = "Dev VPC Web"
 
