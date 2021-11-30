@@ -5,7 +5,7 @@ resource "aws_instance" "MY_ec2_VM" {
     key_name = "terraform-k"
     count = 1
     user_data = <<EOF
-
+        echo "heloworld"
     EOF
   
   
