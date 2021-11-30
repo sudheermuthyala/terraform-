@@ -3,7 +3,14 @@ terraform {
     required_providers {
       aws = {
           source = "hashicorp/aws"
-          version = "value"
+          version = "~> 3.0"
       }
     }
+}
+
+
+provider "aws" {
+    profile = "default"
+    
+  
 }
