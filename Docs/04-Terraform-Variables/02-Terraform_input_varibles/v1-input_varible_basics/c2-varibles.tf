@@ -1,3 +1,3 @@
 variable "aws_region" {
-  description = "Region "
+  description = "Region in which AWS resource to be created"
 }
