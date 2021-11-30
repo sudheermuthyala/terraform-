@@ -1,4 +1,6 @@
 # terraform security groups 
+# Create Security Group - SSH Traffic
+
 resource "aws_security_group" "allow_ssh" {
   name        = "allow_ssh"
   description = "Allow SSH inbound traffic"
