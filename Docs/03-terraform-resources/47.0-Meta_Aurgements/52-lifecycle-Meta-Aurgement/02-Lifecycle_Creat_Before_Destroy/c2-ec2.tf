@@ -13,7 +13,7 @@ resource "aws_instance" "DEMO_ON_WITHOUT_META_AURGEMENT_LIFECYCLE_" {
       "Name" = "web"
     }
 
-    lifecycle {
-      create_before_destroy = true
+    lifecycle {     
+      create_before_destroy = true 
     }
 }
