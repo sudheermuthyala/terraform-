@@ -14,7 +14,7 @@ resource "aws_instance" "DEMO_ON_META_AURGEMENT_LIFECYCLE_ignore_chainges" {
     }
 
       /* this is a meta aurgement with a lifecycle of  ignore_changes
-        this will do the. action like  it donot destroy the resource  if prevent_destroy = true 
+        this will do the. action like  it  prevent_destroy = true 
       */
 
     # lifecycle {     
