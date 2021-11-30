@@ -2,7 +2,7 @@
 
 resource "aws_instance" "DEMO_ON_WITHOUT_META_AURGEMENT_LIFECYCLE_" {
       
-      count = 2
+      
       ami               = "ami-04902260ca3d33422"
       availability_zone = "us-east-1a"
       #availability_zone = "us-east-1b"
@@ -16,7 +16,7 @@ resource "aws_instance" "DEMO_ON_WITHOUT_META_AURGEMENT_LIFECYCLE_" {
       /* this is a meta aurgement with a lifecycle of create_before_destroy 
         this will do the. action create the resource befor it destroy 
       */
-      
+
     lifecycle {     
       prevent_destroy = true  #Default is false
     }
