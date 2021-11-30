@@ -14,7 +14,7 @@ resource "aws_instance" "DEMO_ON_WITHOUT_META_AURGEMENT_LIFECYCLE_" {
     }
 
       /* this is a meta aurgement with a lifecycle of  prevent_destroy
-        this will do the. action lik i
+        this will do the. action like  it donot destroy the 
       */
 
     lifecycle {     
