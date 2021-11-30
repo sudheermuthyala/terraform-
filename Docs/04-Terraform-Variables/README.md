@@ -11,4 +11,5 @@ terraform local varibles
 
 #02-terraform output varibles
 ![img_2.png](img_2.png)
-#DR
+#DRY-principle
+![img_3.png](img_3.png)
