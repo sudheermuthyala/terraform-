@@ -10,7 +10,7 @@ resource "aws_instance" "DEMO_ON_META_AURGEMENT_LIFECYCLE_prevent_destroy" {
 
 
     tags = {
-      "Name" = "web-1"
+      "Name" = "prevent_destroy"
     }
 
       /* this is a meta aurgement with a lifecycle of  prevent_destroy
