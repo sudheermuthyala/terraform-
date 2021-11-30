@@ -1,6 +1,6 @@
 # terraform aws ec2_instance Resource
 resource "aws_instance" "MY_ec2_VM" {
-    ami = var.
+    ami = 
     instance_type = "t2.micro"
     key_name = "terraform-k"
     count = 1
