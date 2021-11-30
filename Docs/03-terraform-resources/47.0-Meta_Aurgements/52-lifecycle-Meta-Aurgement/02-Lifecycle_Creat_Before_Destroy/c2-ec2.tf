@@ -1,6 +1,6 @@
 # DEMO_ON_WITHOUT_META_AURGEMENT_LIFECYCLE_
 
-resource "aws_instance" "DEMO_ON_META_AURGEMENT_LIFECYCLE_" {
+resource "aws_instance" "DEMO_ON_META_AURGEMENT_LIFECYCLE_create_before_destroy" {
       
       count = 2
       ami               = "ami-04902260ca3d33422"
