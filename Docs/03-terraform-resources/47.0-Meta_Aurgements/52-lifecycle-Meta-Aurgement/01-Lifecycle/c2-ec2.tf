@@ -8,4 +8,6 @@ resource "aws_instance" "DEMO_ON_WITHOUT_META_AURGEMENT_LIFECYCLE_" {
       availability_zone = "us-east-1b"
       instance_type     = "t2.micro"
 
+
+    tags = 
 }
