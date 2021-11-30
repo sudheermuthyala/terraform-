@@ -6,7 +6,8 @@ variable "aws_region" {
 
 variable "ec2_ami_id" {
   description = "AMI_ID"
-  
+  type = string
+  default = "value"
 }
 
 # amiid
