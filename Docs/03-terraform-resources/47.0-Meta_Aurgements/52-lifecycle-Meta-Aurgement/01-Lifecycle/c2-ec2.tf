@@ -1,3 +1,3 @@
-resource "aws_instance" "DEMO_ON_LIFECYCLE_" {
+resource "aws_instance" "DEMO_ON_WITHOUT_METALIFECYCLE_" {
   
 }
