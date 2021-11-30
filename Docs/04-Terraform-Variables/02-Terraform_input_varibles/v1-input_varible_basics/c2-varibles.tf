@@ -4,7 +4,7 @@ variable "aws_region" {
   default = "us-east-1"
 }
 
-variable "ami" {
+variable "ec2_ami_id" {
   
 }
 
