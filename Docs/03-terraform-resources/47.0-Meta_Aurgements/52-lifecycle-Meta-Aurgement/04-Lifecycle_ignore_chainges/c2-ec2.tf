@@ -19,7 +19,7 @@ resource "aws_instance" "DEMO_ON_META_AURGEMENT_LIFECYCLE_ignore_chainges" {
 
     lifecycle {     
       ignore_changes = [
-        
+        tags,
       ]
     }
 
