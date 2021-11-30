@@ -16,10 +16,9 @@ resource "aws_instance" "DEMO_ON_WITHOUT_META_AURGEMENT_LIFECYCLE_" {
       /* this is a meta aurgement with a lifecycle of create_before_destroy 
         this will do the. action create the resource befor it destroy 
       */
+      
     lifecycle {     
-      
       prevent_destroy = true  #Default is false
-      
     }
 
 }
