@@ -18,8 +18,7 @@ resource "aws_instance" "DEMO_ON_META_AURGEMENT_LIFECYCLE_ignore_chainges" {
       */
 
     lifecycle {     
-      prevent_destroy = true  #Default is false 
-      #prevent_destroy = false  #Default is false
+      
     }
 
 }
