@@ -1,6 +1,6 @@
 # terraform security groups 
-resource "aws_security_group" "allow_tls" {
-  name        = "allow_tls"
+resource "aws_security_group" "allow_ssh" {
+  name        = "allow_ssh"
   description = "Allow TLS inbound traffic"
 
   ingress {
