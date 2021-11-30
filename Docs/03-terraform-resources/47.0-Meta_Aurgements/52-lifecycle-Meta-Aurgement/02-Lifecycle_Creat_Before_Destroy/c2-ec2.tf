@@ -12,4 +12,8 @@ resource "aws_instance" "DEMO_ON_WITHOUT_META_AURGEMENT_LIFECYCLE_" {
     tags = {
       "Name" = "web"
     }
+
+    lifecycle {
+      
+    }
 }
