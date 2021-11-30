@@ -13,6 +13,7 @@ variable "ec2_ami_id" {
 }
 
 # count
-variable "ec2" {
+variable "ec2_count" {
+    description = "Ec2"
   
 }
