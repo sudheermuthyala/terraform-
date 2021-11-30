@@ -1,3 +1,3 @@
-variable "aws" {
-  
+variable "aws_region" {
+  description = "Region "
 }
