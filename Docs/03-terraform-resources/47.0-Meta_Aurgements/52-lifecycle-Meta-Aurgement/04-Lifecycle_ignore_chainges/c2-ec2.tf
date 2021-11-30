@@ -17,10 +17,10 @@ resource "aws_instance" "DEMO_ON_META_AURGEMENT_LIFECYCLE_ignore_chainges" {
         this will do the. action like  it donot destroy the resource  if prevent_destroy = true 
       */
 
-    lifecycle {     
-      ignore_changes = [
-        tags,
-      ]
-    }
+    # lifecycle {     
+    #   ignore_changes = [
+    #     tags,
+    #   ]
+    # }
 
 }
