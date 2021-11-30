@@ -1,12 +1,12 @@
 # terraform security groups 
 resource "aws_security_group" "allow_ssh" {
   name        = "allow_ssh"
-  description = "Allow TLS inbound traffic"
+  description = "Allow SSH inbound traffic"
 
   ingress {
     description      = "TLS from VPC"
-    from_port        = 443
-    to_port          = 443
+    from_port        = 22
+    to_port          = 22
     protocol         = "tcp"
     cidr_blocks      = [aws_vpc.main.cidr_block]
   }
