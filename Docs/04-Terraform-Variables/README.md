@@ -8,3 +8,7 @@ terraform local varibles
 
 #01-terraform input varibles
 ![img_1.png](img_1.png)
+
+#02-terraform output varibles
+![img_2.png](img_2.png)
+#DR
