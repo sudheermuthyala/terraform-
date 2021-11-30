@@ -14,3 +14,5 @@ terraform local varibles
 # DRY-principle
 ![img_3.png](img_3.png)
 # 03-terraform Local values
+
+![img_4.png](img_4.png)
