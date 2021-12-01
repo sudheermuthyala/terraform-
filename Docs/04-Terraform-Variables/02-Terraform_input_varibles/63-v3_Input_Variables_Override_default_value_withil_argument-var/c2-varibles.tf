@@ -23,7 +23,6 @@ variable "ec2_count" {
 
 
 /*
-prompt varibles we will pass the varibles from CLI when it prompt
 */
 
 
