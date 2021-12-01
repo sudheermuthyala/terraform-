@@ -28,5 +28,6 @@ prompt varibles we pass the varibles from CLI when it prompt
 
 
 variable "ec2_instance_type" {
-  description = "value"
+  description = "instance Type"
+  t
 }
