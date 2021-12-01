@@ -30,5 +30,5 @@ over right the default varibles  using -var from cli
 variable "ec2_instance_type" {
   description = "instance Type"
   type = string
-  default = "t3"
+  default = "t3.small"
 }
