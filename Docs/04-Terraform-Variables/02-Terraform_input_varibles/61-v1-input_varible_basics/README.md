@@ -1,4 +1,4 @@
-Step-01: Input Variables Basics
+# Step-01: Input Variables Basics
 Reference Sub folder: v1-Input-Variables-Basic
 Create / Review the terraform manifests
 c1-versions.tf
