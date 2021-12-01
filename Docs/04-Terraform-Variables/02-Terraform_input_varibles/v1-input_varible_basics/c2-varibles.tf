@@ -22,4 +22,5 @@ variable "ec2_count" {
 
 
 /*
-
+in this basib varibles we pass the avrible from 
+*/
