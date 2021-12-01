@@ -22,5 +22,5 @@ variable "ec2_count" {
 
 
 /*
-in this basic varibles we pass the avrible from 
+In this basic varibles we pass the avrible from 
 */
