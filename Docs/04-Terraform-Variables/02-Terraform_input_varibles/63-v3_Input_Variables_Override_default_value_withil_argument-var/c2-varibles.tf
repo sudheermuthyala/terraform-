@@ -23,7 +23,7 @@ variable "ec2_count" {
 
 
 /*
-over right the the the default varibles 
+over right the default varibles  using -var
 */
 
 
