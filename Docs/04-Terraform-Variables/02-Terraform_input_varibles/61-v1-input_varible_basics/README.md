@@ -2,7 +2,7 @@
 - Reference Sub folder: v1-Input-Variables-Basic
 - Create / Review the terraform manifests
     - c1-versions.tf
-c2-variables.tf
+    - c2-variables.tf
 c3-security-groups.tf
 c4-ec2-instance.tf
 We are going to define c3-variables.tf and define the below listed variables
