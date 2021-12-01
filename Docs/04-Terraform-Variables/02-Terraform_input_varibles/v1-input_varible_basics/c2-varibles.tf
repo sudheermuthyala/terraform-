@@ -22,5 +22,5 @@ variable "ec2_count" {
 
 
 /*
-In this basic varibles we pass the varibles from 
+In this basic varibles we pass the varibles from defatlt block 
 */
