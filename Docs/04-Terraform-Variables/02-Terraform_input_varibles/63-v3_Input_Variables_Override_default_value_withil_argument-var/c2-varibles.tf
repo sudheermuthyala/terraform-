@@ -12,8 +12,8 @@ variable "ec2_ami_id" {
   type = string
   default = "ami-04902260ca3d33422"
 }
-over right the default varibles  using -var from cli 
 
+#over right the default varibles  using -var from cli 
 # count
 variable "ec2_count" {
     description = "Ec2_innstance count"
@@ -24,7 +24,9 @@ variable "ec2_count" {
 
 
 /*
-over right the default varibles  using -var from cli 
+over right the default varibles  using -var from cli
+# ec2_instance_type
+
 */
 
 
