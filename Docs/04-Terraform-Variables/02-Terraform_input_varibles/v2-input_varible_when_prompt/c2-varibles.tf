@@ -27,6 +27,6 @@ prompt varibles we pass the varibles from CLI when it prompt
 */
 
 
-variable "" {
+variable "ec2" {
   
 }
