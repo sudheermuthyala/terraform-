@@ -27,10 +27,4 @@ variable "ec2_instance_type" {
   default = [ "t2.small" , "t3.large" , "t3.xlarge" ]
 }
 
-/*
-terraform.tfvars
-  ec2_count           =  3
-  ec2_instance_type   =  "t2.small"
-*/
-
 
