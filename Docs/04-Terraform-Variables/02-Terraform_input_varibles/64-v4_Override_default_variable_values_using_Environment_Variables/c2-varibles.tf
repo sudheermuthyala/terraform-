@@ -39,7 +39,7 @@ export  TF_VAR_ec2_instance_type=t2.small
 */
 
 /*
-unset/remove envi
+unset/remove envinorment varibles from 
 unset  TF_VAR_ec2_count
 unset  TF_VAR_ec2_instance_type
 */
