@@ -39,3 +39,4 @@ variable "ec2_instance_type" {
 /*
 export  TF_VAR_ec2_count=2
 export  TF_VAR_ec2_instance_type=t2.small
+*/
