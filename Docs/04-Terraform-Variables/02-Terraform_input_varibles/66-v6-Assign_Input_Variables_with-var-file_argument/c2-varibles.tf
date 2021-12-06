@@ -35,4 +35,4 @@ terraform.tfvars
 
 sudheer 
 "sudheer is teaching Devops"
-1000
+"1000"
