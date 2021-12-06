@@ -20,5 +20,7 @@ length({"key1" = "value1", "key2" = "value2" }) #Map
 
 ## 09-02: Learn Terraform SubString Function
 - [Terraform Sub String Function](https://www.terraform.io/docs/language/functions/substr.html)
+```t
+
 ```
 
