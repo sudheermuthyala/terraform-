@@ -22,4 +22,3 @@
 # Access Application
 -   http://<Elastic-IP-Address>
 
-Assign_Input_Variables_with-var-file_argument
