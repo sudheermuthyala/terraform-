@@ -10,10 +10,10 @@
 - echo $TF_VAR_ec2_instance_count, $TF_VAR_ec2_instance_type
 
 # Initialize Terraform
-terraform init
+- terraform init
 
 # Validate Terraform configuration files
-terraform validate
+- terraform validate
 
 # Format Terraform configuration files
 terraform fmt
