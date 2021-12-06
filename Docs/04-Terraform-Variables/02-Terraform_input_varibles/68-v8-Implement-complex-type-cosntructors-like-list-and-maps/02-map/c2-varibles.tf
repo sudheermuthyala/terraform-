@@ -28,7 +28,7 @@ variable "ec2_instance_tags" {
   default = {
     "Name" = "web"
     "project" = "roboshop"
-    "env" 
+    "env" = "dev"
   }
 }
 variable "ec2_instance_type" {
