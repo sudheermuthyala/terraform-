@@ -5,9 +5,9 @@
 - export TF_VAR_variable_name=value
 
 # SET Environment Variables
-export TF_VAR_ec2_instance_count=1
-export TF_VAR_ec2_instance_type=t3.large
-echo $TF_VAR_ec2_instance_count, $TF_VAR_ec2_instance_type
+- export TF_VAR_ec2_instance_count=1
+- export TF_VAR_ec2_instance_type=t3.large
+- echo $TF_VAR_ec2_instance_count, $TF_VAR_ec2_instance_type
 
 # Initialize Terraform
 terraform init
