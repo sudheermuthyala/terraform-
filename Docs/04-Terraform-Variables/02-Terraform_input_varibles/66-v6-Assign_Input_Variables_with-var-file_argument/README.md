@@ -17,5 +17,5 @@
 - terraform fmt
 
 # Review the terraform plan
-terraform plan -var-file="web.tfvars"
-terraform plan -var-file="app.tfvars"
+- terraform plan -var-file="web.tfvars"
+- terraform plan -var-file="app.tfvars"
