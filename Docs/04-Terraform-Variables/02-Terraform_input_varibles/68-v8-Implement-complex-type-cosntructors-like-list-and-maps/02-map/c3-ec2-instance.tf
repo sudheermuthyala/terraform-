@@ -2,6 +2,7 @@
 resource "aws_instance" "MY_ec2_VM" {
     ami = var.ec2_ami_id
     #instance_type = var.ec2_instance_type[0]
+    instance_type = var.ec2_instance_type[0]
     key_name = "terraform-k"
     count = var.ec2_count
     vpc_security_group_ids = [ aws_security_group.allow_ssh.id,  aws_security_group.vpc-web.id ]
