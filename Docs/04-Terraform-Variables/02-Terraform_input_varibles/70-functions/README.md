@@ -33,4 +33,3 @@ substr("stack simplify", 0, 0)
 substr("stack simplify", 0, 10)
 ```
 
-sudheermuthyala
