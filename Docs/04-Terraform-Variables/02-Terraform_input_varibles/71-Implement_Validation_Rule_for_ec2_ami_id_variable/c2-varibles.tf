@@ -28,5 +28,6 @@ variable "ec2_count" {
 # }
 
 variable "ec2_instance_type" {
- desdescription = "Instance" 
+ desdescription = "Instance Type"
+  
 }
