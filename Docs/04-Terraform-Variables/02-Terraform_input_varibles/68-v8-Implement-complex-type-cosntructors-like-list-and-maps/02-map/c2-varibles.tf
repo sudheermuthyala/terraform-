@@ -22,7 +22,7 @@ variable "ec2_count" {
   
 }
 
-variable "ec2_" {
+variable "ec2_instance_tags" {
   
 }
 variable "ec2_instance_type" {
