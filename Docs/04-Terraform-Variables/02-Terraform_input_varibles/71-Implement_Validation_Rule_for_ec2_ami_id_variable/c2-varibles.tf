@@ -13,7 +13,7 @@ variable "ec2_ami_id" {
   default = "ami-04902260ca3d33422"
   validation {
     condition = length(var.ec2_ami_id) > 4 && substr(var.ec2_ami_id, 0,4) == "ami-"
-    e
+    error_message = "value"
   }
 }
 
