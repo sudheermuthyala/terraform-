@@ -35,3 +35,5 @@ variable "ec2_instance_type" {
   type = string
   default = "t3.small"
 }
+
+# ec2_count
