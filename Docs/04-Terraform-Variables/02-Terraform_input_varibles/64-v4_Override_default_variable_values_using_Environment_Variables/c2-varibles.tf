@@ -37,4 +37,4 @@ variable "ec2_instance_type" {
 }
 
 /*
-export  ec2_count 
+export  TF_VAR_ec2_count 
