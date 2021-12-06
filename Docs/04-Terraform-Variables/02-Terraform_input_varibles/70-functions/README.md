@@ -7,7 +7,6 @@
 - [Terraform LengthFunction](https://www.terraform.io/docs/language/functions/length.html)
     # Go to Terraform Console
         terraform console
-
     # Test length function
         Template: length()
         length("hi")
