@@ -6,11 +6,11 @@
 
 
 # Implement List Function in variables.tf
-variable "ec2_instance_type" {
-  description = "EC2 Instance Type"
-  type = list(string)
-  default = ["t3.micro", "t3.small", "t3.medium"]
-}
+    variable "ec2_instance_type" {
+    description = "EC2 Instance Type"
+    type = list(string)
+    default = ["t3.micro", "t3.small", "t3.medium"]
+    }
 
 # Reference Values from List in ec2-instance.tf
 instance_type = var.ec2_instance_type[0] --> t3.micro
