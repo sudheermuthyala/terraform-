@@ -33,5 +33,5 @@ variable "ec2_instance_tags" {
 }
 
 variable "ec2_instance_type" {
-  
+  description = "value"
 }
