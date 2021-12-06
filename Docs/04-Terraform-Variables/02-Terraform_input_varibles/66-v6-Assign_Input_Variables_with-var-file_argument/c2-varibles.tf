@@ -34,4 +34,4 @@ terraform.tfvars
 */
 
 
-07: Auto load input variables with .auto.tfvarsfiles
+07: Auto load input variables-with-auto-tfvars-files
