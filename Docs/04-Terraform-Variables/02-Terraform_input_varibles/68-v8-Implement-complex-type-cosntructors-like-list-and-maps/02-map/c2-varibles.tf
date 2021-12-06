@@ -24,7 +24,7 @@ variable "ec2_count" {
 
 variable "ec2_instance_tags" {
   description = "EC2 instance tags"
-  type = 
+  type = map(string)
 }
 variable "ec2_instance_type" {
   description = "instance Type"
