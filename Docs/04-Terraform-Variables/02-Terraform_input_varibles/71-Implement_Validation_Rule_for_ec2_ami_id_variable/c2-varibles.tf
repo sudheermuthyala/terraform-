@@ -19,6 +19,7 @@ variable "ec2_ami_id" {
 
 #over right the default varibles  using -var from cli 
 # count
+
 variable "ec2_count" {
     description = "Ec2_innstance count"
     type = number
