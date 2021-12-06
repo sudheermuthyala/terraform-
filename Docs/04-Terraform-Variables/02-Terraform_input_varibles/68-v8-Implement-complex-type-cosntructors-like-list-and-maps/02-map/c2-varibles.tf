@@ -34,4 +34,5 @@ variable "ec2_instance_tags" {
 
 variable "ec2_instance_type" {
   description = "EC2-instance types"
+  type = 
 }
