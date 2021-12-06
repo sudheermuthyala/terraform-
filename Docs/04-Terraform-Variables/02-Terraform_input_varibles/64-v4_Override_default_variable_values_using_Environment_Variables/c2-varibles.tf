@@ -36,4 +36,5 @@ variable "ec2_instance_type" {
   default = "t3.small"
 }
 
- ec2_count 
+/*
+export  ec2_count 
