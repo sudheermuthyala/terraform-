@@ -22,9 +22,9 @@ variable "ec2_ami_id" {
 variable "ec2_count" {
     description = "Ec2_innstance count"
     type = number
-    default = 1
-  
+    default = 1  
 }
+
 # variable "ec2_instance_type" {
 #   description = "instance Type"
 #   type = list(string)
