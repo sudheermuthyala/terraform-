@@ -13,9 +13,9 @@
     }
 
 # Reference Values from List in ec2-instance.tf
-instance_type = var.ec2_instance_type[0] --> t3.micro
-instance_type = var.ec2_instance_type[1] --> t3.small
-instance_type = var.ec2_instance_type[2] --> t3.medium
+    instance_type = var.ec2_instance_type[0] --> t3.micro
+    instance_type = var.ec2_instance_type[1] --> t3.small
+    instance_type = var.ec2_instance_type[2] --> t3.medium
 
 # Initialize Terraform
 terraform init
