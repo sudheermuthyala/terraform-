@@ -17,14 +17,14 @@ tags = var.ec2_instance_tags
 
 # Implement Map Function for Instance Type
 # Important Note: comment "ec2_instance_type" variable with list function
-variable "ec2_instance_type_map" {
-  description = "EC2 Instance Type using maps"
-  type = map(string)
-  default = {
-    "small-apps" = "t3.micro"
-    "medium-apps" = "t3.medium" 
-    "big-apps" = "t3.large"
-  }
+    variable "ec2_instance_type_map" {
+    description = "EC2 Instance Type using maps"
+    type = map(string)
+    default = {
+        "small-apps" = "t3.micro"
+        "medium-apps" = "t3.medium" 
+        "big-apps" = "t3.large"
+    }
 
 # Reference Instance Type from Maps Variables
 instance_type = var.ec2_instance_type_map["small-apps"]
