@@ -22,4 +22,4 @@
 # Access Application
 -   http://<Elastic-IP-Address>
 
-Assign Input Variables with -var-file argument
+Assign_Input_Variables with -var-file argument
