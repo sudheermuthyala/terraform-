@@ -31,7 +31,7 @@ variable "ec2_count" {
 #   default = [ "t2.small" , "t3.large" , "t3.xlarge" ]
 # }
 
-variable "ec2_instance_type" {
+variable "ec2_instance_type"  {
  description = "Instance Type"
  type = string
  default = "t2.small" 
