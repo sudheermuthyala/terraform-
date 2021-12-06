@@ -9,9 +9,9 @@
 terraform console
 
 # Test length function
-Template: length()
-length("hi")
-length("hello")
-length(["a", "b", "c"]) # List
-length({"key" = "value"}) # Map
-length({"key1" = "value1", "key2" = "value2" }) #Map
+    Template: length()
+    length("hi")
+    length("hello")
+    length(["a", "b", "c"]) # List
+    length({"key" = "value"}) # Map
+    length({"key1" = "value1", "key2" = "value2" }) #Map
