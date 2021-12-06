@@ -14,7 +14,7 @@
 - terraform validate
 
 # Format Terraform configuration files
-terraform fmt
+- terraform fmt
 
 # Review the terraform plan
 terraform plan -var-file="web.tfvars"
