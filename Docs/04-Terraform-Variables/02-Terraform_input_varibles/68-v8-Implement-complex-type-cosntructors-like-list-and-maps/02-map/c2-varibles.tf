@@ -28,4 +28,12 @@ variable "ec2_instance_type" {
   default = [ "t2.small" , "t3.large" , "t3.xlarge" ]
 }
 
-
+variable "ec2_instance_tags" {
+  description = "EC2 instance tags"
+  type = map(string)
+  default = {
+    "Name" = "web"
+    "project" = "roboshop"
+    "env" = "dev"
+  }
+}
