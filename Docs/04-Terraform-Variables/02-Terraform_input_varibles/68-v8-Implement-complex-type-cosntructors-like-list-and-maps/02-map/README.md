@@ -15,7 +15,7 @@
 # Reference Values from Map in ec2-instance.tf
 tags = var.ec2_instance_tags  
 
-# Implement Map Function for Instance Type
+# Implement `Map Function for Instance Type`
 # Important Note: comment "ec2_instance_type" variable with list function
     variable "ec2_instance_type_map" {
     description = "EC2 Instance Type using maps"
