@@ -3,6 +3,7 @@ resource "aws_instance" "MY_ec2_VM" {
     ami = var.ec2_ami_id
     #instance_type = var.ec2_instance_type[0]
     #instance_type = var.ec2_instance_type[1]
+    #instance_type = var.ec2_instance_type[2]
     instance_type = var.ec2_instance_type[2]
     key_name = "terraform-k"
     count = var.ec2_count
