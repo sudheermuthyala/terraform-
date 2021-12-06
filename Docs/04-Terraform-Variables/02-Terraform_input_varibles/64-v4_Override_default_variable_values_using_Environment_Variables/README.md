@@ -16,12 +16,12 @@
 - terraform validate
 
 # Format Terraform configuration files
-terraform fmt
+- terraform fmt
 
 # Review the terraform plan
-terraform plan
+- terraform plan
 
 # UNSET Environment Variables after demo
-unset TF_VAR_ec2_instance_count
-unset TF_VAR_ec2_instance_type
-echo $TF_VAR_ec2_instance_count, $TF_VAR_ec2_instance_type
+- unset TF_VAR_ec2_instance_count
+- unset TF_VAR_ec2_instance_type
+- echo $TF_VAR_ec2_instance_count, $TF_VAR_ec2_instance_type
