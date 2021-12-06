@@ -6,12 +6,12 @@
 # 09-01: Learn Terraform Length Function
 - [Terraform LengthFunction](https://www.terraform.io/docs/language/functions/length.html)
 # Go to Terraform Console
-  terraform console
+terraform console
 
 # Test length function
-  Template: length()
-  length("hi")
-  length("hello")
-  length(["a", "b", "c"]) # List
-  length({"key" = "value"}) # Map
-  length({"key1" = "value1", "key2" = "value2" }) #Map
+Template: length()
+length("hi")
+length("hello")
+length(["a", "b", "c"]) # List
+length({"key" = "value"}) # Map
+length({"key1" = "value1", "key2" = "value2" }) #Map
