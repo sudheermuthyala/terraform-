@@ -24,7 +24,7 @@ variable "ec2_count" {
 variable "ec2_instance_type" {
   description = "instance Type"
   type = list(string)
-  default = [ "t2.small" , "t3.large" , ]
+  default = [ "t2.small" , "t3.large" , t3 ]
 }
 
 /*
