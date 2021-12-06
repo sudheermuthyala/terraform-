@@ -12,8 +12,8 @@ variable "ec2_ami_id" {
   type = string
   default = "ami-04902260ca3d33422"
   validation {
-    #condition = length(var.ec2_ami_id) > 4 && substr(var.ec2_ami_id, 0,4) == "ami-"
-    condition = length(var.ec2_ami_id) > 4 && substr(var.ec2_ami_id, 0,4) == "Kmi-"  #ERROR creating  
+    condition = length(var.ec2_ami_id) > 4 && substr(var.ec2_ami_id, 0,4) == "ami-"
+    condition = length(var.ec2_ami_id) > 4 && substr(var.ec2_ami_id, 0,4) == "Kmi-"  # ERROR creating  
     error_message = "The ec2_ami_id value must be a valid AMI id, starting with \"ami-\"."
   }
 }
