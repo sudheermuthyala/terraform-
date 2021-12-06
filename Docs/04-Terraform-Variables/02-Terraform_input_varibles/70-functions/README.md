@@ -33,5 +33,5 @@ substr("sudheer muthyala naidu", 0, 0)
 substr("sudheer muthyala naidu", 0, 10)
 ```
 
-Implement Validation Rule for_ec2_ami_id_variable
+
 
