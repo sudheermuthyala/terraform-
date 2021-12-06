@@ -27,7 +27,7 @@ variable "ec2_instance_tags" {
   type = map(string)
   default = {
     "Name" = "web"
-    "project"
+    "project" = "roboshop"
   }
 }
 variable "ec2_instance_type" {
