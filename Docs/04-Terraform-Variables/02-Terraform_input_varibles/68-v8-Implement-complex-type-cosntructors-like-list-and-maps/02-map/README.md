@@ -27,9 +27,9 @@ tags = var.ec2_instance_tags
     }
 
 # Reference Instance Type from Maps Variables
-instance_type = var.ec2_instance_type_map["small-apps"]
-instance_type = var.ec2_instance_type_map["medium-apps"]
-instance_type = var.ec2_instance_type_map["big-apps"]
+    instance_type = var.ec2_instance_type_map["small-apps"]
+    instance_type = var.ec2_instance_type_map["medium-apps"]
+    instance_type = var.ec2_instance_type_map["big-apps"]
 
 # Initialize Terraform
 terraform init
