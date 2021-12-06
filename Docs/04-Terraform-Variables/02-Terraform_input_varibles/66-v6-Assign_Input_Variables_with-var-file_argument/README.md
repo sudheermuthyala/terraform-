@@ -8,10 +8,10 @@
     - app.tfvars: ec2_instance_type variable will be picked from this file
 
 # Initialize Terraform
-terraform init
+- terraform init
 
 # Validate Terraform configuration files
-terraform validate
+- terraform validate
 
 # Format Terraform configuration files
 terraform fmt
