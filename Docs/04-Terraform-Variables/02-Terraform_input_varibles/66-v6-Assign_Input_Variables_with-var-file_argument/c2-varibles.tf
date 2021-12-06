@@ -24,7 +24,7 @@ variable "ec2_count" {
 variable "ec2_instance_type" {
   description = "instance Type"
   type = string
-  default = "t3.small"
+  default = "t2.small"
 }
 
 /*
