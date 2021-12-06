@@ -38,6 +38,6 @@ variable "ec2_instance_type" {
   default = {
     "small_app" = "t2.small"
     "medium_app" = "t3.large"
-    
+    "large_app"
   }
 }
