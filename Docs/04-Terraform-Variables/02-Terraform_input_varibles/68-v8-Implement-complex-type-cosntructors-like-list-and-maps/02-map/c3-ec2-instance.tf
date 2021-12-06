@@ -14,6 +14,9 @@ resource "aws_instance" "MY_ec2_VM" {
     sudo systemctl enable httpd
     echo "<h1>Welcome to DevOps World ! AWS Infra created using Terraform in us-east-1 Region</h1>" > /var/www/html/index.html
     EOF
-
-    
+    tags = var.ec2_instance_tags
+    tags = {
+      "Name" =  var.ec2_instance_tags
+    }
+  
 }
