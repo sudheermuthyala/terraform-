@@ -21,10 +21,6 @@ variable "ec2_count" {
     default = 1
   
 }
-
-
-
-
 variable "ec2_instance_type" {
   description = "instance Type"
   type = string
