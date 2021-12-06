@@ -32,3 +32,6 @@ terraform.tfvars
   ec2_count           =  3
   ec2_instance_type   =  "t2.small"
 */
+
+
+07: Auto load input variables with .auto.tfvarsfiles
