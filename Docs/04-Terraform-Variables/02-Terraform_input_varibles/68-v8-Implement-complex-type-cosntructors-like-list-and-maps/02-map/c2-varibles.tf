@@ -31,3 +31,7 @@ variable "ec2_instance_tags" {
     "env" = "dev"
   }
 }
+
+variable "ec2_instance_type" {
+  
+}
