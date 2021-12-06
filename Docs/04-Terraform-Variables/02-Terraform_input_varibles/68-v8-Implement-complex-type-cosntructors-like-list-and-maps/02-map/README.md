@@ -4,13 +4,13 @@
 - Implement Map function for variable ec2_instance_tags
 
 # Implement Map Function for tags
-variable "ec2_instance_tags" {
-  description = "EC2 Instance Tags"
-  type = map(string)
-  default = {
-    "Name" = "ec2-web"
-    "Tier" = "Web"
-  }
+    variable "ec2_instance_tags" {
+    description = "EC2 Instance Tags"
+    type = map(string)
+    default = {
+        "Name" = "ec2-web"
+        "Tier" = "Web"
+    }
 
 # Reference Values from Map in ec2-instance.tf
 tags = var.ec2_instance_tags  
