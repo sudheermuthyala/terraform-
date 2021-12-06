@@ -36,6 +36,7 @@ variable "ec2_instance_type" {
   description = "EC2-instance types"
   type = map(string)
   default = {
-    "small_web" = "t2"
+    "small_web" = "t2.small"
+    mediun
   }
 }
