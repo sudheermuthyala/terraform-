@@ -16,4 +16,5 @@
     length({"key" = "value"}) # Map
     length({"key1" = "value1", "key2" = "value2" }) #Map
 
-09-02: Learn Terraform SubString Function
+# 09-02: Learn Terraform SubString Function
+
