@@ -6,7 +6,7 @@
 # 09-01: Learn Terraform Length Function
 - [Terraform LengthFunction](https://www.terraform.io/docs/language/functions/length.html)
 # Go to Terraform Console
-terraform console
+  terraform console
 
 # Test length function
   Template: length()
