@@ -23,7 +23,7 @@ variable "ec2_count" {
 }
 variable "ec2_instance_type" {
   description = "instance Type"
-  type = string
+  type = 
   default = "t2.small"
 }
 
