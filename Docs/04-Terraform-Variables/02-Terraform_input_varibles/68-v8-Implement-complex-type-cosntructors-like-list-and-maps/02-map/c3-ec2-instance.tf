@@ -1,7 +1,7 @@
 # Resource aws ec2_instance terraform
 resource "aws_instance" "MY_ec2_VM" {
     ami = var.ec2_ami_id
-    instance_type = var.ec2_instance_type[0]
+    #instance_type = var.ec2_instance_type[0]
     key_name = "terraform-k"
     count = var.ec2_count
     vpc_security_group_ids = [ aws_security_group.allow_ssh.id,  aws_security_group.vpc-web.id ]
@@ -15,7 +15,7 @@ resource "aws_instance" "MY_ec2_VM" {
     echo "<h1>Welcome to DevOps World ! AWS Infra created using Terraform in us-east-1 Region</h1>" > /var/www/html/index.html
     EOF
     tags = var.ec2_instance_tags
-    
+
     # tags = {
     #   "Name" =  "weebserver"
     # }
