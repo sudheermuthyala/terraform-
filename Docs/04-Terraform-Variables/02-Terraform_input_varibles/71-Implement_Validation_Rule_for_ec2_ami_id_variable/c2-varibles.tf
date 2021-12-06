@@ -11,6 +11,9 @@ variable "ec2_ami_id" {
   description = "AMI_ID"
   type = string
   default = "ami-04902260ca3d33422"
+  validation {
+    condition = false
+  }
 }
 
 #over right the default varibles  using -var from cli 
