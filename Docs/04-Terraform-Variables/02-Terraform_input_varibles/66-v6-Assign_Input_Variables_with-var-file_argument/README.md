@@ -1,5 +1,5 @@
 # 06: Assign Input Variables with -var-file argument
-Reference Sub folder: v6-Input-Variables-Assign-with-tfvars-var-file
+ v6-Input-Variables-Assign-with-tfvars-var-file
 If we plan to use different names for .tfvars files, then we need to explicitly provide the argument -var-file during the terraform plan or apply
 We will use following things in this example
 c2-variables.tf: aws_region variable will be picked with default value
