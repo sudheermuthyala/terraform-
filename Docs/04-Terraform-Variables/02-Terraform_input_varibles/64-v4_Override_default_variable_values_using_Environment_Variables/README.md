@@ -2,7 +2,7 @@
 - v4-Input-Variables-Override-with-Environment-Variables
 - Set environment variables and execute terraform plan to see if it overrides default values
 # Sample
-export TF_VAR_variable_name=value
+- export TF_VAR_variable_name=value
 
 # SET Environment Variables
 export TF_VAR_ec2_instance_count=1
