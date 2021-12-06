@@ -1,7 +1,7 @@
 # Resource aws ec2_instance terraform
 resource "aws_instance" "MY_ec2_VM" {
     ami = var.ec2_ami_id
-    #instance_type = var.ec2_instance_type[0]
+    # instance_type = var.ec2_instance_type[0]
     # instance_type = var.ec2_instance_type["small_app"]
     # instance_type = var.ec2_instance_type["medium_app"]
     instance_type = var.ec2_instance_type["large_app"]
