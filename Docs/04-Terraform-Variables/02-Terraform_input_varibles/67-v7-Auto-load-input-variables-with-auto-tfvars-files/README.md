@@ -4,4 +4,4 @@
 - With this extension, whatever may be the file name, the variables inside these files will be auto loaded during terraform plan or apply
 
 # NOTE: 
-    - auto.tfvars file and terraform.tfvars file are both are almost same 
+    - auto.tfvars file and terraform.tfvars file are both are almost same these files will be auto loaded during terraform plan or apply
