@@ -1,0 +1,1 @@
+09-03: Implement Validation Rule for ec2_ami_id variable
