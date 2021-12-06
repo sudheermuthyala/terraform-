@@ -3,4 +3,4 @@
 - We will create a file with extension as .auto.tfvars.
 - With this extension, whatever may be the file name, the variables inside these files will be auto loaded during terraform plan or apply
 
-# NOTE: 
+# NOTE: auto.tfvars file 
