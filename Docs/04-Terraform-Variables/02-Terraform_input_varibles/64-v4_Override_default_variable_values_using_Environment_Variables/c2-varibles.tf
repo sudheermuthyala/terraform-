@@ -23,11 +23,6 @@ variable "ec2_count" {
 }
 
 
-/*
-over right the default varibles  using -var from cli
-# ec2_instance_type
-
-*/
 
 
 variable "ec2_instance_type" {
