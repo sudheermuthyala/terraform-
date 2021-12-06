@@ -12,7 +12,7 @@ variable "ec2_ami_id" {
   type = string
   default = "ami-04902260ca3d33422"
   validation {
-    condition = length(var.ec2_ami_id) > 4 && substr
+    condition = length(var.ec2_ami_id) > 4 && substr(var.ec2_ami_id)
   }
 }
 
