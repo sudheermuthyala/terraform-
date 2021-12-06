@@ -16,7 +16,7 @@ resource "aws_instance" "MY_ec2_VM" {
     EOF
     tags = var.ec2_instance_tags
     # tags = {
-    #   "Name" =  var.ec2_instance_tags
+    #   "Name" =  "weebserver"
     # }
   
 }
