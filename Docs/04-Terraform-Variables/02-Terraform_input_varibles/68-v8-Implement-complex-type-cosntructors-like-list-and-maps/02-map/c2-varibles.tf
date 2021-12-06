@@ -26,7 +26,7 @@ variable "ec2_instance_tags" {
   description = "EC2 instance tags"
   type = map(string)
   default = {
-    "key" = "value"
+    "Name" = "web"
   }
 }
 variable "ec2_instance_type" {
