@@ -39,6 +39,7 @@ export  TF_VAR_ec2_instance_type=t2.small
 */
 
 /*
+unset
 unset  TF_VAR_ec2_count
 unset  TF_VAR_ec2_instance_type
 */
