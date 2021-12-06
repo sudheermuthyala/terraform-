@@ -36,6 +36,6 @@ export  TF_VAR_ec2_count=2
 export  TF_VAR_ec2_instance_type=t2.small
 */
 /*
-unset  TF_VAR_ec2_count=2
-unset  TF_VAR_ec2_instance_type=t2.small
+unset  TF_VAR_ec2_count
+unset  TF_VAR_ec2_instance_type
 */
