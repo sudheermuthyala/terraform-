@@ -32,7 +32,7 @@ variable "ec2_count" {
 # }
 
 variable "ec2_instance_type" {
- desdescription = "Instance Type"
+ description = "Instance Type"
  type = string
  default = "t2.small" 
 }
