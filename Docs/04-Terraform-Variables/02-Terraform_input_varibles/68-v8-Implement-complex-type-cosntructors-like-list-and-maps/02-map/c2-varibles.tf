@@ -23,7 +23,8 @@ variable "ec2_count" {
 }
 
 variable "ec2_instance_tags" {
-  description = "EC"
+  description = "EC2 instance tags"
+  type = 
 }
 variable "ec2_instance_type" {
   description = "instance Type"
