@@ -6,3 +6,16 @@
     - terraform.tfvars: ec2_instance_count variable will be picked from this file
     - web.tfvars: ec2_instance_type variable will be picked from this file
     - app.tfvars: ec2_instance_type variable will be picked from this file
+
+# Initialize Terraform
+terraform init
+
+# Validate Terraform configuration files
+terraform validate
+
+# Format Terraform configuration files
+terraform fmt
+
+# Review the terraform plan
+terraform plan -var-file="web.tfvars"
+terraform plan -var-file="app.tfvars"
