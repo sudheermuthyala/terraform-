@@ -34,4 +34,4 @@ terraform.tfvars
 */
 
 sudheer 
-sudheer is teaching Devopsp
+sudheer is teaching Devops
