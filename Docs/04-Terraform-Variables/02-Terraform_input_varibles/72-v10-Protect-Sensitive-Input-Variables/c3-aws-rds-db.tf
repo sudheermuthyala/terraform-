@@ -10,4 +10,4 @@ resource "aws_db_instance" "myrdsdb" {
   
 }
 
-Variable Definition Precedence
+
