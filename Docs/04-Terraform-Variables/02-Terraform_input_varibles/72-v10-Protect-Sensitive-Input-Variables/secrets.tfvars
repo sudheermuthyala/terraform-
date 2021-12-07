@@ -6,5 +6,5 @@ db_username=admin
 db_password=admin@123
 
 // NOTE-1: this is a lab Demo
-// NOTE-2: we ned to pass the 
+// NOTE-2: we ned to pass the secrets.
 
