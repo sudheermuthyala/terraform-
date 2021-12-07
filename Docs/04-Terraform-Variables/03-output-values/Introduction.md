@@ -1,2 +1,2 @@
 ## Instroduction To OutPut Values
-[![img.png](img.png)](sample)
+[![img.png](img.png)]
