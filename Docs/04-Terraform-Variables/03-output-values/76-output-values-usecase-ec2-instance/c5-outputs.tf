@@ -12,6 +12,7 @@ output "ec2_instance_privateip" {
   value = ec2_instance.MY_ec2_VM.private_ip
 }
 
+#Aurgement Reference: EC2 instance private IP
 output "ec2_instance_securitygroup" {
   description = "ec2_instance_securitygroup"
   value = ec2_instance.MY_ec2_VM.security_groups
