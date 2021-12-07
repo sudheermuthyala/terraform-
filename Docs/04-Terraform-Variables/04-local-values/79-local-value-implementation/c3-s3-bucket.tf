@@ -21,7 +21,7 @@ resource "aws_s3_bucket" "mys3bucket" {
   bucket = local.bucket-name
   acl = "private"
   tags = {
-    "Name" =  
+    "Name" =  locals.
   }
   
 }
