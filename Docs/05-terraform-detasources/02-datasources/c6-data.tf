@@ -1,3 +1,4 @@
 data "aws_ami" "amzlinux" {
-  most_recent =  
+  most_recent =  true
+  
 }
