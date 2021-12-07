@@ -12,6 +12,6 @@ output "ec2_instance_privateip" {
   value = ec2_instance.MY_ec2_VM.private_ip
 }
 
-output "ec2_instance" {
+output "ec2_instance_securitygroup" {
     value = ""
 }
