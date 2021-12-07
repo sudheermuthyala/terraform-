@@ -8,3 +8,6 @@
 
 ## Output Valuse
 - [![img_1.png](img_1.png)]
+
+
+Terraform-Varibles-OutputVaribles
