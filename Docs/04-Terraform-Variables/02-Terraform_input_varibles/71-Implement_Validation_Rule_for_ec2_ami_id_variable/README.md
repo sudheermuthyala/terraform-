@@ -9,4 +9,15 @@
     }
     }
 - Run Terraform commands
+    # Initialize Terraform
+    terraform init
+
+    # Validate Terraform configuration files
+    terraform validate
+
+    # Format Terraform configuration files
+    terraform fmt
+
+    # Review the terraform plan
+    terraform plan
 
