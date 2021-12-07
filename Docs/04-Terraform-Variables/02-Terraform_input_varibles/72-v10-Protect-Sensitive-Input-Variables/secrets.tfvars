@@ -4,3 +4,4 @@ Important Note-2: Terraform state file contains values for these sensitive varia
 */
 db_username=admin
 db_password=admin@123
+
