@@ -22,4 +22,5 @@ output "ec2_instance_securitygroup" {
 
 output "ec2_instance_publicdns" {
   description = "ec2_instance_publicdns"
+  value = ""
 }
