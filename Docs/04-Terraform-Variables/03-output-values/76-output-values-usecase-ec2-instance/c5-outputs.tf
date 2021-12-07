@@ -14,5 +14,5 @@ output "ec2_instance_privateip" {
 
 output "ec2_instance_securitygroup" {
     description = "ec2_instance_securitygroup"
-    value = ec2_instance.
+    value = ec2_instance.security_groups
 }
