@@ -9,5 +9,30 @@
 - **Important Note-2:** Terraform state file contains values for these sensitive variables terraform.tfstate. You must keep your state file secure to avoid exposing this data.
 
 ```t
+# Initialize Terraform
+terraform init
+
+# Validate Terraform configuration files
+terraform validate
+
+# Format Terraform configuration files
+terraform fmt
+
+# Review the terraform plan
+terraform plan -var-file="secrets.tfvars"
+
+# Create Resources
+terraform apply -var-file="secrets.tfvars"
+
+# Verify Terraform State files
+grep password terraform.tfstate
+grep username terraform.tfstate 
+
+# Destroy Resources
+terraform destroy var-file="secrets.tfvars"
+
+# Clean-Up
+rm -rf .terraform*
+rm -rf terraform.tfstate*
 
 ```
