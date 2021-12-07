@@ -15,6 +15,6 @@ variable "app_name" {
   type = string 
 }
 
-variable "env" {
+variable "envinorment_name" {
   
 }
