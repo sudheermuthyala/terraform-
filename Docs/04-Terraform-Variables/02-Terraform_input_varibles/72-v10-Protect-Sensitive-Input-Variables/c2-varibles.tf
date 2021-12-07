@@ -1,3 +1,4 @@
 variable "aws_region" {
-  description = "Reagion in which aws Resource"
+  description = "Reagion in which aws Resource to be create"
+  
 }
