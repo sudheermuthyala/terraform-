@@ -17,3 +17,6 @@ locals {
   bucket-name = "${var.app_name}-${var.envinorment_name}-buscket"
 }
 
+resource "aws_s3_bucket" "name" {
+  
+}
