@@ -7,6 +7,6 @@ output "ec2_instance_publicip" {
 }
 
 #Aurgement Reference: EC2 instance private IP
-output "ec2_instance_private" {
+output "ec2_instance_privateip" {
   
 }
