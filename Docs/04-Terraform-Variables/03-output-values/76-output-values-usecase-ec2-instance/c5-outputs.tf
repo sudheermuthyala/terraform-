@@ -18,4 +18,8 @@ output "ec2_instance_securitygroup" {
   value = ec2_instance.MY_ec2_VM.security_groups
 }
 
-#Attributes Reference: EC2 instance 
+#Attributes Reference: EC2 instance public dns
+
+output "ec2_instance_publicdns" {
+  
+}
