@@ -1,3 +1,3 @@
-data "aws_ami" "amz" {
+data "aws_ami" "amzlinux" {
   
 }
