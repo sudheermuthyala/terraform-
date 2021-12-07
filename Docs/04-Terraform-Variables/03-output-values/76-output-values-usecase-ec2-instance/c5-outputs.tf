@@ -8,5 +8,6 @@ output "ec2_instance_publicip" {
 
 #Aurgement Reference: EC2 instance private IP
 output "ec2_instance_privateip" {
-  description = "Ec2 insta"
+  description = "Ec2 instance privete ip"
+  
 }
