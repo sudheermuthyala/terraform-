@@ -22,5 +22,5 @@ output "ec2_instance_securitygroup" {
 
 output "ec2_instance_publicdns" {
   description = "ec2_instance_publicdns"
-  value = "http://${ec2_instance.MY_ec2_VM}"
+  value = "http://${ec2_instance.MY_ec2_VM.public_dns}"
 }
