@@ -11,7 +11,7 @@
 - Run Terraform commands
 
 ```t
-# **Initialize Terraform**
+# Initialize Terraform
 terraform init
 # Validate Terraform configuration files
 terraform validate
