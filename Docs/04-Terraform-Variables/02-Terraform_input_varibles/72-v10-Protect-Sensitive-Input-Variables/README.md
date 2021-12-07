@@ -37,4 +37,4 @@ rm -rf terraform.tfstate*
 
 ```
 ## code
-[72-v10: Protect Sensitive Input Variables](https://github.com/sudheermuthyala/terraform-/tree/main/Docs/04-Terraform-Variables/02-Terraform_input_varibles/72-v10-Protect-Sensitive-Input-Variables)
+- [72-v10: Protect Sensitive Input Variables](https://github.com/sudheermuthyala/terraform-/tree/main/Docs/04-Terraform-Variables/02-Terraform_input_varibles/72-v10-Protect-Sensitive-Input-Variables)
