@@ -1,3 +1,3 @@
 ## Terraform OutPut Values
-Instroduction To 
+Instroduction To Output
 [![img.png](img.png)]
