@@ -5,5 +5,6 @@ Important Note-2: Terraform state file contains values for these sensitive varia
 db_username=admin
 db_password=admin@123
 
-// NOTE: this is a lab Demo
+// NOTE-1: this is a lab Demo
+//
 
