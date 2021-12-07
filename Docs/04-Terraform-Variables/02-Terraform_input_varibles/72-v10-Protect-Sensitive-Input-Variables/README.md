@@ -7,3 +7,7 @@
 - Terraform will redact these values in command output and log files, and raise an error when it detects that they will be exposed in other ways.
 - **Important Note-1:** Never check-in secrets.tfvars to git repositories
 - **Important Note-2:** Terraform state file contains values for these sensitive variables terraform.tfstate. You must keep your state file secure to avoid exposing this data.
+
+```t
+
+```
