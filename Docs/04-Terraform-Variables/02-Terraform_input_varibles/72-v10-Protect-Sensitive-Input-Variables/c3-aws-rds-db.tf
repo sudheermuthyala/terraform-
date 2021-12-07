@@ -1,4 +1,3 @@
-#resource rds db
-resource "aws_d" "name" {
+resource "aws_" "name" {
   
 }
