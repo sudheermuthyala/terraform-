@@ -37,4 +37,4 @@ rm -rf terraform.tfstate*
 
 ```
 
-[v10: Protect Sensitive Input Variables]
+[72-v10: Protect Sensitive Input Variables]
