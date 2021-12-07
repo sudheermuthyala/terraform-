@@ -6,4 +6,7 @@ output "ec2_instance_publicip" {
   value         = ec2_instance.MY_ec2_VM.public_ip
 }
 
-#Aurgement Reference: EC2 instance public IP
+#Aurgement Reference: EC2 instance private IP
+output "ec2" {
+  
+}
