@@ -22,7 +22,7 @@ resource "aws_s3_bucket" "mys3bucket" {
   acl = "private"
   tags = {
     "Name" =  local.bucket-name
-    
+    env   = 
   }
   
 }
