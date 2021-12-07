@@ -8,11 +8,11 @@ resource "aws_s3_bucket" "mys3" {
     "env"  = var.envinorment_name
   }
 }
-
-
+*/
 
 
 # Defining local values
+
 locals {
   bucket-name = "${var.app_name}-${var.envinorment_name}-buscket"
 }
