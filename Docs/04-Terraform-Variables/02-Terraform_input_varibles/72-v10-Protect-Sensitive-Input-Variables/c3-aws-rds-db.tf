@@ -9,3 +9,5 @@ resource "aws_db_instance" "myrdsdb" {
     skip_final_snapshot = true
   
 }
+
+Variable Definition Precedence
