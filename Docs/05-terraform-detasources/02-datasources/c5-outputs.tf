@@ -5,4 +5,5 @@ output "ec2_instancnce_public-ip" {
 
 output "ec2_instance_private_ip" {
   description = "ec2_instance_private"
+  va
 }
