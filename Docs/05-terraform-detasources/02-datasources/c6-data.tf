@@ -4,6 +4,5 @@ data "aws_ami" "amzlinux" {
 
   filter {
       name = "name"
-      va
   }
 }
