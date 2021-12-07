@@ -4,5 +4,6 @@ resource "aws_db_instance" "myrdsdb" {
     username = var.db_username
     password = var.db_password
     engine = "mysql"
+    na
   
 }
