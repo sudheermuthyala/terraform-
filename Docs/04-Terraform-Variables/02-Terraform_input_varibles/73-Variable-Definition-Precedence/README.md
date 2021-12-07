@@ -1,7 +1,7 @@
 ## Variable Definition Precedence
 - # Precedence 
 - Terraform Varible Precedence
-    ## Terraform loads variables in the following order,
+    ## Terraform loads `variables` in the following order,
     - `Environment` variables
     - The `terraform.tfvars` file, if present.
     - The `terraform.tfvars.json` file, if present.
