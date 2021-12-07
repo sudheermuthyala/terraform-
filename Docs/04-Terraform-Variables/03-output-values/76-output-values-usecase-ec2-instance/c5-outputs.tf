@@ -3,5 +3,5 @@
 
 output "ec2_instance_publicip" {
   description   = "EC2 instance Publice ip"
-  value         = ec2
+  value         = ec2_instance.
 }
