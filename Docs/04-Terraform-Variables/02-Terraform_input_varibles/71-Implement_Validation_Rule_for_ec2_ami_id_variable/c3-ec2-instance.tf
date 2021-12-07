@@ -24,4 +24,4 @@ resource "aws_instance" "MY_ec2_VM" {
   
 }
 
-72-v10-Protect-Sensitive Input Variables
+72-v10-Protect-Sensitive-Input-Variables
