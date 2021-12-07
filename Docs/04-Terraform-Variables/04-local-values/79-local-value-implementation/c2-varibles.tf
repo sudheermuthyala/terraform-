@@ -16,5 +16,5 @@ variable "app_name" {
 }
 
 variable "envinorment_name" {
-  
+  description = "value"
 }
