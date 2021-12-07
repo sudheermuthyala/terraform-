@@ -18,4 +18,4 @@ output "ec2_instance_securitygroup" {
   value = ec2_instance.MY_ec2_VM.security_groups
 }
 
-#Attributes Reference: EC2 insy
+#Attributes Reference: EC2 instance 
