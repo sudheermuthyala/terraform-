@@ -1,3 +1,3 @@
-resource "aws_db_instance" "name" {
+resource "aws_db_instance" "my" {
   
 }
