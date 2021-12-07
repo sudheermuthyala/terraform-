@@ -1,3 +1,3 @@
-resource "aws_db_instance" "my" {
+resource "aws_db_instance" "myrdsdb" {
   
 }
