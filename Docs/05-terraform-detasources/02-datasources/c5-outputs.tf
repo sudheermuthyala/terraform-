@@ -3,6 +3,6 @@ output "ec2_instancnce_public-ip" {
   value = aws_instance.MY_ec2_VM.id
 }
 
-output "ec2_instance_" {
+output "ec2_instance_private_ip" {
   
 }
