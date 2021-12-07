@@ -9,6 +9,7 @@
     }
     }
 - Run Terraform commands
+
 ```t
 # Initialize Terraform
 terraform init
