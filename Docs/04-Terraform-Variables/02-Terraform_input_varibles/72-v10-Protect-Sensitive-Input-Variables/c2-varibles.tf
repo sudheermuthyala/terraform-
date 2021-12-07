@@ -1,3 +1,3 @@
 variable "aws_region" {
-  description = "value"
+  description = "Reagion to "
 }
