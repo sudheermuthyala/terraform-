@@ -8,8 +8,8 @@
         error_message = "The ec2_ami_id value must be a valid AMI id, starting with \"ami-\"."
     }
     }
-- Run Terraform commands
 
+- Run Terraform commands
 ```t
 # Initialize Terraform
 terraform init
