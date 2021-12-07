@@ -2,5 +2,5 @@
 #Attriute Reference: EC2 instance public IP
 
 output "ec2_instance_publicip" {
-  description = "value"
+  description = "EC2 instance "
 }
