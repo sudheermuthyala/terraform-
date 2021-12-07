@@ -17,3 +17,5 @@ terraform local varibles
 # 03-terraform Local values
 
 ![img_4.png](img_4.png)
+
+![img.png](img.png)
