@@ -21,4 +21,5 @@
 
     # Review the terraform plan
     terraform plan
+    ```
 
