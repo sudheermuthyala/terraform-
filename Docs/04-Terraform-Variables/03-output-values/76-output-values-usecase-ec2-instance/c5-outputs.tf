@@ -5,22 +5,22 @@ output "ec2_instance_publicip" {
   description   = "EC2 instance Publice ip"
   value         = aws_instance.MY_ec2_VM.public_ip
 }
-aws_instance
+
 #Aurgement Reference: EC2 instance private IP
 output "ec2_instance_privateip" {
   description = "Ec2 instance privete ip"
-  value = ec2_instance.MY_ec2_VM.private_ip
+  value = aws_instance.MY_ec2_VM.private_ip
 }
 
 #Aurgement Reference: EC2 instance private IP
 output "ec2_instance_securitygroup" {
   description = "ec2_instance_securitygroup"
-  value = ec2_instance.MY_ec2_VM.security_groups
+  value = aws_instance.MY_ec2_VM.security_groups
 }
 
 #Attributes Reference: EC2 instance public dns
 
 output "ec2_instance_publicdns" {
   description = "ec2_instance_publicdns"
-  value = "http://${ec2_instance.MY_ec2_VM.public_dns}"
+  value = "http://${aws_instance.MY_ec2_VM.public_dns}"
 }
