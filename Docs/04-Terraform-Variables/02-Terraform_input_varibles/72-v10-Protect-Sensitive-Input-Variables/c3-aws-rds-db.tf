@@ -5,5 +5,6 @@ resource "aws_db_instance" "myrdsdb" {
     password = var.db_password
     engine = "mysql"
     name = "myrds"
+    skip_final_snapshot = true
   
 }
