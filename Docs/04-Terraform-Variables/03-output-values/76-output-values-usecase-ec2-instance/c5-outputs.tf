@@ -13,6 +13,6 @@ output "ec2_instance_privateip" {
 }
 
 output "ec2_instance_securitygroup" {
-    description = "value"
-    value = ""
+    description = "ec2_instance_securitygroup"
+    value = ec2_instance.
 }
