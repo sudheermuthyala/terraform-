@@ -1,1 +1,1 @@
-## Terraform Varibles
+## Terraform Varibles Output Varibles
