@@ -11,5 +11,5 @@ variable "db_username" {
 }
 
 variable "db_password" {
-  description = "DB-"
+  description = "DB password"
 }
