@@ -11,3 +11,7 @@ output "ec2_instance_privateip" {
   description = "Ec2 instance privete ip"
   value = ec2_instance.MY_ec2_VM.private_ip
 }
+
+output "name" {
+    value = ""
+}
