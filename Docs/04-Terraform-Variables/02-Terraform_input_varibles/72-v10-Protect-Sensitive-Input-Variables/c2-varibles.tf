@@ -1,3 +1,3 @@
 variable "aws_region" {
-  description = "Reagion to create aws "
+  description = "Reagion to create aws Resource"
 }
