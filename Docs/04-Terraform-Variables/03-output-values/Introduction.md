@@ -1,2 +1,2 @@
-## Instroduction To OutPut Values
+## OutPut Values
 [![img.png](img.png)]
