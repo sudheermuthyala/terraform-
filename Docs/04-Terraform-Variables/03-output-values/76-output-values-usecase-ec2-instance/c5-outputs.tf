@@ -21,5 +21,5 @@ output "ec2_instance_securitygroup" {
 #Attributes Reference: EC2 instance public dns
 
 output "ec2_instance_publicdns" {
-  description = "Ec3"
+  description = "ec2_instance_publicdns"
 }
