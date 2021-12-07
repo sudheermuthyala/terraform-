@@ -5,5 +5,5 @@ variable "aws_region" {
 }
 
 variable "db_username" {
-  description
+  description = "Db"
 }
