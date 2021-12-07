@@ -1,4 +1,4 @@
-
+/*
 # create  s3 bucket - with input varibles & local values 
 resource "aws_s3_bucket" "mys3" {
   bucket = "${var.app_name}-${var.envinorment_name}-buscket"
@@ -8,6 +8,7 @@ resource "aws_s3_bucket" "mys3" {
     "env"  = var.envinorment_name
   }
 }
+
 
 
 
