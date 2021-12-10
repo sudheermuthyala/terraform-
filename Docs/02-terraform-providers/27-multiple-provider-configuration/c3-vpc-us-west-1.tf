@@ -10,7 +10,5 @@ resource "aws_vpc" "my_vpc_us-west-1" {
 
 /*
 Addition Note:
-
 provider    =   <PROVIDER-NAME>.<ALIAS-NAME> # This is a Meta-Argument from Resources Section nothing but a Special Argument
-
 */
