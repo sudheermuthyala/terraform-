@@ -18,4 +18,5 @@ provider "aws" {
 
 provider "aws" {
   profile = "default"
+  region = 
 }
