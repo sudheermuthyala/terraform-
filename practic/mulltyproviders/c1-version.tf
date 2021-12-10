@@ -11,6 +11,6 @@ terraform {
 
 
 provider "aws" {
-    
+    profile = ""
   
 }
