@@ -1,3 +1,3 @@
-resource "aws_vpc" "" {
-  
+resource "aws_vpc" "lab-vpc" {
+  cidr_block = 
 }
