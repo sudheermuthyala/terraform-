@@ -25,5 +25,5 @@ provider "aws" {
 provider "aws" {
   profile = "default"
   region = "ap-south-1"
-  alias = "aws.ap-west"
+  alias = "aws.ap-south-1"
 }
