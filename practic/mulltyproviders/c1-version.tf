@@ -16,6 +16,6 @@ provider "aws" {
   
 }
 
-provider "" {
-  
+provider "aws" {
+  profile
 }
