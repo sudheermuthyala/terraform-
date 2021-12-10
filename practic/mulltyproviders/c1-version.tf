@@ -24,5 +24,5 @@ provider "aws" {
 
 provider "aws" {
   profile = "default"
-  region = "us-nort"
+  region = "us-north-1"
 }
