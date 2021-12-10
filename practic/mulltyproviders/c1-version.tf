@@ -17,5 +17,5 @@ provider "aws" {
 }
 
 provider "aws" {
-  profile = "def"
+  profile = "default"
 }
