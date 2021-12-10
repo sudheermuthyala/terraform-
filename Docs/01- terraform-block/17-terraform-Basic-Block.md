@@ -16,7 +16,7 @@
 --------------------------------------------------
  - Heart of terraform 
  - terraform relies on providers to intract with Remote systems
- - we declare for terraform to nstal providers & use them 
+ - we declare for terraform to instal providers & use them 
  - provider configuration belongs to Root Module
 ```
 # Block-3
