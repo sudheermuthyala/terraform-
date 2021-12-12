@@ -23,7 +23,7 @@ resource "aws_instance" "myVM" {
   availability_zone = "us-east-1b"
 
   tags = {
-    "Name" = "murali"
+    "Name" = "murali-terraform"
   }
 
   
