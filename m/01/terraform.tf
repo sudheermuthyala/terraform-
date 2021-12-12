@@ -14,6 +14,7 @@ terraform {
 provider "aws" {
   profile = "default"
   region = "ap-south-1"
+  r
 }
 
 resource "aws_instance" "myVM" {
@@ -22,9 +23,9 @@ resource "aws_instance" "myVM" {
   key_name      = "murali"
   instance_type = "t2.micro"
   #availability_zone = "us-east-1b"
-  lifecycle {
+  # lifecycle {
     
-  }
+  # }
   
 
   tags = {
