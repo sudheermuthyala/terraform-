@@ -17,5 +17,5 @@
 
 **Using the Remote State Sorage**
 - Using terraform Backend Concept we can use `AWS S3` as the shared storage for state file
-- If two team members 
+- If two team members are running 
 
