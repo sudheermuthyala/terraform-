@@ -19,7 +19,7 @@ data "aws_ami" "amzlinux" {
   
   filter {
     name = "architucture"
-    values = [ "x84_64" ]
+    values = [ "x86_64" ]
   }
 }
 
