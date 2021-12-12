@@ -17,5 +17,5 @@ provider "aws" {
 }
 
 resource "aws_instance" "myVM" {
-  ami = ""
+  ami = "ami-0e4e4b2f188e91845"
 }
