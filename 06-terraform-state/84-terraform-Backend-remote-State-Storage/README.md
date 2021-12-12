@@ -16,5 +16,5 @@
   ![img.png](img.png)
 
 **Using the Remote State Sorage**
-- Using t
+- Using terraform Backend Concept 
 
