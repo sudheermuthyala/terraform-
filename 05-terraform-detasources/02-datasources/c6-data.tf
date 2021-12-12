@@ -1,4 +1,5 @@
 data "aws_ami" "amzlinux" {  
+  mo
   owner = [ "amazon" ]
 
   filter {
