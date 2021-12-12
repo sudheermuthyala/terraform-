@@ -23,4 +23,4 @@
   ![img_1.png](img_1.png)
 
 ## Terraform Remote State File with State Locking 
-- Note all Backend support State
+- Note all Backend support State locking. 
