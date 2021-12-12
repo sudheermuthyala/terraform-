@@ -13,6 +13,7 @@ variable "ec2_ami_id" {
   default = "ami-04902260ca3d33422"
 }
 
+*/
 #over right the default varibles  using -var from cli 
 # count
 variable "ec2_count" {
