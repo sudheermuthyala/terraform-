@@ -27,7 +27,7 @@ resource "aws_instance" "myVM" {
   availability_zone = "ap-south-1a"
   
   lifecycle {
-    create_before_destroy = true
+    prevent_destroy = true
   }
   
 
