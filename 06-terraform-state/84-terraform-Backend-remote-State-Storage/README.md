@@ -10,6 +10,6 @@
 ## What is the probleam with the local state file and how we resolve it with Remote state file
 **with the local state file**
 - Multiple Team Members cannot update the infrastructure as they don't have asscess to state file.
-- this means we need to store State file in a sheared location 
+- this means we need to store State file in a shared location.
 
 
