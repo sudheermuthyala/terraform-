@@ -8,6 +8,7 @@ data "aws_ami" "amzlinux" {
   }
 
   filter {
-    name = "root-devi"
+    name = "root-device-type"
+    va
   }
 }
