@@ -22,4 +22,4 @@
 ## Remote state file
   ![img_1.png](img_1.png)
 
-## Terraform Remote  State File with  State 
+## Terraform Remote State File with  State  Locking 
