@@ -14,6 +14,6 @@ data "aws_ami" "amzlinux" {
 
   filter {
     name = "virtualization-type"
-    values = 
+    values = [ "value" ]]
   }
 }
