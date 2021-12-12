@@ -1,6 +1,6 @@
 # Resource aws ec2_instance terraform
 resource "aws_instance" "MY_ec2_VM" {
-    ami = data.aws_ami.amzlinux
+    ami = data.aws_ami.amzlinux 
     instance_type = var.ec2_instance_type 
     key_name = "terraform-k"
     #count = var.ec2_count
