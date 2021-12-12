@@ -7,11 +7,11 @@ variable "aws_region" {
 }
 
 # amiid
-variable "ec2_ami_id" {
-  description = "AMI_ID"
-  type = string
-  default = "ami-04902260ca3d33422"
-}
+# variable "ec2_ami_id" {
+#   description = "AMI_ID"
+#   type = string
+#   default = "ami-04902260ca3d33422"
+# }
 
 #over right the default varibles  using -var from cli 
 # count
