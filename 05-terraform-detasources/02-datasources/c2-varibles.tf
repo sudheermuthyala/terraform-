@@ -5,7 +5,7 @@ variable "aws_region" {
   type = string
   default = "us-east-1"
 }
-/* commented as we are 
+/* commented as we are going to 
 # amiid
 variable "ec2_ami_id" {
   description = "AMI_ID"
