@@ -17,6 +17,8 @@ data "aws_ami" "amzlinux" {
     values = [ "hvm" ]]
   }
   
-  fu
+  filter {
+    name = 
+  }
 }
 
