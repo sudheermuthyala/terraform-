@@ -3,7 +3,7 @@ data "aws_ami" "amzlinux" {
   /*
   without most resent Aurgement
   # most_recent = true //│ Error: Your query returned more than one result. Please try a more specific search criteria, or set `most_recent` attribute to true.
-
+*/
   owners = [ "amazon" ]
   filter {
     name = "name"
