@@ -9,7 +9,7 @@ data "aws_ami" "amzlinux" {
 
   filter {
     name = "root-device-type"
-    values = [ "ebs" ]]
+    values = [ "ebs" ]
   }
 
   filter {
