@@ -27,5 +27,5 @@ resource "aws_instance" "myVM" {
     "Name" = "murali-terraform"
   }
 
-  
+  ami-052cef05d01020f1d
 }
