@@ -25,7 +25,7 @@ resource "aws_instance" "myVM" {
   instance_type = "t2.micro"
   #availability_zone = "us-east-1b"
   lifecycle {
-    
+    create_before_destroy = false
   }
   
 
