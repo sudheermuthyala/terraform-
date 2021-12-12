@@ -25,4 +25,5 @@
 ## Terraform Remote State File with State Locking 
 - Note all Backend support State locking. AWS S3 supports State Locking 
 - State locking happens automatically on all operations that could `write state.` ex: terraform apply terraform destroy 
-- if State locking Fails, Terraform will not continue.
+- If State locking Fails, Terraform will not continue.
+- 
