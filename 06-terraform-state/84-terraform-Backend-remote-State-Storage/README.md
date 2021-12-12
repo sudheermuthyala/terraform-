@@ -11,7 +11,7 @@
 **with the local state file**
 - Multiple Team Members cannot update the infrastructure as they don't have asscess to state file.
 - This means we need to store State file in a shared location.
-  **Local State File**
-    - ![img.png](img.png)
+  - **Local State File**
+    ![img.png](img.png)
 
 
