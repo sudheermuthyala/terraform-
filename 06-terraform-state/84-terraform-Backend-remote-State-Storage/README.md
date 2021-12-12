@@ -5,6 +5,6 @@
 
 ## In Terraform Backend Prospotive we have two things 
   - Terraform State storage to store in **AWS S3 BUCKET**
-  - Terraform State Locking 
+  - Terraform State Locking  
 
 
