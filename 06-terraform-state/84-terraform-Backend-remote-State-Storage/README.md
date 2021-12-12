@@ -32,4 +32,5 @@
 - Terraform has a force-unlock command to manual Unlock the state if unlocking failed.
 ## Terraform remote state file with state locking
   ![img_2.png](img_2.png)
-  
+
+##
