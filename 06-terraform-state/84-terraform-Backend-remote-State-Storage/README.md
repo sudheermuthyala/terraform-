@@ -17,7 +17,7 @@
 
 **Using the Remote State Sorage**
 - Using terraform Backend Concept we can use `AWS S3` as the shared storage for state file
-- If two team members are running the terraform at the same time, you may run into race conditions as multiple Terraform Processes make concorrent updates to the state files, leadin to `conflicts`, `data lost`, and state file curruption.
+- If two team members are running the terraform at the same time, you may run into race conditions as multiple Terraform Processes make concorrent updates to the state files, leadin to `conflicts`, `data lost`, and state file `curruption`.
 - implementing state locking 
 ## Remote state file
   ![img_1.png](img_1.png)
