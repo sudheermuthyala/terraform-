@@ -29,4 +29,5 @@
 - you can disable state locking for most commands with the lockflag butit is not recommended.
 - if aquiring the lock is taking loger then expeted Terraform will output a status message.
 - If terraform does not output a message, state locking still occuring if your backend supports it.
-- Terraform has a force-unlock command to manual Unlock the state if unlocking faill
+- Terraform has a force-unlock command to manual Unlock the state if unlocking failed.
+  
