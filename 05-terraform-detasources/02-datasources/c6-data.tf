@@ -6,4 +6,8 @@ data "aws_ami" "amzlinux" {
       name = "name"
       values = [ "amzn2-ami-hvm-*" ]
   }
+
+  filter {
+    
+  }
 }
