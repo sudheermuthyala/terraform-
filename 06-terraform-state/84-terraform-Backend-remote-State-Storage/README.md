@@ -15,5 +15,5 @@
 ## Local State File
   ![img.png](img.png)
 
-**Using **
+**Using the Remote StateSorage**
 
