@@ -1,4 +1,4 @@
 ## Terraform Backend remote state storage
 - what is a terraform Backend ?
   - Backends are responsible for storing the state
-  - And providing an API for State locking 
+  - And providing an API for State locking.
