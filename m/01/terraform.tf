@@ -9,4 +9,8 @@ terraform {
   }
 }
 
-# prov
+# provider Block
+
+provider "" {
+  
+}
