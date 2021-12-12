@@ -28,4 +28,4 @@
 - If State locking Fails, Terraform will not continue.
 - you can disable state locking for most commands with the lockflag butit is not recommended.
 - if aquiring the lock is taking loger then expeted Terraform will output a status message.
-- If terraform does not output a message, state locking 
+- If terraform does not output a message, state locking still occuring 
