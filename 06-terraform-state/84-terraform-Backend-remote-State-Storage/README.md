@@ -9,6 +9,6 @@
 
 ## What is the probleam with the local state file and how we resolve it with Remote state file
 **with the local state file**
-- Multiple Team Members cannot update the infrastructure as they don't have 
+- Multiple Team Members cannot update the infrastructure as they don't have asscess 
 
 
