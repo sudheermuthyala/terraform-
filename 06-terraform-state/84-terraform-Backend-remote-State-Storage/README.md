@@ -13,6 +13,7 @@
 - This means we need to store State file in a shared location.
 
 ## Local State File
-    ![img.png](img.png)
+
+![img.png](img.png)
 
 
