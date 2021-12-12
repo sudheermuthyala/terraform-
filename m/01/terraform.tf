@@ -12,5 +12,5 @@ terraform {
 # provider Block
 
 provider "aws" {
-  profile = ""
+  profile = "default"
 }
