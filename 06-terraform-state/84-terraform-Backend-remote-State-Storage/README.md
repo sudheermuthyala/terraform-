@@ -27,4 +27,5 @@
 - State locking happens automatically on all operations that could `write state.` ex: terraform apply terraform destroy 
 - If State locking Fails, Terraform will not continue.
 - you can disable state locking for most commands with the lockflag butit is not recommended.
-- if aquiring the lock is taking loger then expeted Terraform will output a status message
+- if aquiring the lock is taking loger then expeted Terraform will output a status message.
+- 
