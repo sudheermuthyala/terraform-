@@ -5,7 +5,7 @@ variable "aws_region" {
   type = string
   default = "us-east-1"
 }
-/* commented as we are going to get AMI ID from data resources aws_ami
+/* commented as we are going to get AMI ID from Datasources aws_ami
 # amiid
 variable "ec2_ami_id" {
   description = "AMI_ID"
