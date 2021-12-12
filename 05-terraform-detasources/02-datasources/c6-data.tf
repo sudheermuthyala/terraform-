@@ -13,6 +13,6 @@ data "aws_ami" "amzlinux" {
   }
 
   filter {
-    
+    name = "virtuali"
   }
 }
