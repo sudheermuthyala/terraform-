@@ -1,5 +1,5 @@
 data "aws_ami" "amzlinux" {  
-  mo
+  most_recent = true
   owner = [ "amazon" ]
 
   filter {
