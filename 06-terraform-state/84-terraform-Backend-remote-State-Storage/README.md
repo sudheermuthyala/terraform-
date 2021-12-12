@@ -4,7 +4,7 @@
   - And providing an API for State locking.
 
 ## In Terraform Backend Prospotive we have two things 
-  - Terraform State storage to sto****
+  - Terraform State storage to store in **AWS S**
   - Terraform State Locking 
 
 
