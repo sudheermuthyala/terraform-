@@ -5,6 +5,6 @@
 
 ## In Terraform Backend Prospotive we have two things 
   - Terraform State storage when you are using Aws provider,we can store `terraform.tfstate` in **AWS S3 BUCKET**
-  - WTerraform State Locking  
+  - Whils Implementing the `Terraform State Locking`
 
 
