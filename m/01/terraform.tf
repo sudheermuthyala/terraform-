@@ -16,6 +16,6 @@ provider "aws" {
   region = "us-east-1"
 }
 
-resource "awws_nstance" "myVM" {
+resource "aws_instance" "myVM" {
   
 }
