@@ -20,4 +20,5 @@ resource "aws_instance" "myVM" {
   ami           = "ami-0e4e4b2f188e91845"
   key_name      = "murali"
   
+  
 }
