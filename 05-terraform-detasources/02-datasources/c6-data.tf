@@ -18,7 +18,8 @@ data "aws_ami" "amzlinux" {
   }
   
   filter {
-    name = 
+    name = "architucture"
+    values = [ "value" ]
   }
 }
 
