@@ -27,4 +27,5 @@
 
 # State Locking 
 - state locking is to prevent the conflicts and inconsistensies when operation are being preformed 
-# - opreations
+#
+# opreations
