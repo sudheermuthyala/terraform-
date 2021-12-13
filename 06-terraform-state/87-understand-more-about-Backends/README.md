@@ -19,3 +19,4 @@
 ## Terraform backend can see in three dimentional way
 - Store State
 - State Locking 
+- opreations
