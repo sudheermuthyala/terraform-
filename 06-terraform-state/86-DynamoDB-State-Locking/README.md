@@ -22,7 +22,7 @@
   }
 ```
 
-## Step-14: Execute Terraform Commands
+## Step-4: Execute Terraform Commands
 ```t
 # Initialize Terraform 
 terraform init
