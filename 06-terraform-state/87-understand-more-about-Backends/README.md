@@ -44,3 +44,4 @@
 ## Terraform Backend
 ![img.png](img.png)
 
+## Backend Types 
