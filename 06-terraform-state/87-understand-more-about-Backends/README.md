@@ -4,7 +4,3 @@
 
 **Wher this backends are used**
 - terraform backend configuration is only used by terraform CLI
-## Terraform Execution also do using by.
-- Terraform CLI
-- Terraform cloud
-- Terraform Enterprise
