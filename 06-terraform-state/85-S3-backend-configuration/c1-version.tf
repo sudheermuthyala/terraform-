@@ -9,7 +9,7 @@ terraform {
   }
   backend "s3" {
     bucket = "terraformsu"
-    key    = "path/to/my/key"
+    key    = "terraformsu/dev"
     region = "us-east-1"
   }
 }
