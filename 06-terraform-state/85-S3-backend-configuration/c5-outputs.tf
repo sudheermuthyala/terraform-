@@ -9,5 +9,6 @@ output "ec2_instance_private_ip" {
 }
 
 output "ec2_public_dns" {
+  description = "ec2_instance_private"
   value = aws_instance.MY_ec2_VM.public_dns
 }
