@@ -12,7 +12,7 @@ terraform {
     bucket = "terraformsu"
     key    = "dev/terraform.tfstate"
     region = "us-east-1"
-  # For State Locking
+  # For State Locking Dy
   }
 }
 
