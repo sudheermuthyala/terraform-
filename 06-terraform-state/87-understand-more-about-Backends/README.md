@@ -29,4 +29,4 @@
 - state locking is to prevent the conflicts and inconsistensies when operation are being preformed 
 
 ## opreations
-- operations refers to performing API requests against infrastructure services in order to create 
+- operations refers to performing API requests against infrastructure services in order to create read update 
