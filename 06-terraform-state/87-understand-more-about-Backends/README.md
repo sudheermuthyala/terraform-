@@ -23,4 +23,4 @@
 
 # Store State
 - Terraform uses Persistent state data to keep track of the resources it manages.
-- Everyone  
+- Everyone working with a given
