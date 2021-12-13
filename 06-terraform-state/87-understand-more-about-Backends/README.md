@@ -9,4 +9,4 @@
 
 **Wher this backends are used**
 - terraform backend configuration is only used by terraform CLI
-- Terraform cloud and terraform 
+- Terraform cloud and terraform Enterprise a
