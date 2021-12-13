@@ -41,7 +41,7 @@
         - s3-backend, wher you cannot perform operations 
         - terraform cloud inside the terraform cloud perform the operations ina detail maner 
         - The remote backend can perform API operations remotely using Terraform cloud or terraform enterprise.
-            - sudheer n
+            - sudheer naidu
 ## Terraform Backend
 ![img.png](img.png)
 
