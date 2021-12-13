@@ -18,4 +18,4 @@
     - where operations are performed 
 ## Terraform backend can see in three dimentional way
 - Store State
-- Store 
+- State Locking 
