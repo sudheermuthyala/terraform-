@@ -120,7 +120,7 @@ terraform destroy -auto-approve
 ```t
   # Adding Backend as S3 for Remote State Storage with State Locking
   backend "s3" {
-    bucket = "terraform"
+    bucket = "terraform-s3"
     key    = "dev2/terraform.tfstate"
     region = "us-east-1"  
 
