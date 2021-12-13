@@ -32,3 +32,5 @@
 - operations refers to performing API requests against infrastructure services in order to create read update and destroy resources.
     - What are Operations ?
         - terraform apply 
+        - terraform destroy 
+        
