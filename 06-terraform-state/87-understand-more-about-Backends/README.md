@@ -15,4 +15,4 @@
 ## What Backend do.
 - Ther are two things backends will be used for
     - where state is stored 
-    - where
+    - where operations are performed 
