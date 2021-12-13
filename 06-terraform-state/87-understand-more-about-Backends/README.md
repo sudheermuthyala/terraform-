@@ -36,4 +36,4 @@
 
 - Not every terraform subccommands performs API operations; may of them only operate on a state Data.
 - only two backens actually perform operations local and remote 
-    - local means where your terraform.tfstate file is avilla
+    - local means where your terraform.tfstate file is avillable in your system
