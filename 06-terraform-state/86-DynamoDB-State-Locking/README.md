@@ -43,7 +43,7 @@ bucket-name/dev2/terraform.tfstate
 Observation: New version of terraform.tfstate file will be created in dev2 folder
 ```
 
-## Step-11: Destroy Resources
+## Step-5: Destroy Resources
 - Destroy Resources and Verify Bucket Versioning
 ```t
 # Destroy Resources
