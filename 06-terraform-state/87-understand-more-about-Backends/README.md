@@ -22,4 +22,4 @@
 - opreations
 
 # Store State
--  
+- Terraform uses 
