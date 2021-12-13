@@ -17,4 +17,4 @@
     - where state is stored 
     - where operations are performed 
 ## Terraform backend can see in three dimentional way
-- 
+- Store 
