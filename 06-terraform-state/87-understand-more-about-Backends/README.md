@@ -13,4 +13,4 @@
 - Some command like `terraform taint` which can executed only using terraform CLI
 
 ## What Backend do.
-- ther are two things 
+- ther are two things backends
