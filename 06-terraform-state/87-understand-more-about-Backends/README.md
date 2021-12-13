@@ -1,3 +1,3 @@
 ## Terraform Backend 
 
-- terraform configuration 
+- Each Terraform Configuration 
