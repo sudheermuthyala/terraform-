@@ -12,3 +12,4 @@
 - From Terraform colud users alsp always recomended to use backend block in terraform configuration 
 - Some command like `terraform taint` which can executed only using terraform CLI
 
+## What Backend do.
