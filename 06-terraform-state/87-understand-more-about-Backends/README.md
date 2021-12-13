@@ -34,4 +34,4 @@
         - terraform apply 
         - terraform destroy 
 
-- Not every terraform subccommands performs API operations; may of them only 
+- Not every terraform subccommands performs API operations; may of them only operate on a
