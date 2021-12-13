@@ -39,4 +39,4 @@
     - `local` means where your terraform.tfstate file is avillable in your system 
     - `Remote` here is a 2-types
         - s3-backend, wher you cannot perform operations 
-        - terraform cloud
+        - terraform cloud ins
