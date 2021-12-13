@@ -8,6 +8,6 @@ output "ec2_instance_private_ip" {
   value = aws_instance.MY_ec2_VM.private_ip
 }
 
-output "ec2_publicdns" {
+output "ec2_publicd" {
   
 }
