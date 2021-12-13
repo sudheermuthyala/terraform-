@@ -46,4 +46,8 @@
 
 ## Backend Types 
 - Enhanced Backends 
+  - local
+  - remote
 - Standard Backends
+  - s3 
+![img_1.png](img_1.png)
