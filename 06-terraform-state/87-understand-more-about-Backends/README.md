@@ -23,4 +23,4 @@
 
 # Store State
 - Terraform uses Persistent state data to keep track of the resources it manages.
-- Everyone working with a given collection of infrastructure resources must be able to access the asme state data.(shared stat)
+- Everyone working with a given collection of infrastructure resources must be able to access the asme state data.(shared state storage).
