@@ -35,4 +35,4 @@
         - terraform destroy 
 
 - Not every terraform subccommands performs API operations; may of them only operate on a state Data.
-- only two backens actually performance 
+- only two backens actually perform operations
