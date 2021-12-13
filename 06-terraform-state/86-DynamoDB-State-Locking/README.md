@@ -1,14 +1,14 @@
-## Step-07: Terraform State Locking Introduction
+## Step-01: Terraform State Locking Introduction
 - Understand about Terraform State Locking Advantages
 
-## Step-08: Add State Locking Feature using DynamoDB Table
+## Step-02: Add State Locking Feature using DynamoDB Table
 - Create Dynamo DB Table
   - **Table Name:** terraform-dev-state-table
   - **Partition key (Primary Key):** LockID (Type as String)
   - **Table settings:** Use default settings (checked)
   - Click on **Create**
 
-## Step-09: Update DynamoDB Table entry in backend in c1-versions.tf
+## Step-03: Update DynamoDB Table entry in backend in c1-versions.tf
 - Enable State Locking in `c1-versions.tf`
 ```t
   # Adding Backend as S3 for Remote State Storage with State Locking
@@ -22,7 +22,7 @@
   }
 ```
 
-## Step-10: Execute Terraform Commands
+## Step-14: Execute Terraform Commands
 ```t
 # Initialize Terraform 
 terraform init
