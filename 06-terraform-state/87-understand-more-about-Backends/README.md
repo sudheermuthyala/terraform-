@@ -9,4 +9,4 @@
 
 **Wher this backends are used**
 - terraform backend configuration is only used by terraform CLI
-- Terraform cloud and terraform Enterprise always use their own state storage when prompting the run,so they ignore  any backend block in the configuration.
+- Terraform `cloud` and terraform `Enterprise` always use their own state storage when prompting the run,so they ignore  any backend block in the configuration.
