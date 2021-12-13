@@ -13,6 +13,9 @@ terraform {
     key    = "dev/terraform.tfstate"
     region = "us-east-1"
 
+    # For State Locking in Dynamodb_Table
+  dynamodb_table = "terraform_dheer_devops"
+
   
   }
 }
