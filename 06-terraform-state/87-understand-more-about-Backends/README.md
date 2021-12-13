@@ -26,3 +26,4 @@
 - Everyone working with a given collection of infrastructure resources must be able to access the asme state data.(shared state storage).
 
 # State Locking 
+- state locking is 
