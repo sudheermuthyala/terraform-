@@ -7,6 +7,9 @@ terraform {
         source = "hashicorp/aws"
     }
   }
+  backend "" {
+    
+  }
 }
 
 #provider block
