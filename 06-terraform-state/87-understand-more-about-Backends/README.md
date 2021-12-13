@@ -40,4 +40,4 @@
     - `Remote` here is a 2-types
         - s3-backend, wher you cannot perform operations 
         - terraform cloud inside the terraform cloud perform the operations ina detail maner 
-        - The remote backend can perform API operations remotely
+        - The remote backend can perform API operations remotely using the
