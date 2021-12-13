@@ -9,5 +9,5 @@ output "ec2_instance_private_ip" {
 }
 
 output "ec2_public_dns" {
-  descriptin
+  descriptin  = "p"
 }
