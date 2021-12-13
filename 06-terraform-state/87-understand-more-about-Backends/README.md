@@ -22,4 +22,4 @@
 - opreations
 
 # Store State
-- Terraform uses Persista 
+- Terraform uses Persistent state  
