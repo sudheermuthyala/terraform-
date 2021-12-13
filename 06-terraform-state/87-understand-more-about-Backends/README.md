@@ -11,4 +11,4 @@
 - terraform backend configuration is only used by terraform CLI
 - `Terraform cloud` and `terraform Enterprise` always use their own state storage when prompting the run,so they ignore  any backend block in the configuration.
 - From Terraform colud users alsp always recomended to use backend block in terraform configuration 
-- Some command like `terraform taint` which can executed only 
+- Some command like `terraform taint` which can executed only using terraform CLI
