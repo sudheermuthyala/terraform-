@@ -9,6 +9,5 @@ output "ec2_instance_private_ip" {
 }
 
 output "ec2_public_dns" {
-  descriptin  = "public_Dns"
   value = aws_instance.MY_ec2_VM.public_dns
 }
