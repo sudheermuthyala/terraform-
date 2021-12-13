@@ -22,4 +22,4 @@
 - opreations
 
 # Store State
-- Terraform uses Persistent state data to keep track  
+- Terraform uses Persistent state data to keep track of 
