@@ -4,4 +4,4 @@
   - terraform show 
   - terraform refresh
   - terraform plan (internally calles refresh)
-  - terraform re
+  - terraform state
