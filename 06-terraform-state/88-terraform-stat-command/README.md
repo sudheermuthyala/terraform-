@@ -1,3 +1,3 @@
 ## Terraform State Command
 ## step-1: Introduction 
-- Terraform commands
+- Terraform Commands
