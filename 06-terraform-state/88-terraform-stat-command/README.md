@@ -3,4 +3,4 @@
 - Terraform Commands
   - terraform show 
   - terraform refresh
-  - terraform plan (internally)
+  - terraform plan (internally calles refresh)
