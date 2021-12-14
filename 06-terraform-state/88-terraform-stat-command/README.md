@@ -8,4 +8,4 @@
   - terraform force-unlock
   - terraform taint
   - terraform untaint
-  - terraform 
+  - terraform apply
