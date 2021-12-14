@@ -3,4 +3,4 @@
 - Terraform Commands
   - terraform show 
   - terraform refresh
-  - terrafdo
+  - terraform plan 
