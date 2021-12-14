@@ -8,4 +8,5 @@
   - terraform force-unlock
   - terraform taint
   - terraform untaint
-  - terraform apply targetcommand
+  - terraform apply target Command
+  
