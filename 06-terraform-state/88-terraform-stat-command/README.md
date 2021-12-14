@@ -6,4 +6,4 @@
   - terraform plan (internally calles refresh)
   - terraform state
   - terraform force-unlock
-  
+  - terraform 
