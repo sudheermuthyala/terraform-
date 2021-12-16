@@ -2,7 +2,7 @@
 resource "aws_instance" "MY_ec2_VM" {
     ami = data.aws_ami.amzlinux.id
     instance_type = var.ec2_instance_type 
-    key_name = "terraform-k"
+    key_name = "terraform"
     #count = var.ec2_count
     vpc_security_group_ids = [ aws_security_group.allow_ssh.id,  aws_security_group.vpc-web.id ]
     #user_data = file("apache-install.sh")
