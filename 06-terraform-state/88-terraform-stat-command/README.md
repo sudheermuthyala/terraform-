@@ -2,7 +2,7 @@
 ## step-1: Introduction 
 - Terraform Commands
   - terraform plan  -out=plan.out [This will store output of that terraform configuration into plan.out]
-  - terraform show 
+  - terraform show The `terraform show` command is used to provide human-readable output from a state or plan file. This can be used to inspect a plan to ensure that the
   - terraform refresh
   - terraform plan (internally calles refresh)
   - terraform state
