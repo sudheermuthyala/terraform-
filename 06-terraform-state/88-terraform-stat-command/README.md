@@ -1,7 +1,7 @@
 ## Terraform State Command
 ## step-1: Introduction 
 - Terraform Commands
-  - terraform plan -out=plan.out 
+  - terraform plan -out=plan.out [this will store ]
   - terraform show 
   - terraform refresh
   - terraform plan (internally calles refresh)
