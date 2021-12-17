@@ -3,7 +3,7 @@
 - [Terraform State Replace Provider](https://www.terraform.io/docs/cli/commands/state/replace-provider.html)
 
 
-### Step-05-05: Terraform State pull / push command
+# Terraform State pull / push command
 - This command comes under **Terraform Disaster Recovery Concept**
 - **terraform state pull:** 
   - The `terraform state pull` command is used to manually download and output the state from remote state.
