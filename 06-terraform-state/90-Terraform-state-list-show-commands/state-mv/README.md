@@ -4,4 +4,4 @@
 - This command can also move to a destinantion address in a completely diferent state file 
 - This is a Dangerous Command 
 - very advanced usage command 
-- results will be unpredictable if concept is not clear about terraform state 
+- results will be unpredictable if concept is not clear about terraform state files mainle 
