@@ -4,4 +4,4 @@
 - This command can also move to a destinantion address in a completely diferent state file 
 - This is a Dangerous Command 
 - very advanced usage command 
-- results will be unpri
+- results will be unpredictable 
