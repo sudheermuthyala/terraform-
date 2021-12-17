@@ -24,7 +24,7 @@ terraform  state show aws_instance.my-ec2-vm
 - **NOTE:**  this will remove the resource from terraform state,form now terraform is not responsible for current state resurce it's manage only terraform state 
 
 # After **Terraform state rm** and after given **Terraform plan**
-**Observation:** This will 
+**Observation:** This will cr
 ```t
 Plan: 1 to add, 0 to change, 0 to destroy.
 
