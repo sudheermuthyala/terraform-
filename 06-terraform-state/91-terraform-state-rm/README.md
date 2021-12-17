@@ -12,5 +12,5 @@
 terraform  state show data.aws_ami.amzlinux
 terraform  state show aws_instance.my-ec2-vm
 
-
+# terraform ****
 terraform state rm -dry-run aws_instance.MY_ec2_VM
