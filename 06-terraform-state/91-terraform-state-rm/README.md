@@ -21,4 +21,4 @@ terraform  state show aws_instance.my-ec2-vm
 - **output:** 
           Removed aws_instance.MY_ec2_VM
           Successfully removed 1 resource instance(s).
-- **NOTE:**  this wil
+- **NOTE:**  this will remove the resour
