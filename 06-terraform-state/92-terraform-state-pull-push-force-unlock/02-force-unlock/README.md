@@ -1,4 +1,4 @@
-## Step-06: Terraform force-unlock command
+## Terraform force-unlock command
 - This command comes under **Terraform Disaster Recovery Concept**
 - Manually unlock the state for the defined configuration.
 - This will not modify your infrastructure. 
