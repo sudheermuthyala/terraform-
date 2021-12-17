@@ -8,6 +8,7 @@
 # List resources form terraform state 
   terraform state list 
 
-# Show the attributes from the single resource 
+# Show the attributes from the single resource form terraform state file
+  t
 
 ```
