@@ -26,6 +26,13 @@ terraform  state show aws_instance.my-ec2-vm
 # After **Terraform state rm** and after given **Terraform plan**
 **Observation:**
 ```t
+Plan: 1 to add, 0 to change, 0 to destroy.
+
+Changes to Outputs:
+  ~ ec2_instance_private_ip  = "172.31.7.207" -> (known after apply)
+  ~ ec2_instancnce_public-ip = "3.215.153.176" -> (known after apply)
+  ~ ec2_public_dns           = "ec2-3-215-153-176.compute-1.amazonaws.com" -> (known after apply)
+
 
 ```
 
