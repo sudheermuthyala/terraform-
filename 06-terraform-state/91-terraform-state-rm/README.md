@@ -14,4 +14,4 @@ terraform  state show aws_instance.my-ec2-vm
 
 # terraform **-dry-run**
 - **command:** terraform state rm -dry-run aws_instance.MY_ec2_VM
-- **output:**  
+- **output:**  Would remove aws_instance.MY_ec2_VM
