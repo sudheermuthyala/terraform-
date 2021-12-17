@@ -13,11 +13,8 @@ terraform {
 #     bucket = "terraformsud"
 #     key    = "qa/terraform.tfstate"
 #     region = "us-east-1"
-
 #     # For State Locking in Dynamodb_Table
 #     dynamodb_table = "terraformdheeropsdev"
-
-  
 #   }
 }
 
