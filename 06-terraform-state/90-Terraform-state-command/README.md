@@ -1,2 +1,2 @@
 ## Terraform State command
-- **terraform state** terraform state command query your terraform 
+- **terraform state** terraform state command query your terraform.tfstate file
