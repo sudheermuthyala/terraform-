@@ -6,6 +6,6 @@
 
 ```t
 # List resources form terraform state 
-  terraform state lis
+  terraform state list 
 
 ```
