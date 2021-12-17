@@ -23,4 +23,4 @@ terraform  state show aws_instance.my-ec2-vm
           Successfully removed 1 resource instance(s).
 - **NOTE:**  this will remove the resource from terraform state,form now terraform is not responsible for current state resurce it's manage only terraform state 
 
-# 
+# Observation 
