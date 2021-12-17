@@ -25,7 +25,9 @@ terraform  state show aws_instance.my-ec2-vm
 
 # After **Terraform state rm** and after given **Terraform plan**
 **Observation:**
+```t
 
+```
 
 
 
