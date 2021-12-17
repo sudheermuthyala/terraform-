@@ -1,2 +1,2 @@
 ## Terraform State mv command
-- this command comes under Terraform Moving Resources
+- This command comes under `Terraform Moving Resources`
