@@ -18,4 +18,4 @@ terraform  state show aws_instance.my-ec2-vm
 
 #  Remove Resource from Terraform state
 - **command:**  terraform state rm aws_instance.MY_ec2_VM
-- **output**
+- **output:** 
