@@ -57,6 +57,6 @@ resource "aws_security_group" "vpc-web" {
   }
 
   tags = {
-    Name = "allow_ssh_httpd"
+    Name = "allow_httpd"
   }
 }
