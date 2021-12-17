@@ -10,6 +10,6 @@
 
 # Show the attributes from the single resource form terraform state file
 - terraform state show aws_instance.MY_ec2_VM
-- terraform state show aws_security_group.
+- terraform state show aws_security_group.allow_ssh
 
 ```
