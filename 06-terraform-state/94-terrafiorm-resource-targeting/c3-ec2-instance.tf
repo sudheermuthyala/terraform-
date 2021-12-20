@@ -18,7 +18,7 @@ resource "aws_instance" "MY_ec2_VM" {
     tags = {
       "Name" = "webserver"
       "demotag"  = "refreshtags"
-      "target" = "Target-Test-1"   // Adding New Tags
+      "target" = "Target-Test-1"   // Adding New Tags for 
 
     }
   
