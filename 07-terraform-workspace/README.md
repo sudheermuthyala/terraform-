@@ -8,3 +8,6 @@
 
 - terraform will not recommend using workspace for large infrastructure inline with envinorment patter like dev,qa,staging.Recomended to use seperate configuration directories
 - terraform CLI completly different from terraform Cloud workspaces
+
+
+### terraform wo
