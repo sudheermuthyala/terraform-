@@ -64,5 +64,5 @@ ingress {
   }
   tags = {
     Name = "allow_httpd"
-      }
+  }
 }
