@@ -10,4 +10,4 @@
 - terraform CLI completly different from terraform Cloud workspaces
 
 
-### terraform wo
+### terraform workspace commands
