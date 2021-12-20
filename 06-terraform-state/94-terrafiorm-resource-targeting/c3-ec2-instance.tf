@@ -23,3 +23,11 @@ resource "aws_instance" "MY_ec2_VM" {
     }
   
 }
+
+resource "aws_instance" "my-demo-vm" {
+  ami           = data.aws_ami.amzlinux.id 
+  instance_type = var.instance_type
+  tags = {
+    "Name" = "demo-vm1"
+  }
+}
