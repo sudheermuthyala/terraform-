@@ -7,3 +7,4 @@
 - For example, a developer working on a complex set of infrastructure chainges might create a new temporary workspace in order to freely experment with changes without effectin the default workspace 
 
 - terraform will not recommend using workspace for large infrastructure inline with envinorment patter like dev,qa,staging.Recomended to use seperate configuration directories
+- terraform CLI completly different 
