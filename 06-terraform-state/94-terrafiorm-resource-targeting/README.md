@@ -1,5 +1,5 @@
 ## Terraform resource targetting -plan,Apply (-target) Option 
-## Step-08: Terraform Resource Targeting - Plan, Apply (-target) Option
+##Terraform Resource Targeting - Plan, Apply (-target) Option
 - The `-target` option can be used to focus Terraform's attention on only a subset of resources. 
 - [Terraform Resource Targeting](https://www.terraform.io/docs/cli/commands/plan.html#resource-targeting)
 - This targeting capability is provided for exceptional circumstances, such as recovering from mistakes or working around Terraform limitations.
