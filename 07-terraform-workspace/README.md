@@ -1,2 +1,2 @@
 # Terraform Workspace 
-- terraform starts with a 
+- terraform starts with a single workspace named **de**
