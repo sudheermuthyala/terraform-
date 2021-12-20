@@ -11,6 +11,7 @@
 
 
 ### terraform workspace - cli based
+- ![img.png](img.png)
 ### terraform workspace commands 
 - terraform workspace show 
 - terraform workspace list 
