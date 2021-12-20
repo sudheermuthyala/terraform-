@@ -25,8 +25,6 @@ resource "aws_instance" "MY_ec2_VM" {
 }
 
 #3) It is not touching the new resource which we are creating now. It will be in terraform configuration but not getting provisioned when we are using -target
-
-
 resource "aws_instance" "my-demo-vm" {
   ami           = data.aws_ami.amzlinux.id 
   instance_type = var.ec2_instance_type   
