@@ -10,7 +10,7 @@
 - terraform CLI completly different from terraform Cloud workspaces
 
 
-### terraform workspace 
+### terraform workspace - cli based
 ### terraform workspace commands 
 - terraform workspace show 
 - terraform workspace list 
