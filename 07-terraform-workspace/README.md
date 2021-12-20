@@ -18,5 +18,7 @@
 - terraform workspace new
 - terraform workspace select
 - terraform workspace delete
-##
+## usecase
+- local backend
+- remo
  
