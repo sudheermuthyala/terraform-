@@ -6,4 +6,4 @@
 - the comman use for multiple workspace is to create a parallel distinct copy of set of infrastructure in order to test a set of chainges before modifying the main production infrastructure 
 - For example, a developer working on a complex set of infrastructure chainges might create a new temporary workspace in order to freely experment with changes without effectin the default workspace 
 
-- terraform will not recomend using workspace for large innfra
+- terraform will not recomend using workspace for large in
