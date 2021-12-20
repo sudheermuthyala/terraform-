@@ -18,7 +18,7 @@
 - terraform workspace new
 - terraform workspace select
 - terraform workspace delete
-
+![img_1.png](img_1.png)
 ## usecase
 - local backend
 - remote backend
