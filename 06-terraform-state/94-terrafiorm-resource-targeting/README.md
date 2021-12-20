@@ -9,7 +9,7 @@
 # Lets make two changes
 Change-1: Add new tag in c3-ec2-instance.tf
     "target" = "Target-Test-1"
-Change-2: Add additional inbound rule in "vpc-web" security group for port 8080
+Change-2: Add additional inbound rule in "vp" security group for port 8080
   ingress {
     description = "Allow Port 8080"
     from_port   = 8080
