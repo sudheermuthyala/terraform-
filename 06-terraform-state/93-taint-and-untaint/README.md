@@ -1,5 +1,3 @@
-```
-
 ## Step-07: Terraform taint & untaint commands
 -  These commands comes under **Terraform Forcing Re-creation of Resources**
 - When a resource declaration is modified, Terraform usually attempts to update the existing resource in place (although some changes can require destruction and re-creation, usually due to upstream API limitations).
