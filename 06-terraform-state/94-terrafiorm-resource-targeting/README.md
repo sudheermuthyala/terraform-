@@ -7,7 +7,7 @@
 - Instead of using `-target` as a means to operate on isolated portions of very large configurations, prefer instead to break large configurations into several smaller configurations that can each be independently applied.
 ```t
 # Lets make two changes
-Change-1: Add new tag in c4-ec2-instance.tf
+Change-1: Add new tag in c3-ec2-instance.tf
     "target" = "Target-Test-1"
 Change-2: Add additional inbound rule in "vpc-web" security group for port 8080
   ingress {
