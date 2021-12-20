@@ -20,5 +20,6 @@
 - terraform workspace delete
 ## usecase
 - local backend
-- remo
+- remote backend
+
  
