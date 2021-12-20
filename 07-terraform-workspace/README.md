@@ -14,5 +14,5 @@
 - terraform workspace show 
 - terraform workspace list 
 - terraform workspace new
-- terraform workso
+- terraform workspace 
  
