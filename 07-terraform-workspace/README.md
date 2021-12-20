@@ -10,5 +10,5 @@
 - terraform CLI completly different from terraform Cloud workspaces
 
 
+- terraform workspace show - terraform workspace show 
 ### terraform workspace commands 
-- terraform workspace show 
