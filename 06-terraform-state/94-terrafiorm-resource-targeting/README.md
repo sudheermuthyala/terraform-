@@ -45,4 +45,4 @@ terraform apply -target=aws_instance.my-ec2-vm-new
 
 
 ## what is terraform resource targetting 
-
+- 
