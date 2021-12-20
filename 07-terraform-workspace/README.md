@@ -13,4 +13,5 @@
 ### terraform workspace commands 
 - terraform workspace show 
 - terraform workspace list 
+- terraform workspace list 
  
