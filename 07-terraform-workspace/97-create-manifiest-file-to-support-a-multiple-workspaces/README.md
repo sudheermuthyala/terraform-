@@ -8,8 +8,8 @@
   - In the same way for EC2 VM Instance Name tag. 
 - Master the below listed `terraform workspace` commands
   - terraform workspace show        -> this will show current workspace
-  - terraform workspace list        -> This will list all a
-  - terraform workspace new
+  - terraform workspace list        -> This will list all avillable workspaces
+  - terraform workspace new         -> 
   - terraform workspace select
   - terraform workspace delete
 
