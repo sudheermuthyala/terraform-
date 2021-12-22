@@ -1,4 +1,4 @@
-## Step-05: Switch workspace and destroy resources
+## Switch workspace and destroy resources
 - Switch workspace from dev to default and destroy resources in default workspace
 ```t
 # Show current workspace
@@ -17,7 +17,7 @@ terraform destroy
 1) Verify in AWS Mgmt Console (both instances and security groups should be deleted)
 ```
 
-## Step-06: Delete dev workspace
+## Delete dev workspace
 - We cannot delete "default" workspace
 - We can delete workspaces which we created (dev, qa etc)
 ```t
