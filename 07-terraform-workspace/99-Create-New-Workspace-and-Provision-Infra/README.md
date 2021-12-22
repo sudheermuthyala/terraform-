@@ -15,7 +15,7 @@ cd ../../
 
 # Terraform Plan
 terraform plan
-Observation:  This should show us creating only 1 instance based on statement "count = terraform.workspace == "default" ? 2 : 1" as we are creating this in non-default workspace named dev
+Observation:  This should show us creating only 1 instance based on statement "count = terraform.workspace == "default" ? 2 : 1" as we are creating this in non-default workspace named dev ## this is a condition i am writing for to create instance according to the workspace
 
 # Terraform Apply
 terraform apply -auto-approve
