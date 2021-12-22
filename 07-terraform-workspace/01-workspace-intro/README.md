@@ -26,7 +26,7 @@
 
 ## what is a terraform Workspace ?
 **Ans :** - A developer is working a on complex set of infrastructure chainges 
-          - Might create Ne
+          - Might create New Tempory work space in order to freely exprement with chainges
 
 
 
