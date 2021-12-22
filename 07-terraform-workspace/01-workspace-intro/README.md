@@ -25,6 +25,6 @@
 
 
 ## what is a terraform Workspace ?
-**Ans:** 
+**Ans :**  
 
  
