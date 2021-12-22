@@ -7,4 +7,4 @@
 - remote-exec provisioner
 - local-exec Provisioner
 **Connection Block**
-- Most provisioners requires access to the remote resource vis ssh WinRM,it expect a nested connection block 
+- Most provisioners requires access to the remote resource vis ssh WinRM,it expect a nested connection block with details 
