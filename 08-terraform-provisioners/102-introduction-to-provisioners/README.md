@@ -22,4 +22,4 @@
 - This invokes a process on the machine running Terraform, not on the resource.
 ![img_3.png](img_3.png)
 ### Remote Exec Provisioner
-- The remote-
+- The remote-exec provisioner invokes 
