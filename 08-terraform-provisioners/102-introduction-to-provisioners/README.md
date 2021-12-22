@@ -23,4 +23,4 @@
 ![img_3.png](img_3.png)
 ### Remote Exec Provisioner
 - The remote-exec provisioner invokes a script on a remote resource after it is created 
-- This can be used to run a configuration 
+- This can be used to run a configuration management tool, 
