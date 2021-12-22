@@ -31,6 +31,7 @@ resource "aws_instance" "MY_ec2_VM" {
     password = ""
     private_key = file("private-key/terraform.pem")
   }
+ # Copies the application.html file to /tmp/file-copy.html
 
   provisioner "file" {
     source =  ""
