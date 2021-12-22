@@ -7,4 +7,4 @@
 - In Boath places terraform to connect to respective mechine and execute the commands in remote
 - we can have connection block inside resource block for all provisioners [or] we can have a connection block inside a provisioner block for that respetive provisioner 
 **Selfe Object**
-- **Important Techinical Note:** Resource reference are restricted hear because reference create dependencies
+- **Important Techinical Note:** Resource reference are restricted hear because reference create dependencies.
