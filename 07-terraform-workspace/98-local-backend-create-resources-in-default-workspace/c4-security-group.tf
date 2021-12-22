@@ -2,7 +2,7 @@
 # Create Security Group - SSH Traffic
 
 resource "aws_security_group" "allow_ssh" {
-  name        = "allow_ssh-${terraform.wor}"
+  name        = "allow_ssh-${terraform.workspace}"
   description = "Allow SSH inbound traffic"
 
   ingress {
