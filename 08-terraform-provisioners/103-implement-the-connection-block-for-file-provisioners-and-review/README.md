@@ -6,3 +6,4 @@
     - remote_exec       (remote_exec provisioner is to run the `scripts` or `commands` o the remote system )
 - In Boath places terraform to connect to respective mechine and execute the commands in remote
 - we can have connection block inside resource block for all provisioners [or] we can have a connection block inside a provisioner block for that respetive provisioner 
+**S**
