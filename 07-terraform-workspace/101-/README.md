@@ -12,7 +12,7 @@
     dynamodb_table = "terraform-dev-state-table"           
   }
 ```
-### Step-08-02: Provision infra using default workspace
+###  Provision infra using default workspace
 ```t
 # Initialize Terraform
 terraform init
@@ -38,7 +38,7 @@ terraform apply -auto-approve
 # Review State file in S3 Bucket for default workspace
 Go to AWS Mgmt Console -> Services -> S3 -> terraform-stacksimplify -> workspaces -> terraform.tfstate
 ```
-### Step-08-03: Create new workspace dev and provison infra using that workspace
+###  Create new workspace dev and provison infra using that workspace
 ```t
 # List Terraform Workspaces
 terraform workspace list
