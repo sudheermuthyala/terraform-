@@ -37,7 +37,7 @@ resource "aws_instance" "MY_ec2_VM" {
     source =  "Applications/application.html"
     destination = "/tmp/application.html"
   }
-
+  # Copies the string in content into /tmp/file.log
   provisioner "" {
     
   }
