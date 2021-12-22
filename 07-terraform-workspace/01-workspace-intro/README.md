@@ -25,7 +25,7 @@
 
 
 ## what is a terraform Workspace ?
-**Ans :**  A developer is working a on a default terraform configuration and he 
+**Ans :**  A developer is working a on complex set of a default terraform configuration and he 
 
 
 
