@@ -29,7 +29,7 @@ resource "aws_security_group" "allow_ssh" {
 # Create Security Group - Web Traffic
 
 resource "aws_security_group" "vpc-web" {
-  name        = "vpc-web-${terraform.worke}"
+  name        = "vpc-web-${terraform.workspace}"
   description = "Dev VPC Web"
 
   ingress {
