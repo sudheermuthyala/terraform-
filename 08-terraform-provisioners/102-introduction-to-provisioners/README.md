@@ -29,3 +29,4 @@
 ### Null-Resource & Provisioners
 - If you need to run provisioners `that aren't directly associated with a specificre source`. you can associate them with a `null_resource`
 - Instances of a null_resource are treated like normal resources, but they don't do anything 
+- same as other resources 
