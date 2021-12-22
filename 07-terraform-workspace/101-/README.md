@@ -1,5 +1,5 @@
-## Step-08: Terraform Workspaces in combination with Terraform Backend (Remote State Storage)
-### Step-08-01: Review terraform manifest (primarily c1-versions.tf)
+## Terraform Workspaces in combination with Terraform Backend (Remote State Storage)
+## Review terraform manifest (primarily c1-versions.tf)
 - **Reference Sub-Folder:** v2-remote-backend
 - Only change in the template is in **c1-versions.tf**, we will have the remote backend block which we learned during section **07-01-Terraform-Remote-State-Storage-and-Locking**
 ```t
@@ -62,7 +62,7 @@ terraform apply -auto-approve
 Go to AWS Mgmt Console -> Services -> S3 -> terraform-stacksimplify -> env:/ -> dev -> workspaces -> terraform.tfstate
 ```
 
-### Step-08-04: Destroy resources in both workspaces (default, dev)
+###Destroy resources in both workspaces (default, dev)
 
 ```t
 # Show current Terraform workspace
