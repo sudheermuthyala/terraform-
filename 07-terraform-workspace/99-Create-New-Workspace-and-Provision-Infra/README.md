@@ -1,4 +1,3 @@
-
 ## Create New Workspace and Provision Infra 
 ```t
 # Create New Workspace
