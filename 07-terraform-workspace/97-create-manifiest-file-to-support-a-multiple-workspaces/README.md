@@ -9,8 +9,8 @@
 - Master the below listed `terraform workspace` commands
   - terraform workspace show        -> this will show current workspace
   - terraform workspace list        -> This will list all avillable workspaces
-  - terraform workspace new         -> 
-  - terraform workspace select
+  - terraform workspace new         -> This will create new workspace
+  - terraform workspace select      -> 
   - terraform workspace delete
 
 
