@@ -7,7 +7,8 @@ terraform {
         source = "hashicorp/aws"
     }
   }
-  Adding Backend as S3 for Remote State Storage with State Locking
+  #Adding Backend as S3 for Remote State Storage with State Locking
+  
   backend "s3" {
     bucket = "terraformsud"
     key    = "qa/terraform.tfstate"
