@@ -26,3 +26,4 @@
 - The remote-exec provisioner invokes a script on a remote resource after it is created 
 - This can be used to run a configuration management tool,boot strap into a cluster,etc
 ![img_4.png](img_4.png)
+### Null-
