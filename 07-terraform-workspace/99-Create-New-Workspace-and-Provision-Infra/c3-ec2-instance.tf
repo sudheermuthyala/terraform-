@@ -1,6 +1,6 @@
 # Resource aws ec2_instance terraform
 resource "aws_instance" "MY_ec2_VM" {
-    count = terraform.workspace == "default" ? 2 : 1 ## this is a condition i am writing for to create instance according to the 
+    count = terraform.workspace == "default" ? 2 : 1 ## this is a condition i am writing for to create instance according to the env
     ami = data.aws_ami.amzlinux.id
     instance_type = var.ec2_instance_type 
     key_name = "terraform"
