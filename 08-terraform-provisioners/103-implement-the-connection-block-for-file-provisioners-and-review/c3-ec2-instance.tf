@@ -40,6 +40,6 @@ resource "aws_instance" "MY_ec2_VM" {
   # Copies the string in content into /tmp/file.log
   provisioner "file" {
     content = "ami used: ${self.ami}" # Understand What is "Self"
-    
+    destination = "/tmp"
   }
 }
