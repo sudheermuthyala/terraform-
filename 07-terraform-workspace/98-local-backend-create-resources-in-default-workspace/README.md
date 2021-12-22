@@ -57,4 +57,4 @@ Observation:
 1) Name should be with "vm-dev-0"
 2) Security Group names should be as "vpc-ssh-dev, vpc-web-dev"
 ```
-Create New Workspace and Provision Infra
+Create New Workspace and-Provision-Infra
