@@ -25,7 +25,8 @@
 
 
 ## what is a terraform Workspace ?
-**Ans :** -  A developer is working a on complex set of infrastructure chainges 
+**Ans :** - A developer is working a on complex set of infrastructure chainges 
+          - Might create Ne
 
 
 
