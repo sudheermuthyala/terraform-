@@ -129,4 +129,4 @@ Go to S3 Bucket and delete files
 - [Managing Workspaces](https://www.terraform.io/docs/cli/workspaces/index.html)
 
 
-terr Remote State Storage
+terraform Remote State Storage
