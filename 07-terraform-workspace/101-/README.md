@@ -62,7 +62,7 @@ terraform apply -auto-approve
 Go to AWS Mgmt Console -> Services -> S3 -> terraform-stacksimplify -> env:/ -> dev -> workspaces -> terraform.tfstate
 ```
 
-###Destroy resources in both workspaces (default, dev)
+### Destroy resources in both workspaces (default, dev)
 
 ```t
 # Show current Terraform workspace
@@ -86,7 +86,7 @@ terraform destroy -auto-approve
 # Delete Dev Workspace
 terraform workspace delete dev
 ```
-### Step-08-05: Try deleting default workspace and understand what happens
+###  Try deleting default workspace and understand what happens
 
 ```t
 # Try deleting default workspace
