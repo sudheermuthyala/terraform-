@@ -10,7 +10,7 @@
   - terraform workspace show        -> this will show current workspace
   - terraform workspace list        -> This will list all avillable workspaces
   - terraform workspace new         -> This will create new workspace
-  - terraform workspace select      -> This will selet the 
+  - terraform workspace select      -> This will mv to the 
   - terraform workspace delete
 
 
