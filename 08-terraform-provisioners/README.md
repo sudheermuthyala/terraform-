@@ -3,4 +3,4 @@
 
 ## Types of provisioners
 **provisioner types**
-- file proviso
+- file provisioner 
