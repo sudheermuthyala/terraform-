@@ -1,6 +1,6 @@
 ## My Observation
 ```
-- when we create a new workspace like ex: DEV this will create new directory called terraform.tfstate.d inside that we have a work space name 
+- when we create a new workspace like ex: DEV this will create new directory called terraform.tfstate.d inside that we have a workspace name 
 ```
 ## Create New Workspace and Provision Infra 
 ```t
