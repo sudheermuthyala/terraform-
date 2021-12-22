@@ -4,6 +4,6 @@
 - The connection Block is required, connection block is primarly thing we need to define when we define the provisioners. primarly for 
     - file provisioner  (filr provisiner is provisining the files in the remote system)
     - remote_exec       (remote_exec provisioner is to run the `scripts` or `commands` o the remote system )
-- In Boath places terraform to connect to respective systems 
+- In Boath places terraform to connect to respective mechine 
 - we can have connection block inside resource block for all provisioners [or] we can have a connection block inside a provisioner block for that respetive provisioner 
 - 
