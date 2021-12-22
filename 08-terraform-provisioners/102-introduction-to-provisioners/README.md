@@ -30,3 +30,4 @@
 - If you need to run provisioners `that aren't directly associated with a specificre source`. you can associate them with a `null_resource`
 - Instances of a `null_resource` are treated like normal resources, but they don't do anything 
 - same as other resources  you can configure `provisioners` and `conections` details on `Null_resource`
+![img_5.png](img_5.png) 
