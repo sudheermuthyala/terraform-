@@ -1,4 +1,4 @@
-## Step-03: Create resources in default workspaces
+## Create resources in default workspaces
 - Default Workspace: Every initialized working directory has at least one workspace. 
 - If you haven't created other workspaces, it is a workspace named **default**
 - For a given working directory, only one workspace can be selected at a time.
