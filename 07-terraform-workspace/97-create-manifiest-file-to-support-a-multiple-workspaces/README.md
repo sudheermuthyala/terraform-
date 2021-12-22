@@ -11,7 +11,7 @@
   - terraform workspace list        -> This will list all avillable workspaces
   - terraform workspace new         -> This will create new workspace
   - terraform workspace select      -> This will mv to current wokspace to anither workspcace
-  - terraform workspace delete      
+  - terraform workspace delete      -> This will delete the workspace
 
 
 ## Step-02: Update terraform manifests to support multiple workspaces
