@@ -7,7 +7,7 @@
   - Primarily for security group name to be unique for each workspace
   - In the same way for EC2 VM Instance Name tag. 
 - Master the below listed `terraform workspace` commands
-  - terraform workspace show        
+  - terraform workspace show        -> this will show current workspace
   - terraform workspace list
   - terraform workspace new
   - terraform workspace select
