@@ -24,6 +24,7 @@
 - remote backend
 
 
-what is a 
+## what is a terraform Workspace ?
+
 
  
