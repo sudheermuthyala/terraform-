@@ -41,5 +41,7 @@ resource "aws_instance" "MY_ec2_VM" {
   provisioner "file" {
     content = "ami used: ${self.ami}" # Understand What is "Self"
     destination = "/tmp/application_terraform.log"
+
   }
+  
 }
