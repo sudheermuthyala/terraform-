@@ -22,5 +22,7 @@ resource "aws_instance" "MY_ec2_VM" {
       # "target" = "Target-Test-1"   // Adding New Tags for -target 
 
     }
-  
+  connection {
+    
+  }
 }
