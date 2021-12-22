@@ -9,4 +9,4 @@
 **Selfe Object**
 - **Important Techinical Note:** Resource reference are restricted hear because reference create dependencies. Refering to a resource by name within it own block would create a dependency cycle(self.public_ip)
 - Expressions in provisioner blocks `cannot refer to their parrent resource name` instead,they can use the special **self object**.
-- 
+- The se
