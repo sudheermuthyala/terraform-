@@ -21,4 +21,4 @@
 - The local-exec provisioner invokes a local executible after a resource is created 
 - This invokes a process on the machine running Terraform, not on the resource.
 ![img_3.png](img_3.png)
-### Remote Exec Pro
+### Remote Exec Provisioner
