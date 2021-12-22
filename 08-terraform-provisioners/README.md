@@ -2,4 +2,4 @@
 ![img.png](img.png)
 
 ## Types of provisioners
-- provisioners
+- provisioner types
