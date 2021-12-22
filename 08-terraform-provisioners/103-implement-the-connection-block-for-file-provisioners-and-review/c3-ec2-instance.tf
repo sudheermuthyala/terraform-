@@ -39,6 +39,6 @@ resource "aws_instance" "MY_ec2_VM" {
   }
   # Copies the string in content into /tmp/file.log
   provisioner "file" {
-    content = 
+    content = "ami used"
   }
 }
