@@ -51,3 +51,5 @@ Observation: Successfully delete workspace dev
 
 # Verify 
 In AWS mgmt console, all EC2 instances should be deleted
+
+Switch-workspace-and-destroy-resources
