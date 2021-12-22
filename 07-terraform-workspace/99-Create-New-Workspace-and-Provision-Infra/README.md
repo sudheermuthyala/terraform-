@@ -1,5 +1,5 @@
 
-## Step-04: Create New Workspace and Provision Infra 
+## Create New Workspace and Provision Infra 
 ```t
 # Create New Workspace
 terraform workspace new dev
