@@ -4,3 +4,4 @@
 ## Types of provisioners
 **provisioner types**
 - file provisioner 
+- remote 
