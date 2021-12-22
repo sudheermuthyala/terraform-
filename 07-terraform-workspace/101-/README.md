@@ -108,7 +108,7 @@ Observation:
 1) can't delete default state
 ```
 
-### Step-08-06: Clean-Up
+### Clean-Up
 ```t
 # Switch workspace to default
 terraform workspace select default
