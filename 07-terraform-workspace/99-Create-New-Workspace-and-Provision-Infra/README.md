@@ -1,6 +1,6 @@
 ## My Observation
 ```
-- when we create a 
+- when we create a new workspace like ex: DEV this will create 
 ```
 ## Create New Workspace and Provision Infra 
 ```t
