@@ -18,4 +18,4 @@
 ![img_2.png](img_2.png)
 
 ### Local Exec Provisioner  
-- The local-exec provisioner inv  
+- The local-exec provisioner invokes
