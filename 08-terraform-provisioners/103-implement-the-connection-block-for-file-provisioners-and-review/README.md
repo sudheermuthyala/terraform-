@@ -12,5 +12,12 @@
 - The **self object**  represents the provisioner's parent resource, and has all of that resource's attributes
 
 ```t
-
+# Connection Block for Provisioners to connect to EC2 Instance
+  connection {
+    type = "ssh"
+    host = self.public_ip # Understand what is "self"
+    user = "ec2-user"
+    password = ""
+    private_key = file("private-key/terraform.pem")
+  }  
 ```
