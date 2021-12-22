@@ -43,5 +43,7 @@ resource "aws_instance" "MY_ec2_VM" {
     destination = "/tmp/application_terraform.log"
 
   }
+  # Copies the app1 folder to /tmp - FOLDER COPY
   
+
 }
