@@ -27,4 +27,4 @@
 - This can be used to run a configuration management tool,boot strap into a cluster,etc
 ![img_4.png](img_4.png)
 ### Null-Resource & Provisioners
-- If you need to run provisioners aren't directly associated with 
+- If you need to run provisioners aren't directly associated with a specificresource 
