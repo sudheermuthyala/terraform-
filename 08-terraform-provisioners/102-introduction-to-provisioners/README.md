@@ -18,4 +18,4 @@
 ![img_2.png](img_2.png)
 
 ### Local Exec Provisioner  
-- The local-exec provisioner invokes a local executible
+- The local-exec provisioner invokes a local executible after a resource is 
