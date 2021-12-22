@@ -1,6 +1,6 @@
 ## My Observation
 ```
-
+- when we create a 
 ```
 ## Create New Workspace and Provision Infra 
 ```t
