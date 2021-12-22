@@ -1,6 +1,6 @@
 ## My Observation
 ```
-- when we create a new workspace like ex: DEV this will create new dir
+- when we create a new workspace like ex: DEV this will create new directory called terraform
 ```
 ## Create New Workspace and Provision Infra 
 ```t
