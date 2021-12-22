@@ -17,7 +17,7 @@ resource "aws_instance" "MY_ec2_VM" {
     EOF
 
     tags = {
-      "Name" = "vm-${terraform.workspace}-${count}"
+      "Name" = "vm-${terraform.workspace}-${count.index}"
       "demotag"  = "refreshtags"
       "target" = "Target-Test-1"   // Adding New Tags for -target 
 
