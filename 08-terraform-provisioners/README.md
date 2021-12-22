@@ -5,4 +5,4 @@
 **provisioner types**
 - file provisioner 
 - remote-exec provisioner
-- local-exec Provi
+- local-exec Provisioner
