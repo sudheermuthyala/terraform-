@@ -22,6 +22,7 @@ resource "aws_instance" "MY_ec2_VM" {
       # "target" = "Target-Test-1"   // Adding New Tags for -target 
 
     }
+    
   connection {
     type = "ssh"
     host = self.public_ip   # Understand What is a Public IP
