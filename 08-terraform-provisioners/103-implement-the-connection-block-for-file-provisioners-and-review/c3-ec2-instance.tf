@@ -26,6 +26,7 @@ resource "aws_instance" "MY_ec2_VM" {
     type = "ssh"
     host = self.public_ip   # Understand What is a Public IP
     user = "ec2-user"
-    password
+    password = ""
+    
   }
 }
