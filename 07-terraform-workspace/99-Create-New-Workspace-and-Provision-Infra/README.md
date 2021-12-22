@@ -1,5 +1,5 @@
 ## My Observation
-- when we create a new workspace like ex: DEV this will create new directory called terraform.tfstate.d inside that we have a workspace name (DEV) inside that we **Observation**: You should fine "terraform.tfstate" in "current-working-directory/terraform.tfstate.d/dev/" folder and we have a terraform.tfstate
+- when we create a new workspace like ex: DEV this will create new directory called terraform.tfstate.d inside that we have a workspace name (DEV) inside that we **Observation**: You should fine "terraform.tfstate" in "current-working-directory/terraform.tfstate.d/dev/" folder and we have a new terraform.tfstate file 
 
 ## Create New Workspace and Provision Infra 
 ```t
