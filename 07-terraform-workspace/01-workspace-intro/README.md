@@ -27,7 +27,7 @@
 ## what is a terraform Workspace ?
 **Ans :** - A developer is working a on complex set of infrastructure chainges 
           - Might create New Tempory work space in order to freely exprement with chainges with out affecting the default workspace 
-          - terraform will not recomemnd using the workspace for large infractures inline with enveronmental patterns like DEV,QA,
+          - terraform will not recomemnd using the workspace for large infractures inline with enveronmental patterns like DEV,QA,**STAGING**
 
 
 
