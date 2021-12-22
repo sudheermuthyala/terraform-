@@ -6,6 +6,7 @@
 - file provisioner 
 - remote-exec provisioner
 - local-exec Provisioner
+- null-resource
 
 **Connection Block**
 - Most provisioners requires access to the remote resource vis `ssh,WinRM` it expect a nested connection block with details about how to conect
