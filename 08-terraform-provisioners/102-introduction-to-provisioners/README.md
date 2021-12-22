@@ -19,4 +19,4 @@
 
 ### Local Exec Provisioner  
 - The local-exec provisioner invokes a local executible after a resource is created 
-- This invokes a 
+- This invokes a process on the 
