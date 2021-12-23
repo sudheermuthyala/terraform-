@@ -7,5 +7,5 @@
 - Atainted resource is planed for destruction and recreation upon the next terraform apply 
 - Terraform does this because a failed provisioner can leave a resource in a semi-configure state
 - Because Terraform cannot reasion about what the provisioner does the only way to ensure proper cretion of recource is to recreate it this is tainting.
-- you can chaige this behavior by setting the on_failure attribute, w
+- you can chaige this behavior by setting the on_failure attribute, 
 
