@@ -1,7 +1,7 @@
 ## Create multiple provisioners of various types
 - Creation-Time provisioners
 - Destroy-Time provisioners 
-- **Creation-Time Provisioners** (Is default there is no  )
+- **Creation-Time Provisioners** (Is default. there is no  )
 - By default, provisioners run when the resource they are defined within is created 
 - creation time provissioner are only run during creation, not during Update or any lifecycle.
 - They are ment as a means to perform bootstraping of system 
