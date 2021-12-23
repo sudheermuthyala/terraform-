@@ -53,7 +53,7 @@ resource "aws_instance" "MY_ec2_VM" {
 
   provisioner "file" {
     source = "Application/catalogue-app/"
-    
+    ddestination = ""
   }
 
 }
