@@ -4,5 +4,5 @@
 - creation time provissioner are only run during creation, not during Update or any lifecycle.
 - They are ment as a means to perform bootstraping of system 
 - If a creation provisioners faile, the resource is marked as `taint`
-- 
+- Atainted resource is planned for 
 
