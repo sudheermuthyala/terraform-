@@ -6,5 +6,5 @@
 - If a creation provisioners faile, the resource is marked as `taint`
 - Atainted resource is planed for destruction and recreation upon the next terraform apply 
 - Terraform does this because a failed provisioner can leave a resource in a semi-configure state
-- Because Terraform cannot reasion about what the provisioner does the only way to ensure
+- Because Terraform cannot reasion about what the provisioner does the only way to ensure proper resource cretion 
 
