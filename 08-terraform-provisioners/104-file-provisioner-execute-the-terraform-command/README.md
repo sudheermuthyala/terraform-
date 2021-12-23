@@ -5,5 +5,5 @@
 - They are ment as a means to perform bootstraping of system 
 - If a creation provisioners faile, the resource is marked as `taint`
 - Atainted resource is planed for destruction and recreation upon the next terraform apply 
-- Terraform does this because a failed provisioner can leave a resource in a 
+- Terraform does this because a failed provisioner can leave a resource in a semi-configure sta
 
