@@ -7,3 +7,4 @@
 - Atainted resource is planed for destruction and recreation upon the next terraform apply 
 - Terraform does this because a failed provisioner can leave a resource in a semi-configure state
 
+
