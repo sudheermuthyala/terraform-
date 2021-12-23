@@ -56,4 +56,5 @@ resource "aws_instance" "MY_ec2_VM" {
     ddestination = "/tmp"
   }
 
+  pr
 }
