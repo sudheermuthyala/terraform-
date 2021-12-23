@@ -1,4 +1,4 @@
 ## Create multiple provisioners of various types
 - **Creation-Time Provisioners**
-- By default, provisioners run when the resource they are defind
+- By default, provisioners run when the resource they are defined within 
 
