@@ -52,7 +52,8 @@ resource "aws_instance" "MY_ec2_VM" {
   # Copies all files and folders in "Application/catalogue-app" to /tmp - CONTENTS of FOLDER WILL BE COPIED
 
   provisioner "file" {
-    source = "Application/catalogue-app"
+    source = "Application/catalogue-app/"
+    
   }
 
 }
