@@ -56,5 +56,8 @@ resource "aws_instance" "MY_ec2_VM" {
     ddestination = "/tmp"
   }
 
-  pr
+ # Copies the  Application/cart-app/cart-1.html file to /tmp/cart-1.html 
+  provisioner "file" {
+  source = "Application/cart-app/cart-1.html"
+  }
 }
