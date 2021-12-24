@@ -17,7 +17,7 @@
 
 
 
-## Step-03: Create multiple provisioners of various types
+## Create multiple provisioners of various types
 - **Creation-Time Provisioners:** 
 - By default, provisioners run when the resource they are defined within is created. 
 - Creation-time provisioners are only run during creation, not during updating or any other lifecycle. 
