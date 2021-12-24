@@ -6,4 +6,4 @@
 
 ## Create/Review Provisioner configuration
 **Usecase**
-we will copey a file name `application.htm` using the file proviso
+we will copey a file name `application.htm` using the file provisoner 
