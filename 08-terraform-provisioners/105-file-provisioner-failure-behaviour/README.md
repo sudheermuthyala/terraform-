@@ -47,4 +47,3 @@
    }
 ###### Verify:  Verify terraform.tfstate for  "status": "tainted"  
 ```
-```t
