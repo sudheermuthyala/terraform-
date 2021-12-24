@@ -5,4 +5,6 @@
 - This Invoke a process on the machine running terraform, Not on the resource.
 
 ## Review The Local-exec Provisioner code
-- we will create one provisioner during creation time, It will output the private ip of the instance into afile name `creation-time-output-ip.txt` 
+****
+- we will create one provisioner during creation time, It will output the private ip of the instance into afile name `creation-time-output-ip.txt`
+
