@@ -68,8 +68,8 @@ resource "aws_instance" "MY_ec2_VM" {
 # Test-1: Without on_failure attribute which will fail terraform apply
  # Copies the file-copy.html file to /var/www/html/file-copy.html
   provisioner "file" {
-    source      = "apps/file-copy.html"
-    destination = "/var/www/html/file-copy.html"
+    source      = "Applications/application.html"
+    destination = "/var/www/html/application.html"
    }
 
 }
