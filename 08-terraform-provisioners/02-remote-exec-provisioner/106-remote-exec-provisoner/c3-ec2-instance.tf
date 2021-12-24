@@ -35,7 +35,7 @@ resource "aws_instance" "MY_ec2_VM" {
 
  provisioner "file" {
    source       = "Applications/application.html"
-   destination  = 
+   destination  = "/tmp/"
  }
 }
 
