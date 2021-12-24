@@ -12,6 +12,6 @@
 - you can chaige this behavior by setting the on_failure attribute, 
 **Destroy-Time Provisioner** 
 - `Destroy-time Provisioners` trigger during Destroy Resource
-- If you want implement and specifically say that a specific provisioner execute during the D`estroy time you nee to provide `when = destroy`, when this is not provided,then every provisioner what ever we running that will be executed during the 
+- If you want implement and specifically say that a specific provisioner execute during the D`estroy time` you nee to provide `when = destroy`, when this is not provided,then every provisioner what ever we running that will be executed during the 
 
 
