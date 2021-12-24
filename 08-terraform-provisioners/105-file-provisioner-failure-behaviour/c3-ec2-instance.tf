@@ -34,15 +34,19 @@ resource "aws_instance" "MY_ec2_VM" {
   }
 
 
+   # Copies the application.html file to /tmp/application.html
+    provisioner "file" {
+      source =  "Applications/application.html"
+      destination = "/tmp/application.html"
+    }
 
-
-  ## ## Failure Behaviour: Understand Decission making when provisioner fails (Continue/Fail)
-  # Test-1: Without on_failure attribute which will fail terraform apply
-  # Copies the file-copy.html file to /var/www/html/file-copy.html
-  # provisioner "file" {
-  #   source      = "Applications/application.html"
-  #   destination = "/var/www/html/application.html"
-  #  }
+  # ## Failure Behaviour: Understand Decission making when provisioner fails (Continue/Fail)
+  Test-1: Without on_failure attribute which will fail terraform apply
+  Copies the file-copy.html file to /var/www/html/file-copy.html
+  provisioner "file" {
+    source      = "Applications/application.html"
+    destination = "/var/www/html/application.html"
+   }
 
   
   #   # Copies the string in content into "/tmp/application_terraform.log"
