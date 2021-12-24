@@ -9,7 +9,7 @@
 - Try two scenarios
     - No `on_failure` attribute (same as `on_failure = fail`)- Default what happens it will Raise an error and stop applying. if this is a creation provisioner,it will taint the resource.
         ```t
-        # In this Block we don't have 
+        # In this Block we don't have `on_failure` attribute
         provisioner "file" {
         source      = "apps/file-copy.html"
         destination = "/var/www/html/file-copy.html"
