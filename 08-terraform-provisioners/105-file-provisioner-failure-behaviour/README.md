@@ -29,3 +29,22 @@
 
     - **Verify:** verify `terraform.tfstate` for `status:` `tainted`
 
+```t
+# Test-1: Without on_failure attribute which will fail terraform apply
+ # Copies the file-copy.html file to /var/www/html/file-copy.html
+  provisioner "file" {
+    source      = "apps/file-copy.html"
+    destination = "/var/www/html/file-copy.html"
+   }
+###### Verify:  Verify terraform.tfstate for  "status": "tainted"
+
+# Test-2: With on_failure = continue
+ # Copies the file-copy.html file to /var/www/html/file-copy.html
+  provisioner "file" {
+    source      = "apps/file-copy.html"
+    destination = "/var/www/html/file-copy.html"
+    on_failure  = continue 
+   }
+###### Verify:  Verify terraform.tfstate for  "status": "tainted"  
+```
+```t
