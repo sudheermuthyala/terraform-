@@ -48,7 +48,7 @@ resource "aws_instance" "MY_ec2_VM" {
     destination = "/var/www/html/application.html" 
    }
 
-  provisioner "name" {
+  provisioner "" {
   
   }
 
