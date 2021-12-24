@@ -34,7 +34,7 @@ resource "aws_instance" "MY_ec2_VM" {
   }
 
  provisioner "local-exec" {
-   command = "echo ${aws_instance.MY_ec2_VM.p}"
+   command = "echo ${aws_instance.MY_ec2_VM.public_ip}"
  }
 }
 
