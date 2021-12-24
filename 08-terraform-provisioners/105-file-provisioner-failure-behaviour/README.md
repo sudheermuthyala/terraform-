@@ -8,12 +8,12 @@
 - we all know is we cannot copy it directly, but we know we have already copyed this file in "/tmp" using file-provisioner
 - Try two scenarios
     - No `on_failure` attribute (same as `on_failure = fail`)- Default what happens it will Raise an error and stop applying. if this is a creation provisioner,it will taint the resource.
-    ```t
-    # Copies the file-copy.html file to /var/www/html/file-copy.html
-    provisioner "file" {
-    source      = "apps/file-copy.html"
-    destination = "/var/www/html/file-copy.html"
-    }
+        ```t
+        # Copies the file-copy.html file to /var/www/html/file-copy.html
+        provisioner "file" {
+        source      = "apps/file-copy.html"
+        destination = "/var/www/html/file-copy.html"
+        }
     ```
     - When `on_failure = continue` will continue creating resources 
     - **Verify:** verify `terraform.tfstate` for `status:` `tainted`
