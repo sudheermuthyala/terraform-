@@ -6,4 +6,4 @@
 - This will fail,because the user you are usinng `ec2-user` for Amazon linux vm. This user don't have access to "/var/www/html" to copey the files 
 - we need to use sudo to do this 
 - we all know is we cannot copy it directly, but we know we have already copyed this file in "/tmp" using file-provisioner
-- Try-two-
+- Try two
