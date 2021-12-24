@@ -14,7 +14,7 @@
         source      = "apps/file-copy.html"
         destination = "/var/www/html/file-copy.html"
         }
-    ```
+        ```
     - When `on_failure = continue` will continue creating resources 
     - **Verify:** verify `terraform.tfstate` for `status:` `tainted`
 
