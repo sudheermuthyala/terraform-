@@ -37,6 +37,8 @@ resource "aws_instance" "MY_ec2_VM" {
    source       = "Applications/application.html"
    destination  = "/tmp/"
  }
+provisioner "remote-exec" {
 
+}
 }
 
