@@ -19,9 +19,9 @@
     - When `on_failure = continue` will continue creating resources 
         ```t
         provisioner "file" {
-    source      = "apps/file-copy.html"
-    destination = "/var/www/html/file-copy.html"
-    on_failure  = continue 
+        source      = "apps/file-copy.html"
+        destination = "/var/www/html/file-copy.html"
+        on_failure  = continue 
    }
         ```
 
