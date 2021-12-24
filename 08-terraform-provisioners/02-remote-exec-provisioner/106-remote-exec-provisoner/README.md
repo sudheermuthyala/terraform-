@@ -7,4 +7,4 @@
 ## Create/Review Provisioner configuration
 **Usecase**
 - we will copey a file name `application.htm` using the file provisoner to "/tmp" Directory
-- Using `remote-exec provisioner`, using linux commands we will in-turn copey the file to Apache Webserver static content Directory `/val/www/html` and asse
+- Using `remote-exec provisioner`, using linux commands we will in-turn copey the file to Apache Webserver static content Directory `/val/www/html` and access it via
