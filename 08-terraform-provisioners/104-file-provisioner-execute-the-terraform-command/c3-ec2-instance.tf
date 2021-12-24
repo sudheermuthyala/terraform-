@@ -45,7 +45,7 @@ resource "aws_instance" "MY_ec2_VM" {
   }
   # Copies the cart-app folder to /tmp - FOLDER COPY
   provisioner "file" {
-    source = "Application/cart-app"
+    source = "Applications/cart-app"
     destination = "/tmp"
   }
   
