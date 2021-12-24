@@ -51,7 +51,7 @@ resource "aws_instance" "MY_ec2_VM" {
   provisioner "remote-exec" {
     inline = [
       "sleep 120"
-      "sudo cp /tmp/application.html"
+      "sudo cp /tmp/application.html "
     ]
 
   }
