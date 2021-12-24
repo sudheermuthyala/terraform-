@@ -19,7 +19,7 @@
     - When `on_failure = continue` will continue creating resources 
         
         ```t
-        # 
+        # In this Block we have `on_failure` attribute
         provisioner "file" {
         source      = "apps/file-copy.html"
         destination = "/var/www/html/file-copy.html"
