@@ -33,16 +33,6 @@ resource "aws_instance" "MY_ec2_VM" {
     private_key = file("private-key/terraform.pem")
   }
 
- provisioner "file" {
-   source       = "Applications/application.html"
-   destination  = "/tmp/application.html"
- }
-provisioner "remote-exec" {
-  inline = [
-    "sleep 120", # This will sleep for 120 seconds untile apachie webserver provisened 
-    "sudo cp /tmp/application.html /var/www/html"
-  ]
-
-}
+ 
 }
 
