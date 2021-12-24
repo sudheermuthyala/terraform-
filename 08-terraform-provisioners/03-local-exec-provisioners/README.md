@@ -8,5 +8,5 @@
 **Creation-Time Provisioner**
 - we will create one provisioner during creation time, It will output the private ip of the instance into afile name `creation-time-output-ip.txt`
 **Destroy-Time Provisioner**
-- we will create one more provisioner during destroy
+- we will create one more provisioner during destroy thime 
 
