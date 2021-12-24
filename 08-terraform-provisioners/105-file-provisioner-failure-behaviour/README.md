@@ -3,4 +3,5 @@
     - **Continue:** Ignore the error and continue the creation or Destraction 
     - **Faile:** (Default Behaviour) Raise an error and stop applying(Default Behaviour) if this is a creation provisioner this will taint the  resource.
 - Try copying a file to Apache static content  folder "/var/www/html" using file provisioner
-- This will fail,because the user you are usinng `ec2-user` for Amazon linux vm. This user d 
+- This will fail,because the user you are usinng `ec2-user` for Amazon linux vm. This user don't have access to "/var/www/html" to copey the files 
+- we need to use sudo to do this 
