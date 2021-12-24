@@ -17,6 +17,7 @@
    }
 
 
-# copey the file to Apache webserver  /var/www/
+# copey the file to Apache webserver  /var/www/html Directory
+
 
 ```
