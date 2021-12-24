@@ -33,7 +33,7 @@ resource "aws_instance" "MY_ec2_VM" {
     private_key = file("private-key/terraform.pem")
   }
 
- provisioner "name" {
+ provisioner "local-exec" {
  
  }
 }
