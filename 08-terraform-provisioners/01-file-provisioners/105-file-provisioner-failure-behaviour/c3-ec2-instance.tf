@@ -48,14 +48,7 @@ resource "aws_instance" "MY_ec2_VM" {
     destination = "/var/www/html/application.html" 
    }
 
-  provisioner "remote-exec" {
-    inline = [
-      "sleep 120", # will sleep for 120 secondes to ensure apache webserver is provisioned using user_data
-      "sudo cp /tmp/application.html /var/www/html"
-    ]
-
-  }
-
+  
 
   # Test-2: With on_failure = continue
  # Copies the file-copy.html file to /var/www/html/file-copy.html
