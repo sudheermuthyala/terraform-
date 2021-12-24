@@ -32,34 +32,34 @@ resource "aws_instance" "MY_ec2_VM" {
     private_key = file("private-key/terraform.pem")
   }
 
- # Copies the application.html file to /tmp/application.html
-  provisioner "file" {
-    source =  "Applications/application.html"
-    destination = "/tmp/application.html"
-  }
-  # Copies the string in content into "/tmp/application_terraform.log"
-  provisioner "file" {
-    content = "ami used: ${self.ami}" # Understand What is "Self"
-    destination = "/tmp/application_terraform.log"
+#  # Copies the application.html file to /tmp/application.html
+#   provisioner "file" {
+#     source =  "Applications/application.html"
+#     destination = "/tmp/application.html"
+#   }
+#   # Copies the string in content into "/tmp/application_terraform.log"
+#   provisioner "file" {
+#     content = "ami used: ${self.ami}" # Understand What is "Self"
+#     destination = "/tmp/application_terraform.log"
 
-  }
-  # Copies the cart-app folder to /tmp - FOLDER COPY
-  provisioner "file" {
-    source = "Applications/cart-app"
-    destination = "/tmp"
-  }
+#   }
+#   # Copies the cart-app folder to /tmp - FOLDER COPY
+#   provisioner "file" {
+#     source = "Applications/cart-app"
+#     destination = "/tmp"
+#   }
   
-  # Copies all files and folders in "Application/catalogue-app" to /tmp - CONTENTS of FOLDER WILL BE COPIED
+#   # Copies all files and folders in "Application/catalogue-app" to /tmp - CONTENTS of FOLDER WILL BE COPIED
 
-  provisioner "file" {
-    source = "Applications/catalogue-app/"
-    destination = "/tmp"
-  }
+#   provisioner "file" {
+#     source = "Applications/catalogue-app/"
+#     destination = "/tmp"
+#   }
 
- # Copies the  Application/cart-app/cart-1.html file to /tmp/cart-1.html 
-  provisioner "file" {
-  source = "Applications/cart-app/cart-1.html"
-  destination = "/tmp/cart-1.html"
+#  # Copies the  Application/cart-app/cart-1.html file to /tmp/cart-1.html 
+#   provisioner "file" {
+#   source = "Applications/cart-app/cart-1.html"
+#   destination = "/tmp/cart-1.html"
 
-  }
-}
+#   }
+# }
