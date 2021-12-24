@@ -11,4 +11,9 @@
 
 ```t
 
+provisioner "file" {
+    source =  "Applications/application.html"
+    destination = "/var/www/html/application.html" 
+   }
+
 ```
