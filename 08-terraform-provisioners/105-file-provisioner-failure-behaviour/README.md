@@ -7,4 +7,4 @@
 - we need to use sudo to do this 
 - we all know is we cannot copy it directly, but we know we have already copyed this file in "/tmp" using file-provisioner
 - Try two scenarios
-    - No `on_failure` attribute (same as `on_failure = fail`)- Default what happens it will Raise an error and stop applying 
+    - No `on_failure` attribute (same as `on_failure = fail`)- Default what happens it will Raise an error and stop applying.
