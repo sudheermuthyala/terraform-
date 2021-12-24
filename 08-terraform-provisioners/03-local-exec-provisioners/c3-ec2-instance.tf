@@ -34,7 +34,7 @@ resource "aws_instance" "MY_ec2_VM" {
   }
 
   provisioner "local-exec" {
-    command = "echo ${aws_instance.MY_ec2_VM.public_ip} >>"
+    command = "echo ${aws_instance.MY_ec2_VM.public_ip} >>creation-time-output-ip.txt"
     working_dir = "local-exec-output-files/"
   }
 }
