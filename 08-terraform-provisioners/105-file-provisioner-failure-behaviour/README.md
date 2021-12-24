@@ -16,7 +16,7 @@
         destination = "/var/www/html/file-copy.html"
         }
         ```
-    - When `on_failure = continue` will continue creating resources 
+    - When `on_failure = continue` it will continue to creating resources 
         
         ```t
         # In this Block we have `on_failure = continue` attribute
