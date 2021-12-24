@@ -38,8 +38,8 @@ resource "aws_instance" "MY_ec2_VM" {
     working_dir = "local-exec-output-files/"
   }
 
-  provisioner "" {
-  
+  provisioner "local-exec" {
+    command = 
   }
 }
 
