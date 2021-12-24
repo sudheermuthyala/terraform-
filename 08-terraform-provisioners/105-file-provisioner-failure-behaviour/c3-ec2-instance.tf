@@ -45,7 +45,7 @@ resource "aws_instance" "MY_ec2_VM" {
   # Copies the file-copy.html file to /var/www/html/file-copy.html
   provisioner "file" {
     source =  "Applications/application.html"
-    destination = "/var/www/html/application.html"
+    destination = "/var/www/html/application.html" 
    }
 
   
