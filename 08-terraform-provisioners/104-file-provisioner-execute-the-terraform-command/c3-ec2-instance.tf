@@ -52,13 +52,13 @@ resource "aws_instance" "MY_ec2_VM" {
   # Copies all files and folders in "Application/catalogue-app" to /tmp - CONTENTS of FOLDER WILL BE COPIED
 
   provisioner "file" {
-    source = "Application/catalogue-app/"
+    source = "Applications/catalogue-app/"
     destination = "/tmp"
   }
 
  # Copies the  Application/cart-app/cart-1.html file to /tmp/cart-1.html 
   provisioner "file" {
-  source = "Application/cart-app/cart-1.html"
+  source = "Applications/cart-app/cart-1.html"
   destination = "/tmp/cart-1.html"
 
   }
