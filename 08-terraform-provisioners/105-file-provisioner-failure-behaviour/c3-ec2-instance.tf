@@ -49,6 +49,13 @@ resource "aws_instance" "MY_ec2_VM" {
     on_failure = continue
    }
 
+  # Test-2: With on_failure = continue
+ # Copies the file-copy.html file to /var/www/html/file-copy.html
+  provisioner "file" {
+    source      = "apps/file-copy.html"
+    destination = "/var/www/html/file-copy.html"
+    on_failure  = continue 
+   }
   
   #   # Copies the string in content into "/tmp/application_terraform.log"
   #   provisioner "file" {
