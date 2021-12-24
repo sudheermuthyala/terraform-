@@ -10,7 +10,7 @@
 - Using `remote-exec provisioner`, using linux commands we will in-turn copey the file to Apache Webserver static content Directory `/val/www/html` and access it via brouser once it is provisened 
 
 ```t
-# copey the file application.html to "?"
+# copey the file application.html to "/tmp/application.html"
     provisioner "file" {
     source =  "Applications/application.html"
     destination = "/tmp/application.html" 
