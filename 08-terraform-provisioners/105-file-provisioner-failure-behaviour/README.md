@@ -22,7 +22,7 @@
         source      = "apps/file-copy.html"
         destination = "/var/www/html/file-copy.html"
         on_failure  = continue 
-   }
+        }
         ```
 
     - **Verify:** verify `terraform.tfstate` for `status:` `tainted`
