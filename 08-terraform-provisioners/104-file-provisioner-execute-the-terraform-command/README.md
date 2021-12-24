@@ -12,5 +12,6 @@
 - you can chaige this behavior by setting the on_failure attribute, 
 **Destroy-Time Provisioner** 
 - Destroy-time Provisioners trigger during Destroy Resource
+- If you
 
 
