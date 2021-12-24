@@ -34,55 +34,7 @@ resource "aws_instance" "MY_ec2_VM" {
   }
 
 
-   # Copies the application.html file to /tmp/application.html
-    provisioner "file" {
-      source =  "Applications/application.html"
-      destination = "/tmp/application.html"
-    }
-
-  # ## Failure Behaviour: Understand Decission making when provisioner fails (Continue/Fail)
-  # Test-1: Without on_failure attribute which will fail terraform apply
-  # Copies the file-copy.html file to /var/www/html/file-copy.html
-  provisioner "file" {
-    source =  "Applications/application.html"
-    destination = "/var/www/html/application.html" 
-   }
-
-  
-
-  # Test-2: With on_failure = continue
- # Copies the file-copy.html file to /var/www/html/file-copy.html
-  provisioner "file" {
-    source      = "apps/file-copy.html"
-    destination = "/var/www/html/file-copy.html"
-    on_failure  = continue 
-   }
-  
-  #   # Copies the string in content into "/tmp/application_terraform.log"
-  #   provisioner "file" {
-  #     content = "ami used: ${self.ami}" # Understand What is "Self"
-  #     destination = "/tmp/application_terraform.log"
-
-  #   }
-  #   # Copies the cart-app folder to /tmp - FOLDER COPY
-  #   provisioner "file" {
-  #     source = "Applications/cart-app"
-  #     destination = "/tmp"
-  #   }
-
-  #   # Copies all files and folders in "Application/catalogue-app" to /tmp - CONTENTS of FOLDER WILL BE COPIED
-
-  #   provisioner "file" {
-  #     source = "Applications/catalogue-app/"
-  #     destination = "/tmp"
-  #   }
-
-  #  # Copies the  Application/cart-app/cart-1.html file to /tmp/cart-1.html
-  #   provisioner "file" {
-  #   source = "Applications/cart-app/cart-1.html"
-  #   destination = "/tmp/cart-1.html"
-
-  #   }
+   
 
 
 
