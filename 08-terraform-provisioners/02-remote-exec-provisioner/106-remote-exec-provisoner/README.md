@@ -11,6 +11,7 @@
 
 ```t
 # copey the file application.html to "/tmp/application.html"
+
     provisioner "file" {
     source =  "Applications/application.html"
     destination = "/tmp/application.html" 
