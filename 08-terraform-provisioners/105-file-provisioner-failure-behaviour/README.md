@@ -1,1 +1,2 @@
-## Failure Behaviour: Understand Decission making when provisioner fails (Continue/)
+## Failure Behaviour: Understand Decission making when provisioner fails (Continue/Fail)
+- 
