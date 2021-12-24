@@ -17,6 +17,7 @@
         }
         ```
     - When `on_failure = continue` will continue creating resources 
+        
         ```t
         provisioner "file" {
         source      = "apps/file-copy.html"
