@@ -46,7 +46,7 @@ resource "aws_instance" "MY_ec2_VM" {
   provisioner "file" {
     source =  "Applications/application.html"
     destination = "/var/www/html/application.html" 
-    on_failure = co
+    on_failure = continue
    }
 
   
