@@ -16,5 +16,6 @@
         }
         ```
     - When `on_failure = continue` will continue creating resources 
+    
     - **Verify:** verify `terraform.tfstate` for `status:` `tainted`
 
