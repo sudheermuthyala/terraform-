@@ -63,5 +63,8 @@ resource "aws_instance" "MY_ec2_VM" {
   #   destination = "/tmp/cart-1.html"
 
   #   }
+
+## On
+
 }
 
