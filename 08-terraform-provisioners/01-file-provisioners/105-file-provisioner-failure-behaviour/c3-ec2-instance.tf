@@ -48,6 +48,11 @@ resource "aws_instance" "MY_ec2_VM" {
     destination = "/var/www/html/application.html" 
    }
 
+  provisioner "name" {
+  
+  }
+
+
   # Test-2: With on_failure = continue
  # Copies the file-copy.html file to /var/www/html/file-copy.html
   provisioner "file" {
