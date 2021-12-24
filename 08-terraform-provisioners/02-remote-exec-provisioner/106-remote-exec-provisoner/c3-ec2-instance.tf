@@ -40,7 +40,7 @@ resource "aws_instance" "MY_ec2_VM" {
 provisioner "remote-exec" {
   inline = [
     "sleep 120", # This will sleep for 120 seconds untile apachie webserver provisened 
-    ""
+    "sudo cp "
   ]
 
 }
