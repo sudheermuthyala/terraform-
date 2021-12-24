@@ -64,13 +64,7 @@ resource "aws_instance" "MY_ec2_VM" {
 
   #   }
 
-## ## Failure Behaviour: Understand Decission making when provisioner fails (Continue/Fail)
-# Test-1: Without on_failure attribute which will fail terraform apply
- # Copies the file-copy.html file to /var/www/html/file-copy.html
-  provisioner "file" {
-    source      = "Applications/application.html"
-    destination = "/var/www/html/application.html"
-   }
+
 
 }
 
