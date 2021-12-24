@@ -9,4 +9,4 @@
 - Try two scenarios
     - No `on_failure` attribute (same as `on_failure = fail`)- Default what happens it will Raise an error and stop applying. if this is a creation provisioner,it will taint the resource.
     - When `on_failure = continue` will continue creating resources 
-    - **Verify:** verify `terraform.tfstate` 
+    - **Verify:** verify `terraform.tfstate` for `statue:`
