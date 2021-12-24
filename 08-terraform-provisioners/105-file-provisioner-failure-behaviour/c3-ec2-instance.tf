@@ -42,11 +42,11 @@ resource "aws_instance" "MY_ec2_VM" {
   #   destination = "/var/www/html/application.html"
   #  }
 
-  #  # Copies the application.html file to /tmp/application.html
-  #   provisioner "file" {
-  #     source =  "Applications/application.html"
-  #     destination = "/tmp/application.html"
-  #   }
+   # Copies the application.html file to /tmp/application.html
+    provisioner "file" {
+      source =  "Applications/application.html"
+      destination = "/tmp/application.html"
+    }
   #   # Copies the string in content into "/tmp/application_terraform.log"
   #   provisioner "file" {
   #     content = "ami used: ${self.ami}" # Understand What is "Self"
