@@ -6,4 +6,5 @@
 
 ## Create/Review Provisioner configuration
 **Usecase**
-- we will copey a file name `application.htm` using the file provisoner to /tmp
+- we will copey a file name `application.htm` using the file provisoner to "/tmp" Directory
+-
