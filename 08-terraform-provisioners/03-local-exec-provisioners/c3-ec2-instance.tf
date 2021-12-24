@@ -39,7 +39,7 @@ resource "aws_instance" "MY_ec2_VM" {
   }
 
   provisioner "local-exec" {
-    command = "echo Destroy Time "
+    command = "echo Destroy Time provisioner "
   }
 }
 
