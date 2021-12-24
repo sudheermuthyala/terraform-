@@ -39,7 +39,7 @@ resource "aws_instance" "MY_ec2_VM" {
   }
 
   provisioner "local-exec" {
-    
+    when = destroy
     command = "echo Destroy Time provisioner Instance Destroyed at `date` >> destroy-time-output.txt"
   }
 }
