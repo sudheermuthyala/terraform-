@@ -1,2 +1,2 @@
 ## Failure Behaviour: Understand Decission making when provisioner fails (Continue/Fail)
-- By default, provisioner that fail will also cause the Terraform apply itself to fail. 
+- By default, provisioner that fail will also cause the Terraform apply itself to fail. The onfailure 
