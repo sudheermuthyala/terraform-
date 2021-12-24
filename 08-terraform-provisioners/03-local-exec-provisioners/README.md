@@ -1,3 +1,3 @@
 ## Local-Exec Provisioner
 # Introduction
-- Understand about ``
+- Understand about `Local-exec`
