@@ -17,6 +17,6 @@
    }
 
 
-# copey the file to Apache we
+# copey the file to Apache webserver  /var/www/
 
 ```
