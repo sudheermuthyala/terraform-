@@ -52,7 +52,8 @@ resource "null_resource" "sync_application_static" {
     destination = "/tmp"
 
   }
-  provisioner "" {
+  provisioner "remote-exec" {
+    i
   
   }
   
