@@ -35,6 +35,10 @@ resource "null_resource" "sync_application_static" {
   triggers = {
     always-update = timestamp()
   }
+
+  connection {
+    
+  }
   
 }
 
