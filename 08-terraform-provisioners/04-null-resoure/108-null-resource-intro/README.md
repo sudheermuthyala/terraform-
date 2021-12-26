@@ -24,3 +24,5 @@
 - time_sleep resource
 - we will also learn how to force the resource to update based on a changed null_ressource using `timestamp function` and `triggers `in `null resource`
 
+
+
