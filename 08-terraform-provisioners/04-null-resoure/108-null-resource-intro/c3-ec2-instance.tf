@@ -52,6 +52,9 @@ resource "null_resource" "sync_application_static" {
     destination = "/tmp"
 
   }
+  provisioner "" {
+  
+  }
   
 }
 
