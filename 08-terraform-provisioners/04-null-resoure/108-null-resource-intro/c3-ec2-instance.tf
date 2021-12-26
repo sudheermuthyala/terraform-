@@ -23,6 +23,8 @@ resource "aws_instance" "MY_ec2_VM" {
 
   }
 
+
+  re
   # Connection Block for Provisioners to connect to EC2 Instance
   connection {
     type        = "ssh"
