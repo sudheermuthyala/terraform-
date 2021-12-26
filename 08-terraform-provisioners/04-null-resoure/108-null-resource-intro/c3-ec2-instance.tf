@@ -24,7 +24,7 @@ resource "aws_instance" "MY_ec2_VM" {
   }
 }
 
-resource " "name" {
+resource "" "name" {
   
 }
 
