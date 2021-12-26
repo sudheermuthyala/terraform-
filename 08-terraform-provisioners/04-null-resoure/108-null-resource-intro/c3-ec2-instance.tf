@@ -30,6 +30,9 @@ resource "time_sleep" "Wait_90_seconds" {
   create_duration = "90s"
 }
 
+resource "" "name" {
+  
+}
 
   
 #   # Connection Block for Provisioners to connect to EC2 Instance
