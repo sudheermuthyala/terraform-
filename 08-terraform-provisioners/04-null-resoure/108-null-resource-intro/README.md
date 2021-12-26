@@ -18,5 +18,5 @@
 - Create `time_sleep` resource to wait for 90 seconds After EC2 instance crreation 
 - create Null Resource with required ptovisioners
     - **File provisioner:** copy Application/cart-app Folder to /tmp
-    - **Remote_exec Provisioner:**  Copy Cart-app folder from /tmp to /var/www/
+    - **Remote_exec Provisioner:**  Copy Cart-app folder from /tmp to /var/www/html
 
