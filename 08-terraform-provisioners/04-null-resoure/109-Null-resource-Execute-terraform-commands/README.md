@@ -47,7 +47,7 @@ Terraform will perform the following actions:
 # After adding cart-3.html and cart-1 and cart-2 is updated 
 - we are not Touching the ec2-vm instance what ever it has created by `aws_instance.MY_ec2_VM`
 - null_resource is getting replased when it is destroyed and recreated, during recreation time again it will com=nnect and resync the latest filesto the EC2-instance what ever it is created 
-- The chainges will be in fractions of seconds, using null resources 
+- The chainges will be in fractions of seconds, using null resources we can use the provisioners 
 ```t
 Terraform used the selected providers to generate the following execution plan. Resource actions are indicated with the following
 symbols:
