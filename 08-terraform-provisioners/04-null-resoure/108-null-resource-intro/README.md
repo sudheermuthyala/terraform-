@@ -2,7 +2,7 @@
 ## Introduction
 - Reference-[Null provider](https://registry.terraform.io/providers/hashicorp/null/latest/docs)
     - Null Provider is a **rather-unusual provider that has constructs that intentionally do Nothing**
-    - 
+    - But in terraform in few 
 ```t
 
 ```
