@@ -10,6 +10,9 @@ terraform {
       source = "hashicorp/null"
       version = "~> 3.1.0"
     }
+    time = {
+      
+    }
   }
   #Adding Backend as S3 for Remote State Storage with State Locking
   
