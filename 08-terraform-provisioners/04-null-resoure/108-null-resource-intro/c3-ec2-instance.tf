@@ -30,7 +30,7 @@ resource "time_sleep" "Wait_90_seconds" {
   create_duration = "90s"
 }
 
-resource "null_resource" "name" {
+resource "null_resource" "sync" {
   
 }
 
