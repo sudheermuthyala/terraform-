@@ -24,7 +24,7 @@ resource "aws_instance" "MY_ec2_VM" {
   }
 }
 
-resource "tim" "name" {
+resource "time_rotating" "name" {
   
 }
 
