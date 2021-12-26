@@ -25,7 +25,7 @@ resource "aws_instance" "MY_ec2_VM" {
 }
 
 resource "time_sleep" "Wait_90_seconds" {
-  depends_on = [ aw  ]
+  depends_on = [ aws  ]
   
 }
 
