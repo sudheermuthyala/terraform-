@@ -52,7 +52,7 @@ resource "null_resource" "sync_application_static" {
     destination = "/tmp"
 
   }
-  # copy the /tmp/cart-app folder
+  # copy the /tmp/cart-app folder to Apache
   provisioner "remote-exec" {
     inline = [
       "sudo cp -r /tmp/cart-app/ /var/www/html"
