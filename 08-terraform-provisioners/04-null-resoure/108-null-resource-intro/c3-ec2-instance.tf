@@ -39,7 +39,7 @@ resource "null_resource" "sync_application_static" {
   connection {
     type        = "ssh"
      #host        = self.public_ip   # Understand What is a Public IP
-     host        = aws_instance.MY_ec2_VM.pub  # Understand What is a Public IP
+     host        = aws_instance.MY_ec2_VM.public_ip  # Understand What is a Public IP
      user        = "ec2-user"
      password    = ""
      private_key = file("private-key/terraform.pem")
