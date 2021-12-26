@@ -36,7 +36,7 @@ resource "null_resource" "sync_application_static" {
     always-update = timestamp()
   }
 
-# connection 
+# connection Block for 
   connection {
     type        = "ssh"
      #host        = self.public_ip   # Understand What is a Public IP
