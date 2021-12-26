@@ -21,5 +21,6 @@
     - **Remote_exec Provisioner:**  Copy Cart-app folder from /tmp to /var/www/html
 ## Over the process we will learn about
 - null_resource
-- time_sleep 
+- time_sleep resource
+
 
