@@ -44,4 +44,4 @@ Terraform will perform the following actions:
 
 ```
 
-# After adding cart-3.html 
+# After adding cart-3.html and 
