@@ -22,7 +22,7 @@ resource "aws_instance" "MY_ec2_VM" {
     # "target" = "Target-Test-1"   // Adding New Tags for -target
 
   }
-
+}
 
   resource "null"
   # Connection Block for Provisioners to connect to EC2 Instance
