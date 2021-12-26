@@ -24,25 +24,27 @@ resource "aws_instance" "MY_ec2_VM" {
   }
 }
 
+
+
   
-  # Connection Block for Provisioners to connect to EC2 Instance
-  connection {
-    type        = "ssh"
-    host        = self.public_ip   # Understand What is a Public IP
-    user        = "ec2-user"
-    password    = ""
-    private_key = file("private-key/terraform.pem")
-  }
+#   # Connection Block for Provisioners to connect to EC2 Instance
+#   connection {
+#     type        = "ssh"
+#     host        = self.public_ip   # Understand What is a Public IP
+#     user        = "ec2-user"
+#     password    = ""
+#     private_key = file("private-key/terraform.pem")
+#   }
 
-  provisioner "local-exec" {
-    command = "echo ${aws_instance.MY_ec2_VM.public_ip} >>creation-time-output-ip.txt"
-    working_dir = "local-exec-output-files/"
-  }
+#   provisioner "local-exec" {
+#     command = "echo ${aws_instance.MY_ec2_VM.public_ip} >>creation-time-output-ip.txt"
+#     working_dir = "local-exec-output-files/"
+#   }
 
-  provisioner "local-exec" {
-    when = destroy
-    command = "echo Destroy Time provisioner Instance Destroyed at `date` >> destroy-time-output.txt"
-    working_dir = "local-exec-output-files/"
-  }
-}
+#   provisioner "local-exec" {
+#     when = destroy
+#     command = "echo Destroy Time provisioner Instance Destroyed at `date` >> destroy-time-output.txt"
+#     working_dir = "local-exec-output-files/"
+#   }
+# }
 
