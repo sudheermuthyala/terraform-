@@ -6,10 +6,6 @@
     so for that purpose using the `null_resource` you need to add the **Null-Provide**
 
     - If you add the **null_provider** in `version.tf` then you can start using the **null-resources**
-```t
-
-```
-
 - Reference-[Null Resource or Provisioners Without a Resource](https://www.terraform.io/language/resources/provisioners/null_resource)
 
 - Reference-[Time provider](https://registry.terraform.io/providers/hashicorp/time/latest/docs)
