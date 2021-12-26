@@ -47,7 +47,7 @@ resource "null_resource" "sync_application_static" {
   }
 
   provisioner "file" {
-    source =  "Applications/"
+    source =  "Applications/cart"
 
   }
   
