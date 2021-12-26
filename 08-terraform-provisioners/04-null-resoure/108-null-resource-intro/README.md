@@ -2,7 +2,8 @@
 ## Introduction
 - Reference-[Null provider](https://registry.terraform.io/providers/hashicorp/null/latest/docs)
     - Null Provider is a **rather-unusual provider that has constructs that intentionally do Nothing**
-    - But in terraform in for few specfic usecases ther will be a need for `null_resources `
+    - But in terraform in for few specfic usecases ther will be a need for `null_resources`
+    
 ```t
 
 ```
