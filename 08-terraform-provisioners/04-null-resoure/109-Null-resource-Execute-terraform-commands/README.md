@@ -30,3 +30,5 @@
 ###########################################################################################
 # CCreate a new file localy in Application Folder
 - null_resource.sync_application_static must be replaced when time stamp is triggers
+- -/+ destroy and then create replacement
+
