@@ -45,6 +45,10 @@ resource "null_resource" "sync_application_static" {
      private_key = file("private-key/terraform.pem")
  
   }
+
+  provisioner "file" {
+  
+  }
   
 }
 
