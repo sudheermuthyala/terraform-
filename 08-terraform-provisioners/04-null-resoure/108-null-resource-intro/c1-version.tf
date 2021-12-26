@@ -6,6 +6,7 @@ terraform {
         version = "~> 3.0"
         source = "hashicorp/aws"
     }
+    
   }
   #Adding Backend as S3 for Remote State Storage with State Locking
   
