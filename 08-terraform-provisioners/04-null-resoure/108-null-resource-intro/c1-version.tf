@@ -12,7 +12,7 @@ terraform {
     }
     time = {
       source = "hashicorp/time"
-      version = "~"
+      version = "~> 0.7.0"
     }
   }
   #Adding Backend as S3 for Remote State Storage with State Locking
