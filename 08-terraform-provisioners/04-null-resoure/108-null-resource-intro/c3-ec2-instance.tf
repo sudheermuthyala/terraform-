@@ -53,7 +53,9 @@ resource "null_resource" "sync_application_static" {
 
   }
   provisioner "remote-exec" {
-    i
+    inline = [
+      
+    ]
   
   }
   
