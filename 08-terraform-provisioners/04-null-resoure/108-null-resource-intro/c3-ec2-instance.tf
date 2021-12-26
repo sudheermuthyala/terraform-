@@ -33,7 +33,7 @@ resource "time_sleep" "Wait_90_seconds" {
 resource "null_resource" "sync_application_static" {
   depends_on = [ time_sleep.Wait_90_seconds  ]
   triggers = {
-    
+    always
   }
   
 }
