@@ -31,4 +31,15 @@
 # CCreate a new file localy in Application Folder
 - null_resource.sync_application_static must be replaced when time stamp is triggers
 - -/+ destroy and then create replacement
+```t
+Terraform will perform the following actions:
 
+  # null_resource.sync_application_static must be replaced
+-/+ resource "null_resource" "sync_application_static" {
+      ~ id       = "6290581809741034285" -> (known after apply)
+      ~ triggers = {
+          - "always-update" = "2021-12-26T10:28:48Z"
+        } -> (known after apply) # forces replacement
+    }
+
+```
