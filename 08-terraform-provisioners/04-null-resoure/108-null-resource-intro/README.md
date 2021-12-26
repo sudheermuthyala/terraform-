@@ -20,5 +20,5 @@
     - **File provisioner:** copy Application/cart-app Folder to /tmp
     - **Remote_exec Provisioner:**  Copy Cart-app folder from /tmp to /var/www/html
 ## Over the process we will learn about
-- 
+- null_resource
 
