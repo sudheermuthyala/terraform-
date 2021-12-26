@@ -46,5 +46,18 @@ Terraform will perform the following actions:
 
 # After adding cart-3.html and cart-1 and cart-2 is updated 
 ```t
+Terraform used the selected providers to generate the following execution plan. Resource actions are indicated with the following
+symbols:
+-/+ destroy and then create replacement
+
+Terraform will perform the following actions:
+
+  # null_resource.sync_application_static must be replaced
+-/+ resource "null_resource" "sync_application_static" {
+      ~ id       = "2126647868116224994" -> (known after apply)
+      ~ triggers = {
+          - "always-update" = "2021-12-26T10:41:38Z"
+        } -> (known after apply) # forces replacement
+    }
 
 ```
