@@ -7,7 +7,8 @@ terraform {
         source = "hashicorp/aws"
     }
     null = {
-      source = "value"
+      source = "hashicorp/null"
+      
     }
   }
   #Adding Backend as S3 for Remote State Storage with State Locking
