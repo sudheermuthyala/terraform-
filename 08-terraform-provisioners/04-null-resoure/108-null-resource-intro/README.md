@@ -7,7 +7,7 @@
 
     - If you add the **null_provider** in `version.tf` then you can start using the **null-resources**
 - Reference-[Null Resource or Provisioners Without a Resource](https://www.terraform.io/language/resources/provisioners/null_resource)
-    - 
+    - If you need to run provisioners that aren't directly associated with a specific resource, you can associate them with a `null_resource`
 
 - Reference-[Time provider](https://registry.terraform.io/providers/hashicorp/time/latest/docs)
     - Time provider is used to intracted with time-based resources the provider itself has no configuration options,
