@@ -13,4 +13,4 @@
     - Time provider is used to intracted with time-based resources the provider itself has no configuration options,
 
 
-## Usecase: Force a resource to wait for 90 seconds after EC2
+## Usecase: Force a resource to wait for 90 seconds after EC2 instance creation
