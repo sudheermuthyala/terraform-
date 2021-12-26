@@ -46,7 +46,7 @@ Terraform will perform the following actions:
 
 # After adding cart-3.html and cart-1 and cart-2 is updated 
 - we are not Touching the ec2-vm instance what ever it has created by `aws_instance.MY_ec2_VM`
-- null_resource is 
+- null_resource is getting replased 
 ```t
 Terraform used the selected providers to generate the following execution plan. Resource actions are indicated with the following
 symbols:
