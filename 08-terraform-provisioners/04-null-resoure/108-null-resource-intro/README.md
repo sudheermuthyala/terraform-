@@ -22,5 +22,5 @@
 ## Over the process we will learn about
 - null_resource
 - time_sleep resource
-- we will also learn 
+- we will also learn how 
 
