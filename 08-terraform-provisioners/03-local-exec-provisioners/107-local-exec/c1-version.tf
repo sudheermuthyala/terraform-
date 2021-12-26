@@ -7,7 +7,7 @@ terraform {
         source = "hashicorp/aws"
     }
     null ={
-      source = "hashicorp/aws"
+      source = "hashicorp/"
     }
   }
 
