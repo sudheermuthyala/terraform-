@@ -15,5 +15,5 @@
 
 ## Usecase:
 - Force a resource to wait for 90 seconds after EC2 Instance creation
-- Create `time_sleep` resource
+- Create `time_sleep` resource to wait for 
 
