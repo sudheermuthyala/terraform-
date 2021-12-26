@@ -23,7 +23,7 @@
 - null_resource
 - time_sleep resource
 - we will also learn how to force the resource to update based on a changed null_ressource using `timestamp function` and `triggers `in `null resource`
-- How you write the logic without impacting the existing resources is important thing, at that poin of time Null resource is will be a help
+- How you write the logic without impacting the existing resources is important thing, at that poin of time Null resource is will be a helpfull thing 
 - Hear we are 
 
 
