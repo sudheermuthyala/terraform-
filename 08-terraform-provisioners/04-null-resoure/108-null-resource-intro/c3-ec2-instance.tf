@@ -30,7 +30,10 @@ resource "time_sleep" "Wait_90_seconds" {
   create_duration = "90s"
 }
 
-resource "null_resource" "sync_application" {
+resource "null_resource" "sync_application_static" {
+  depends_on = [
+    
+  ]
   
 }
 
