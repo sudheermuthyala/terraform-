@@ -18,5 +18,5 @@
 - Create `time_sleep` resource to wait for 90 seconds After EC2 instance crreation 
 - create Null Resource with required ptovisioners
     - **File provisioner:** copy Application from /tmp to /var/www/html
-    - **Remote**
+    - **Remote_exec**
 
