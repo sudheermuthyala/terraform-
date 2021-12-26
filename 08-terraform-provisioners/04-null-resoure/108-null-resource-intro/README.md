@@ -5,7 +5,7 @@
     - But in terraform in for few specfic usecases ther will be a need for `null_resources`
     so for that purpose using the `null_resource` you need to add the **Null-Provide**
 
-    - If you add the **null_provider** 
+    - If you add the **null_provider** in version.tf
 ```t
 
 ```
