@@ -24,7 +24,7 @@ resource "aws_instance" "MY_ec2_VM" {
   }
 }
 
-## Wait for 90 seconds after creating the Above Ec2
+## Wait for 90 seconds after creating the Above EC2 Instance
 resource "time_sleep" "Wait_90_seconds" {
   depends_on = [ aws_instance.MY_ec2_VM  ]
   create_duration = "90s"
