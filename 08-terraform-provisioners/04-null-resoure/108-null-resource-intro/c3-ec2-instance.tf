@@ -30,7 +30,7 @@ resource "time_sleep" "Wait_90_seconds" {
   create_duration = "90s"
 }
 
-resource "" "name" {
+resource "n" "name" {
   
 }
 
