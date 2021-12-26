@@ -54,7 +54,7 @@ resource "null_resource" "sync_application_static" {
   }
   provisioner "remote-exec" {
     inline = [
-      
+      sudo cp -r 
     ]
   
   }
