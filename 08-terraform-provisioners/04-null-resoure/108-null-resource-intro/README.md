@@ -13,4 +13,4 @@
     - Time provider is used to intracted with time-based resources the provider itself has no configuration options,
 
 
-## Usecase: 
+## Usecase: Force a resource 
