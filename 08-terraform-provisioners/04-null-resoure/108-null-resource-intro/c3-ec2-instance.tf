@@ -46,7 +46,7 @@ resource "null_resource" "sync_application_static" {
      private_key = file("private-key/terraform.pem")
  
   }
-# Copy the Application
+# Copy the 
   provisioner "file" {
     source =  "Applications/cart-app"
     destination = "/tmp"
