@@ -16,7 +16,7 @@
 ## Usecase:
 - Force a resource to wait for 90 seconds after EC2 Instance creation
 - Create `time_sleep` resource to wait for 90 seconds After EC2 instance crreation 
-- create Null Resource with required ptovisioners [Null Resource with required ptovisioners]()
+- create Null Resource with required ptovisioners [Null Resource with required ptovisioners](https://github.com/sudheermuthyala/terraform-/blob/main/08-terraform-provisioners/04-null-resoure/108-null-resource-intro/c3-ec2-instance.tf)
     - **File provisioner:** copy Application/cart-app Folder to /tmp
     - **Remote_exec Provisioner:**  Copy Cart-app folder from /tmp to /var/www/html
 ## Over the process we will learn about
