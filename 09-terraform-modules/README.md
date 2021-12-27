@@ -17,4 +17,4 @@ This make it Possible to Publish modules for others to user,and to use modules t
 ## Private Module Registry in Terraform cloud & Enterprise
 - This is for our originisation related private modules which we can create and publish in our respective respective cloud directories
 - Member of your Organization might produce modules Specifically Crafted for your own infrastructure needs. 
-- Terraform clout & Terraform enterprise both include a Private module 
+- Terraform clout & Terraform enterprise both include a Private module reistry
