@@ -7,3 +7,5 @@
 - chaild module can be called multiple times within the sampe configuration, and mulfiple configurations can used the same child module
 - In addition to Modules from local filesystem, Terraform can lode Modules from publice and private registry
 This make it Possible to Publish modules for others to user,and to use modules that others have published.
+
+
