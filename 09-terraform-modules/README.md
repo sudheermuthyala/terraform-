@@ -1,2 +1,2 @@
 ## Terraform Modules
-- A module is a collection of .
+- A module is a collection of *.tf files 
