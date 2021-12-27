@@ -13,7 +13,7 @@ This make it Possible to Publish modules for others to user,and to use modules t
 - These modules are free to use,and Terraform can downloade them Automatically if you specify the appropriate source and version in module call block,
 - For every module will have it owne source form there it need to downloade
 
-
+![](2021-12-27-07-59-06.png)
 ## Private Module Registry in Terraform cloud & Enterprise
 - This is for our originisation related private modules which we can create and publish in our respective respective cloud directories
 - Member of your Organization might produce modules Specifically Crafted for your own infrastructure needs. 
