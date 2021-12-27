@@ -8,4 +8,4 @@
 - In addition to Modules from local filesystem, Terraform can lode Modules from publice and private registry
 This make it Possible to Publish modules for others to user,and to use modules that others have published.
 
-### Terraform Registry - Publicly Avillable 
+### Terraform Registry - Publicly Available 
