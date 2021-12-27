@@ -9,6 +9,7 @@
 This make it Possible to Publish modules for others to user,and to use modules that others have published.
 ![](2021-12-27-07-55-41.png)
 
+
 ### Terraform Registry - Publicly Available Modules
 - The Terraform Registry hosts a broad collection of publically avillable terraform modules for configuring many kinds of infrastructure.
 - These modules are free to use,and Terraform can downloade them Automatically if you specify the appropriate source and version in module call block,
