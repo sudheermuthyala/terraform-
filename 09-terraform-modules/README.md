@@ -6,4 +6,4 @@
 - A module that has called by another Module is often referd to as a `chaild module0` (What ever you are calling form root Module That respective Module is called child module)
 - chaild module can be called multiple times within the sampe configuration, and mulfiple configurations can used the same child module
 - In addition to Modules from local filesystem, Terraform can lode Modules from publice and private registry
-This make it Possible to Publish 
+This make it Possible to Publish modules for
