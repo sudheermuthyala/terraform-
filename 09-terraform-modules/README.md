@@ -4,4 +4,4 @@
 - Every Terraform Configuratuin has At least one module, Know as its `root module`, Which consists of the resources defined in the .tf files in the main working directory 
 - A Terraform module(usually the root module of a configuration) can call other module to include their resources into the configuration.
 - A module that has called by another Module is often referd to as a `chaild module0` (What ever you are calling form root Module That respective Module is called child module)
-- chaild module can 
+- chaild module can be called multiple
