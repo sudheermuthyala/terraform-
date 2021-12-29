@@ -8,7 +8,7 @@ module "ec2_instance" {
 
   ami                    = data.aws_ami.amzlinux.id
   instance_type          = "t2.micro"
-  key_name               = ""
+  key_name               = "terraform"
   monitoring             = true
   vpc_security_group_ids = ["sg-12345678"]
   subnet_id              = "subnet-eddcdzz4"
