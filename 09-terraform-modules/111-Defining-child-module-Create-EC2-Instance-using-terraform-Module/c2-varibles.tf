@@ -6,6 +6,3 @@ variable "aws_reagion" {
   default = "us-east-1"
 }
 
-variable "aws_ami" {
-  
-}
