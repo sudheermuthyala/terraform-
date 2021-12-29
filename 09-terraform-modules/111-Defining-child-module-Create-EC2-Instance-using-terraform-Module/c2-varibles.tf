@@ -1,3 +1,3 @@
-variable "aws-reagion" {
+variable "aws_reagion" {
   
 }
