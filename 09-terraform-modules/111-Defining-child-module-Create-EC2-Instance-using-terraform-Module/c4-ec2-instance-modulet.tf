@@ -11,7 +11,7 @@ module "ec2_instance" {
   key_name               = "terraform"
   monitoring             = true
   vpc_security_group_ids = ["sg-05a9b3b6d33836a61"] ## Get Default VPC Security Group ID
-  subnet_id              = "subnet-eddcdzz4"         ##
+  subnet_id              = "subnet-eddcdzz4"        ##
 
   tags = {
     Terraform   = "true"
