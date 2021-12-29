@@ -1,5 +1,5 @@
 ## Hoating A static website With AWS S
-
+```t
 {
   "Version": "2012-10-17",
   "Statement": [
@@ -16,3 +16,4 @@
       }
   ]
 }
+```
