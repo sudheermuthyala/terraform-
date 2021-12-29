@@ -28,14 +28,14 @@
 - Rest all leave to defaults
 - Click on **Create Bucket**
 
-### Step-02-02: Enable Static website hosting
+###  Enable Static website hosting
 - Go to AWS Services -> S3 -> Buckets -> mybucket-1045 -> Properties Tab -> At the end
 - Edit to enable **Static website hosting**
 - **Static website hosting:** enable
 - **Index document:** index.html
 - Click on **Save Changes**
 
-### Step-02-03: Remove Block public access (bucket settings)
+###  Remove Block public access (bucket settings)
 - Go to AWS Services -> S3 -> Buckets -> mybucket-1045 -> Permissions Tab 
 - Edit **Block public access (bucket settings)** 
 - Uncheck **Block all public access**
