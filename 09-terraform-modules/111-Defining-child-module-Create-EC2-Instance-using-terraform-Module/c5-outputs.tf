@@ -4,5 +4,6 @@ output "EC2_Instance_Public_ip" {
 }
 
 output "EC2_Instance_Private_ip" {
+    description = "value"
     value = ""
 }
