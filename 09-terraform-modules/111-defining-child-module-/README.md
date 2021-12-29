@@ -5,4 +5,5 @@
     - Published Modules (Terraform Registry)
 **2.Module Basics**
     - Defining a Child Module
-        - Source (Man)
+        - Source (Mandatory)
+        
