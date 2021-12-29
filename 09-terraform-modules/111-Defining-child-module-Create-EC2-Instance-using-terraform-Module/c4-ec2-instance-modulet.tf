@@ -5,7 +5,7 @@ module "ec2_instance" {
   version = "~> 3.0"
 
   name = "Demo_on_Modules"
-  
+  ec
 
   ami                    = data.aws_ami.amzlinux.id
   instance_type          = "t2.micro"
