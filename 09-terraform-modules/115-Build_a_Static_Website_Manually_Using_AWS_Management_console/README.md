@@ -79,7 +79,7 @@
 http://example-bucket.s3-website.Region.amazonaws.com/
 
 # Replace Values (Bucket Name, Region)
-http://mybucket-1045.s3-website.us-east-1.amazonaws.com/
+https://terraform19889.s3.amazonaws.com/index.html
 ```
 
 ### Conclusion
