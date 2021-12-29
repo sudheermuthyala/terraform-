@@ -14,7 +14,7 @@ module "ec2_instance" {
   subnet_id              = "subnet-0499eb0ee45615fca"   ## Get one Public Subnet ID from Default VPC
 
   tags = {
-    Name
+    Name        = "Module"
     Terraform   = "true"
     Environment = "dev"
   }
