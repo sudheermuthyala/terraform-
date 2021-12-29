@@ -10,3 +10,4 @@
         - Meta-aurgements 
             - count 
             - for_each
+            - providers
