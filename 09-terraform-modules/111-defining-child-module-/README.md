@@ -2,4 +2,4 @@
 **Introduction**
     - Root Module
     - Child Module
-    - Published Modules
+    - Published Modules (Terraform Registry)
