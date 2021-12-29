@@ -12,5 +12,5 @@
             - for_each
             - providers
             - depends_on
-            - Accessing Module Output Values
-            - Tainting
+        - Accessing Module Output Values
+        - Tainting
