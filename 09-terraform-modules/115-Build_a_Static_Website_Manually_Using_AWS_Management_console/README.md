@@ -18,10 +18,10 @@
 - **Section-2 - Terraform Resources:** Automate section-1 using Terraform Resources
 - **Section-3 - Terraform Modules:** Create a re-usable module for hosting static website by referencing section-2 terraform configuration files. 
 
-## Step-02: Hosting a Static Website with AWS S3 using AWS Management Console
+## Hosting a Static Website with AWS S3 using AWS Management Console
 - **Reference Sub-folder:** v1-create-static-website-on-s3-using-aws-mgmt-console
 - We are going to host a static website with AWS S3 using AWS Management console
-### Step-02-01: Create AWS S3 Bucket
+###  Create AWS S3 Bucket
 - Go to AWS Services -> S3 -> Create Bucket 
 - **Bucket Name:** mybucket-1045 (Note: Bucket name should be unique across AWS)
 - **Region:** US.East (N.Virginia)
