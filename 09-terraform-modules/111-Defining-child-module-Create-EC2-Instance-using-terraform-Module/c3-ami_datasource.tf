@@ -1,3 +1,3 @@
-data "ami" "name" {
+data "aws_ami" "name" {
   
 }
