@@ -67,7 +67,7 @@
 - Edit -> **Bucket policy** -> Copy paste the policy above with your bucket name
 - Click on **Save Changes**
 
-### Step-02-05: Upload index.html
+###  Upload index.html
 - **Location:** v1-create-static-website-on-s3-using-aws-mgmt-console/index.html
 - Go to AWS Services -> S3 -> Buckets -> mybucket-1045 -> Objects Tab 
 - Upload **index.html**
