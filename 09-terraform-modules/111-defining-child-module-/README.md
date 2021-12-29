@@ -20,4 +20,4 @@
     - Module version (Optional): Recomended to use module version
 - Create a sample EC2-Instance Module
     - c1-versions.tf
-    - c2-varibles.tf :
+    - c2-varibles.tf : Standard
