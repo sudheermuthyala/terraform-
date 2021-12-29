@@ -1,4 +1,4 @@
-
+## Input Varible
 variable "aws_reagion" {
   description = "AWS-Reagion"
   type =  "string"
