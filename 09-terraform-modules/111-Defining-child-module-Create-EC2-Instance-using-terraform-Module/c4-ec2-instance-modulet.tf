@@ -10,7 +10,7 @@ module "ec2_instance" {
   instance_type          = "t2.micro"
   key_name               = "terraform"
   monitoring             = true
-  vpc_security_group_ids = ["sg-05a9b3b6d33836a61"] 
+  vpc_security_group_ids = ["sg-05a9b3b6d33836a61"] ## Get Default 
   subnet_id              = "subnet-eddcdzz4"
 
   tags = {
