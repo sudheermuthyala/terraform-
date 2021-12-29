@@ -13,3 +13,4 @@
             - providers
             - depends_on
             - Accessing Module Output Values
+            - Tainting
