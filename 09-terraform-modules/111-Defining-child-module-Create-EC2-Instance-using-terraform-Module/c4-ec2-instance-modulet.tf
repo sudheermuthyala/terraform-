@@ -24,4 +24,3 @@ module "ec2_instance" {
 }
 
 
-112-Create-Outputs-for-EC2-Instance-Module-Execute-Comman
