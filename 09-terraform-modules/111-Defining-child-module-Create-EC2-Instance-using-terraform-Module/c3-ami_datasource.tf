@@ -1,3 +1,4 @@
 data "aws_ami" "amzlinux" {
-  most_recent = true
+  most_recent = 
+  owners = 
 }
