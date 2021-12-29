@@ -1,5 +1,5 @@
 data "aws_ami" "amzlinux" {
-  most_recent = 
+  most_recent = true
   owners = [ "amazon" ]
 
   filter {
@@ -8,7 +8,7 @@ data "aws_ami" "amzlinux" {
   }
   filter {
     name = "root-device-type"
-    values = ["ebs"]4
+    values = ["ebs"]
   }
   filter {
     name = "virtualization-type"
