@@ -11,4 +11,4 @@
             - count 
             - for_each
             - providers
-            depends_on
+            - depends_on
