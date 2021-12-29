@@ -1,1 +1,1 @@
-## Hoating A sta
+## Hoating A static website
