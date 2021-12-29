@@ -42,7 +42,7 @@
 - Click on **Save Changes**
 - Provide text `confirm` and Click on **Confirm**
 
-### Step-02-04: Add Bucket policy for public read by bucket owners
+###  Add Bucket policy for public read by bucket owners
 - Update your bucket name in the below listed policy
 - **Location:** v1-create-static-website-on-s3-using-aws-mgmt-console/policy-public-read-access-for-website.json
 ```json
