@@ -9,6 +9,6 @@ output "EC2_Instance_Private_ip" {
 }
 
 output "ec2_instance_Public_DNS" {
-    
+    description = "ec2_instance_Public_DNS"
     value = ""
 }
