@@ -1,11 +1,11 @@
 # Terraform Module Basics
 
 ## Introduction
-1.Introduction - `Module Basics`
+    1.Introduction - `Module Basics`
     - Root Module
     - Child Module
     - Published Modules (Terraform Registry)
-2.Module Basics - `Defining a Child Module`
+    2.Module Basics - `Defining a Child Module`
     - Source (Mandatory)
     - Version
     - Meta-aurgements 
