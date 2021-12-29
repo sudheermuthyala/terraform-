@@ -4,4 +4,5 @@
     - Child Module
     - Published Modules (Terraform Registry)
 **2.Module Basics**
-    - Defining a 
+    - Defining a Child Module
+    
