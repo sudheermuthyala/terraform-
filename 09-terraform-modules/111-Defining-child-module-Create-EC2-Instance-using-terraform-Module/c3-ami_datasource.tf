@@ -7,6 +7,6 @@ data "aws_ami" "amzlinux" {
     values = ["amzn2-ami-hvm-*-gp2"]
   }
   filter {
-    name = ""
+    name = "root-device"
   }
 }
