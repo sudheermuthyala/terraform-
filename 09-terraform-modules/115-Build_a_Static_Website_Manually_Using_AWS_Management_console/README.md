@@ -1,6 +1,6 @@
 # Build a Terraform Module
 
-## Step-01: Introduction
+## Introduction
 - Build a Terraform Module
     - Create a Terraform module
     - Use local Terraform modules in your configuration
