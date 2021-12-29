@@ -2,6 +2,7 @@
 c5-outputs.tf: We will output the EC2 Instance Module attributes (Public DNS and Public IP)
 # Output variable definitions
 
+```
 output "ec2_instance_public_ip" {
   description = "Public IP addresses of EC2 instances"
   value       = module.ec2_cluster.*.public_ip
