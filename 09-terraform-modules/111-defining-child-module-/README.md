@@ -19,4 +19,5 @@
     - Module source (Mandatory): To Start with. I am using Terraform Registry
     - Module version (Optional): Recomended to use module version
 - Create a sample EC2-Instance Module
-    - c1-versions
+    - c1-versions.tf
+    - 
