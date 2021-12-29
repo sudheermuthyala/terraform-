@@ -3,6 +3,7 @@ data "aws_ami" "amzlinux" {
   owners = [ "amazon" ]
 
   filter {
-    name = 
+    name = "name"
+    
   }
 }
