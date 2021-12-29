@@ -1,6 +1,6 @@
 # Terraform Module Basics
 
-## In
+## Introduction
 1.Introduction - `Module Basics`
     - Root Module
     - Child Module
