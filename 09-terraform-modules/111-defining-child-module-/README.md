@@ -12,4 +12,4 @@
             - for_each
             - providers
             - depends_on
-            - Accessing Module Out
+            - Accessing Module Output Values
