@@ -57,7 +57,7 @@
               "s3:GetObject"
           ],
           "Resource": [
-              "arn:aws:s3:::mybucket-1045/*"
+              "arn:aws:s3:::terrafrom19889/*"
           ]
       }
   ]
