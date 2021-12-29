@@ -23,4 +23,4 @@
     - c2-varibles.tf : Standard
     - c3-ami-datasource.tf Standard
     - c4-ec2-instance-module.tf : We will focus on building this Template
-    - Reference Terraform Registr
+    - Reference Terraform Registroy for 
