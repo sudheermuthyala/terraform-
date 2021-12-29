@@ -6,7 +6,7 @@ module "ec2_instance" {
 
   name = "Demo_on_Modules"
 
-  ami                    = "ami-ebd02392"
+  ami                    = ""
   instance_type          = "t2.micro"
   key_name               = "user1"
   monitoring             = true
