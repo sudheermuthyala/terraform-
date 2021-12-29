@@ -4,15 +4,15 @@
     - Child Module
     - Published Modules (Terraform Registry)
 2.Module Basics Defining a Child Module
-- Source (Mandatory)
-- Version
-- Meta-aurgements 
-    - count 
-    - for_each
-    - providers
-    - depends_on
-- Accessing Module Output Values
-- Tainting Resource with a module
+    - Source (Mandatory)
+    - Version
+    - Meta-aurgements 
+        - count 
+        - for_each
+        - providers
+        - depends_on
+    - Accessing Module Output Values
+    - Tainting Resource with a module
 ## Defining a Child Module 
 - We need to Understand about the following
     - Module source (Mandatory): To Start with. I am using Terraform Registry
