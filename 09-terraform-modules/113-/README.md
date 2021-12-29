@@ -1,2 +1,2 @@
 ## Tainting Resources in a Module
-- The `taint command` can 
+- The `taint command` can be used to taint
