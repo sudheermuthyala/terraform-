@@ -19,4 +19,3 @@ Observation: First VM will be destroyed and re-created
 terraform apply -auto-approve
 ```
 
-Tainting Resources in-aModule
