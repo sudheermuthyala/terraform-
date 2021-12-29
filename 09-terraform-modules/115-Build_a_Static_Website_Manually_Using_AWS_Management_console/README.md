@@ -72,7 +72,7 @@
 - Go to AWS Services -> S3 -> Buckets -> mybucket-1045 -> Objects Tab 
 - Upload **index.html**
 
-### Step-02-06: Access Static Website using S3 Website Endpoint
+###  Access Static Website using S3 Website Endpoint
 - Access the newly uploaded index.html to S3 bucket using browser
 ```
 # Endpoint Format
@@ -82,7 +82,7 @@ http://example-bucket.s3-website.Region.amazonaws.com/
 http://mybucket-1045.s3-website.us-east-1.amazonaws.com/
 ```
 
-### Step-02-07: Conclusion
+###  Conclusion
 - We have used multiple manual steps to host a static website on AWS
 - Now all the above manual steps automate using Terraform in next step
 
