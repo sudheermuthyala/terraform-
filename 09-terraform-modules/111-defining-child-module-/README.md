@@ -4,7 +4,7 @@
 - Child Module
 - Published Modules (Terraform Registry)
 **2.Module Basics**
-    - Defining a Child Module
+- Defining a Child Module
         - Source (Mandatory)
         - Version
         - Meta-aurgements 
