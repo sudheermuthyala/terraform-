@@ -1,5 +1,6 @@
 ## Define Outputs from a EC2 Instance Module
 c5-outputs.tf: We will output the EC2 Instance Module attributes (Public DNS and Public IP)
+
 # Output variable definitions
 
 ```t
