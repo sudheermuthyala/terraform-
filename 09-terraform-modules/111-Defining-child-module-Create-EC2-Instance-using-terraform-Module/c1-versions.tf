@@ -1,7 +1,7 @@
 # treeaform Block
 terraform {
   required_version = "~> 1.1.1"
-  required_providers {
+  required_providers {}
     aws = {
         version = "~> 3.0"
         source = "hashicorp/aws"
