@@ -1,3 +1,3 @@
-output "EC2_instance" {
+output "EC2_Instance_Public" {
     value = ""
 }
