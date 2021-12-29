@@ -1,1 +1,1 @@
-## Bulding a Terraform Reauseable 
+## Bulding a Terraform Reuseable 
