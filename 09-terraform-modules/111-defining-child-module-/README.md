@@ -1,3 +1,4 @@
 ## Terraform Module Basics
 **Introduction**
-    - Root module
+    - Root Module
+    - Child
