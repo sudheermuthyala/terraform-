@@ -82,7 +82,7 @@ http://example-bucket.s3-website.Region.amazonaws.com/
 http://mybucket-1045.s3-website.us-east-1.amazonaws.com/
 ```
 
-###  Conclusion
+### Conclusion
 - We have used multiple manual steps to host a static website on AWS
 - Now all the above manual steps automate using Terraform in next step
 
