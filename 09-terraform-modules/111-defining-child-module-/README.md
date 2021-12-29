@@ -21,4 +21,4 @@
 - Create a sample EC2-Instance Module
     - c1-versions.tf : Standard
     - c2-varibles.tf : Standard
-    - c3-ami-datasource.tf Stan
+    - c3-ami-datasource.tf Standard
