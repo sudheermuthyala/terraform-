@@ -16,4 +16,4 @@
         - Tainting Resource with a module
 ## Defining a Child Module 
 - We need to Understand about the following
-    - Module source (Mandatory)
+    - Module source (Mandatory): 
