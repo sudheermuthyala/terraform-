@@ -11,6 +11,6 @@ data "aws_ami" "amzlinux" {
     values = ["ebs"]4
   }
   filter {
-    name = 
+    name = "virtua"
   }
 }
