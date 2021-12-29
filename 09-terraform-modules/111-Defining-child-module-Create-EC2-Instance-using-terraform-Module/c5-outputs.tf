@@ -8,6 +8,6 @@ output "EC2_Instance_Private_ip" {
     value = module.ec2_instance.*.private_ip
 }
 
-output "ec2DNS" {
+output "ec2_instance_Public_DNS" {
     value = ""
 }
