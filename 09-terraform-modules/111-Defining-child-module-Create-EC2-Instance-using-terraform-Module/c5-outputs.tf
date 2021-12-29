@@ -1,4 +1,7 @@
 output "EC2_Instance_Public_ip" {
-    description = "value"
-    value = 
+    description = "EC2_Instance_Public_ip"
+    value = module "name" {
+        source = ""
+        
+    }
 }
