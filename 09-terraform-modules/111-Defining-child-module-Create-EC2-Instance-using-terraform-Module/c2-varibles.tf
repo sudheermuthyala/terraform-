@@ -5,3 +5,4 @@ variable "aws_reagion" {
   type =  "string"
   default = "us-east-1"
 }
+
