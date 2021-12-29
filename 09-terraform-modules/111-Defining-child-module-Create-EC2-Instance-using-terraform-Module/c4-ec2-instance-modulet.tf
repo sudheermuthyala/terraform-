@@ -6,9 +6,8 @@ module "ec2_instance" {
 
   name = "Demo_on_Modules"
   count = 2 
-  for_each = {
-      key = "value"
-  }
+  for_each = ()
+
 
   ami                    = data.aws_ami.amzlinux.id
   instance_type          = "t2.micro"
