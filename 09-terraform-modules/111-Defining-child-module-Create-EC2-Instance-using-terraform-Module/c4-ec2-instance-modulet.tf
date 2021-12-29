@@ -5,8 +5,9 @@ module "ec2_instance" {
   version = "~> 3.0"
 
   name = "Demo_on_Modules"
+  count = 2 
 
-    
+
   ami                    = data.aws_ami.amzlinux.id
   instance_type          = "t2.micro"
   key_name               = "terraform"
