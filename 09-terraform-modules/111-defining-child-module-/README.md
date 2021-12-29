@@ -15,4 +15,4 @@
         - Accessing Module Output Values
         - Tainting Resource with a module
 ## Defining a Child Module 
-- We need to Understa
+- We need to Understand about
