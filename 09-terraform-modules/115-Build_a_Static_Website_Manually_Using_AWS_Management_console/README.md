@@ -11,7 +11,7 @@
               "s3:GetObject"
           ],
           "Resource": [
-              "arn:aws:s3:::terraform19889Info/*"
+              "arn:aws:s3:::terraform19889/*"
           ]
       }
   ]
