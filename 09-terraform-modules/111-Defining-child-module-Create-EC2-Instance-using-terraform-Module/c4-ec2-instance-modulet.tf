@@ -5,7 +5,7 @@ module "ec2_instance" {
   version = "~> 3.0"
 
   name = "Demo_on_Modules"
-  count = 2 
+  #count = 2 
   for_each = toset(["one","two"])
 
 
