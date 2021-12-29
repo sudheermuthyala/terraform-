@@ -3,4 +3,4 @@
     - Root Module
     - Child Module
     - Published Modules (Terraform Registry)
-**2.**
+**2.Module Basics**
