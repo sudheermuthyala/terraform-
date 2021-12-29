@@ -17,7 +17,7 @@ module "ec2_instance" {
   subnet_id              = "subnet-0499eb0ee45615fca"   ## Get one Public Subnet ID from Default VPC
   user_data              = file("apache-install.sh")
   tags = {
-    Name        = "ec2-instance-Module".each.value
+    Name        = "ec2-instance-Module"
     Terraform   = "true"
     Environment = "dev"
   }
