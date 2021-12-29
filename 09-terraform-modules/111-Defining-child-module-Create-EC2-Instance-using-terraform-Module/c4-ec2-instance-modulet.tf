@@ -6,7 +6,7 @@ module "ec2_instance" {
 
   name = "Demo_on_Modules"
   count = 2 
-  for_each = toset([one])
+  for_each = toset(["one","two"])
 
 
   ami                    = data.aws_ami.amzlinux.id
