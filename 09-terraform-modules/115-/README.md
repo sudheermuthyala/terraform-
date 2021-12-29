@@ -1,1 +1,0 @@
-Build_a_Static_Website_Manually_Using_AWS_Management_console
