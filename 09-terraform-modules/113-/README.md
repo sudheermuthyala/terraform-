@@ -18,3 +18,5 @@ Observation: First VM will be destroyed and re-created
 # Terraform Apply
 terraform apply -auto-approve
 ```
+
+Tainting Resources in-aModule
