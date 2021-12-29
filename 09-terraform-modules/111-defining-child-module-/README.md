@@ -5,9 +5,9 @@
 - Published Modules (Terraform Registry)
 **2.Module Basics**
 - Defining a Child Module
-        - Source (Mandatory)
-        - Version
-        - Meta-aurgements 
+- Source (Mandatory)
+- Version
+- Meta-aurgements 
             - count 
             - for_each
             - providers
