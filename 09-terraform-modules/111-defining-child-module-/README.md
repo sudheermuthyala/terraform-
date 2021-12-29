@@ -22,4 +22,4 @@
     - c1-versions.tf : Standard
     - c2-varibles.tf : Standard
     - c3-ami-datasource.tf Standard
-    - c4-ec2-instance
+    - c4-ec2-instance-module.tf
