@@ -7,10 +7,10 @@
 - Source (Mandatory)
 - Version
 - Meta-aurgements 
-            - count 
-            - for_each
-            - providers
-            - depends_on
+    - count 
+    - for_each
+    - providers
+    - depends_on
         - Accessing Module Output Values
         - Tainting Resource with a module
 ## Defining a Child Module 
