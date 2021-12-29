@@ -1,6 +1,5 @@
 # Terraform Module Basics
 
-## Introduction
 # Terraform Module Basics
 
 1. Introduction - Module Basics  
