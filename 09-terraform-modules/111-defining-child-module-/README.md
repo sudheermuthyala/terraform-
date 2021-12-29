@@ -7,3 +7,4 @@
     - Defining a Child Module
         - Source (Mandatory)
         - Version
+        - Meta-aurgements
