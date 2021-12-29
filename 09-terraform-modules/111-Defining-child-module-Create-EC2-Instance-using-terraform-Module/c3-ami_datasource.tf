@@ -4,6 +4,6 @@ data "aws_ami" "amzlinux" {
 
   filter {
     name = "name"
-    values = ["amzn2-ami-hvm"]
+    values = ["amzn2-ami-hvm-*-"]
   }
 }
