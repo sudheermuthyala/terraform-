@@ -70,5 +70,4 @@ git push
 ```
 # Verify the same on Remote Repository
 [Repository](https://github.com/sudheermuthyala/terraform-cloud)
-```
 
