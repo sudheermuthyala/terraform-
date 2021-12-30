@@ -4,7 +4,7 @@ variable "aws_reagion" {
     type = string   
 }
 
-## create a  bucket-Name
+## create Varible for bucket-Name
 variable "" {
   
 }
