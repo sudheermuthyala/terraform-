@@ -10,4 +10,4 @@
             - outputs.tf
             - README.md
             - LICENSE
-- Inside ``
+- Inside `modules/aws_s3_static_website_bucket`,copy below listed three files from
