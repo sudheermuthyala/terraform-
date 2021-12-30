@@ -8,5 +8,5 @@ output "arn" {
 
 ## Name of the s3 Bucket
 output "name" {
-  description = "Name"
+  description = "Name of the Bucket"
 }
