@@ -4,6 +4,7 @@ variable "aws_reagion" {
     type = string   
 }
 
+## create a buck
 variable "" {
   
 }
