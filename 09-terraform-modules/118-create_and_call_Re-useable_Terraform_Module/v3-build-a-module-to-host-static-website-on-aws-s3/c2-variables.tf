@@ -11,6 +11,6 @@ variable "bucket_name" {
     default = "mybucket_terraform1099"
 }
 
-variable "tags" {
+variable "s3_tags" {
   
 }
