@@ -18,4 +18,6 @@
 
 ## Call Module from Terraform Work Directory (Root Module)
 - create Terraform Configuration in Root module by calling the newly created module
-- c1-
+- c1-versions.tf
+- c2-variables.tf
+- c3-s3
