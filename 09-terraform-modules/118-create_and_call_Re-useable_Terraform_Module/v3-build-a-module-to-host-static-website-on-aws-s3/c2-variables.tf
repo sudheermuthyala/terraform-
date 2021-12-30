@@ -1,4 +1,4 @@
 variable "aws_reagion" {
-    description = "value"
+    description = "Reagion In which AWS"
   
 }
