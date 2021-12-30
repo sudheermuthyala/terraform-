@@ -10,4 +10,4 @@
             - outputs.tf
             - README.md
             - LICENSE
-- Inside `modules/aws_s3_static_website_bucket`,copy below listed three files from
+- Inside `modules/aws_s3_static_website_bucket`,copy below listed three files from `116-create-a-terraform-manifiest-to-create-static-website`
