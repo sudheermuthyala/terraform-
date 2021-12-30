@@ -16,6 +16,6 @@ variable "s3_tags" {
   type = map(string0)
   default = {
     "Env" = "dev"
-    "" 
+    "tag-1" = ""
   }
 }
