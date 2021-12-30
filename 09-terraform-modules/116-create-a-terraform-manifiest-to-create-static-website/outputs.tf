@@ -1,4 +1,4 @@
 output "arn" {
   description = "arn of the s3-bucket"
-  value = 
+  value = aws_s3_bucket.s3_bucket.
 }
