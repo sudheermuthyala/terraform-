@@ -5,5 +5,5 @@
 - Terraform working Directory: build_a_module_to_host_static_website_on_aws_s3
     - modules
         - Module-1: aws-s3-static-website-buscket
-            main.tf
-            varible
+            - main.tf
+            varibles.tf
