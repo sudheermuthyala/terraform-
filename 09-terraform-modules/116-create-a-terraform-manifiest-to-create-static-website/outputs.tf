@@ -13,3 +13,6 @@ output "name" {
 }
 
 ## Domine Name of the Bucket
+output "name" {
+  
+}
