@@ -21,5 +21,5 @@ output "domain" {
 ## Website Endoint of bucket
 output "endpoint" {
   description = "Endpoint of the bucket"
-   
+   value = 
 }
