@@ -1,1 +1,1 @@
-## Build a Terraform Module To Host a
+## Build a Terraform Module To Host a Static Web
