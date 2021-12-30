@@ -4,4 +4,4 @@
 - we will copey required files from previous section for this respective module
 - Terraform working Directory: build_a_module_to_host_static_website_on_aws_s3
     - modules
-        - Module-1: aws-s3static
+        - Module-1: aws-s3-static
