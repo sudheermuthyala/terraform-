@@ -15,12 +15,12 @@ ls -lrt .terraform/modules
 terraform get
 ls -lrt .terraform/modules
 ```
-### Step-04-07: Major difference between Local and Remote Module
+###  Major difference between Local and Remote Module
 - When installing a remote module, Terraform will download it into the .terraform directory in your configuration's root directory. 
 - When installing a local module, Terraform will instead refer directly to the source directory. 
 - Because of this, Terraform will automatically notice changes to local modules without having to re-run terraform init or terraform get.
 
-## Step-05: Conclusion
+##  Conclusion
 - Created a Terraform module
 - Used local Terraform modules in your configuration
 - Configured modules with variables
