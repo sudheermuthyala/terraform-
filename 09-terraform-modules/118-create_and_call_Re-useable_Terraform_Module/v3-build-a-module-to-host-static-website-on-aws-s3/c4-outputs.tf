@@ -2,7 +2,7 @@
 
 ## S3 Bucket ARN
 output "name" {
-  value = module
+  value = module.
 }
 ## S3 Bucket Name
 ## S3 Bucket Domain
