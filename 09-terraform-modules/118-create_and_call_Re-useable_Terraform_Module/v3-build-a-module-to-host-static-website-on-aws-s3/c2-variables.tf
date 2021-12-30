@@ -8,6 +8,6 @@ variable "aws_reagion" {
 variable "bucket_name" {
     description = "Name for s3-bucket"
     type = string
-    default = "mybucket_"
+    default = "mybucket_terraform1099"
 }
 
