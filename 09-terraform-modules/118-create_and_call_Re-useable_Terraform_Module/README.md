@@ -17,4 +17,4 @@
 
 
 ## Call Module from Terraform Work Directory (Root Module)
-- create Terraform Configuration in Root module
+- create Terraform Configuration in Root module by calling the nw
