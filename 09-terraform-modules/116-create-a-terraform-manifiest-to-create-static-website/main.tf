@@ -1,1 +1,1 @@
-## Creating S3 Bucket for satt
+## Creating S3 Bucket for satatic website 
