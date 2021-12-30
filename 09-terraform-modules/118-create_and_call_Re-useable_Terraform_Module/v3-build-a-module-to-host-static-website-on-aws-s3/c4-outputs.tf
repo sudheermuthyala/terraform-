@@ -10,5 +10,6 @@ output "website_bucket_name" {
 }
 ## S3 Bucket Domain
 output "website_bucket_name" {
-  value = module.mY_s3_bucket.name  
+  value = module.mY_s3_bucket.domain 
+}
 ## S3 Bucket endpoint
