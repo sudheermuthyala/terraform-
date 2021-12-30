@@ -6,6 +6,6 @@ variable "aws_reagion" {
 
 ## create Varible for bucket-Name
 variable "bucket_name" {
-    description = "Name for s3Bucket"
+    description = "Name for s3-bucket"
   
 }
