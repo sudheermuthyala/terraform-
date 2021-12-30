@@ -1,6 +1,6 @@
 ## calling a module
 
 module "mY_s3_bucket" {
-    source = "./mo"
+    source = "./modules/"
     
 }
