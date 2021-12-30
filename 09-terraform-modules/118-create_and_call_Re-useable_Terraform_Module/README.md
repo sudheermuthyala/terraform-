@@ -9,3 +9,4 @@
             - variables.tf
             - outputs.tf
             - README.md
+            - LIC
