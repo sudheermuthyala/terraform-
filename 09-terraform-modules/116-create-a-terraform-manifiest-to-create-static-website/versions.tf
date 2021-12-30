@@ -8,6 +8,6 @@ terraform {
   }
 }
 
-provider "" {
-  
+provider "aws" {
+  region = 
 }
