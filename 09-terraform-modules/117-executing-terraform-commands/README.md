@@ -40,4 +40,4 @@ rm -rf terraform.tfstate*
 
 ## Conclusion
 - Using above terraform configurations we have hosted a static website in AWS S3 in seconds.
-In next step, we will convert these terraform configuration files to a Module which will be re-usable just by calling it.
+- In next step, we will convert these terraform configuration files to a Module which will be re-usable just by calling it.
