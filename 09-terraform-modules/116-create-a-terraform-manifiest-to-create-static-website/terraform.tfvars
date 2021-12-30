@@ -1,5 +1,5 @@
 bucket_name     =   "terrafrom19888"
 tags = {
   Tarraform = "true"
-  Envinorment
+  Envinorment = "Dev"
 }
