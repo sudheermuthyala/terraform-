@@ -4,5 +4,5 @@ variable "bucket_name" {
 }
 
 variable "tags" {
-  description = "value"
+  description = "Tags related to S3"
 }
