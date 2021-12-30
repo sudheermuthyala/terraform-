@@ -67,7 +67,7 @@ git commit -am "TF Files First Commit"
 
 # Push to Remote Repository
 git push
-
+```
 # Verify the same on Remote Repository
 [Repository](https://github.com/sudheermuthyala/terraform-cloud)
 ```
