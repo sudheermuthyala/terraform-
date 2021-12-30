@@ -21,3 +21,4 @@ terraform apply -auto-approve
 3. Bucket has "Block all public access" unchecked
 
 ## Upload index.html and test
+```t
