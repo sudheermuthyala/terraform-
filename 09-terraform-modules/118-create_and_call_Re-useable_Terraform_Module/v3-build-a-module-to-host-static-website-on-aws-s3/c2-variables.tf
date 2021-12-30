@@ -5,6 +5,6 @@ variable "aws_reagion" {
 }
 
 ## create Varible for bucket-Name
-variable "" {
+variable "bucket_name" {
   
 }
