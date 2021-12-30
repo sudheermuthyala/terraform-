@@ -1,3 +1,3 @@
 output "arn" {
-  description = "ARN"
+  description = "arn of the s3-bucket"
 }
