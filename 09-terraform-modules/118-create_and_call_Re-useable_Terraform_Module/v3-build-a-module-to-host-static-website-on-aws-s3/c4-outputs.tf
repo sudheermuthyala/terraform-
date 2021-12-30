@@ -1,7 +1,7 @@
 ## outputs Definations
 
 ## S3 Bucket ARN
-output "name" {
+output "website" {
   value = module.mY_s3_bucket.name
 }
 ## S3 Bucket Name
