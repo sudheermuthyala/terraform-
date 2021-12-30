@@ -16,4 +16,4 @@
     - outputs.tf
 
 
-## Call Module from Terraform Work Directory (Root)
+## Call Module from Terraform Work Directory (Root Module)
