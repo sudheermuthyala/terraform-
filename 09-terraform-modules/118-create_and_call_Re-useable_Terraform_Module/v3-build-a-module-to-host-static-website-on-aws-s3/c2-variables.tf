@@ -11,7 +11,7 @@ variable "my_s3_bucket_name" {
     default = "mybucket_terraform1099"
 }
 
-variable "s3_tags" {
+variable "my_s3_tags" {
   description = "tags to AWS s3 Bucket"
   type = map(string)
   default = {
