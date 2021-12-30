@@ -30,4 +30,10 @@ http://mybucket-1046.s3-website.us-east-1.amazonaws.com/
 ```
 
 ```t
+# Terraform Destroy
+terraform destroy -auto-approve
 
+# Delete Terraform files 
+rm -rf .terraform*
+rm -rf terraform.tfstate*
+```
