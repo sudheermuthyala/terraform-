@@ -1,5 +1,5 @@
 ## Execute Terraform Commands & Verify the bucket
-
+```t
 # Terraform Initialize
 terraform init
 
@@ -19,7 +19,7 @@ terraform apply -auto-approve
 1. Bucket has static website hosting enabled
 2. Bucket has public read access enabled using policy
 3. Bucket has "Block all public access" unchecked
-
+```
 ## Upload index.html and test
 ```t
 # Endpoint Format
