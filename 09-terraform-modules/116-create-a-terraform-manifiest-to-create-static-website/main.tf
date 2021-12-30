@@ -16,7 +16,7 @@ resource "aws_s3_bucket" "s3_bucket" {
                 "s3:GetObject"
             ],
             "Resource": [
-                "arn:aws:s3:::${var.bucket}/*"
+                "arn:aws:s3:::${var.bucket_name}/*"
             ]
         }
     ]
