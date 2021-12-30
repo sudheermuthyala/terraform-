@@ -15,7 +15,7 @@ variable "s3_tags" {
   description = "tags to AWS s3 Bucket"
   type = map(string0)
   default = {
-    "Terraform"
+    "Terraform" = true
     "Env" = "dev"
     "tag-1" = "first"
     "tag-2" = "second"
