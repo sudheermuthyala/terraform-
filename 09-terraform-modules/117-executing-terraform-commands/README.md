@@ -22,3 +22,9 @@ terraform apply -auto-approve
 
 ## Upload index.html and test
 ```t
+# Endpoint Format
+http://example-bucket.s3-website.Region.amazonaws.com/
+
+# Replace Values (Bucket Name, Region)
+http://mybucket-1046.s3-website.us-east-1.amazonaws.com/
+```
