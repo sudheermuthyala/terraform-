@@ -5,7 +5,7 @@ resource "aws_s3_bucket" "s3_bucket" {
   arn = "public-read"
   #policy = file(policy-public-read-access-for-website.json) 
   policy = <<EOF
-    {
+{
     "Version": "2012-10-17",
     "Statement": [
         {
