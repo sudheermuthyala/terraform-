@@ -1,5 +1,5 @@
 
-### Step-04-06: Understand terraform get command
+###  Understand terraform get command
 - We have used `terraform init` to download providers from terraform registry and at the same time to download `modules` present in local modules folder in terraform working directory. 
 - Assuming we already have initialized using `terraform init` and later we have created `module` configs, we can `terraform get` to download the same.
 - Whenever you add a new module to a configuration, Terraform must install the module before it can be used. 
