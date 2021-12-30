@@ -1,1 +1,2 @@
-## Creating S3 Bucket for satatic website 
+## Creating S3 Bucket for satatic website using terraform configuration 
+
