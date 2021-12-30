@@ -13,5 +13,6 @@ variable "bucket_name" {
 
 variable "s3_tags" {
   description = "tags to AWS s3 Bucket"
-  type = 
+  type = map(string0)
+  
 }
