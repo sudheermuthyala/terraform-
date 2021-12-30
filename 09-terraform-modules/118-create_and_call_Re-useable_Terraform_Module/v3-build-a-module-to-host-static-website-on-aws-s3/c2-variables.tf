@@ -17,6 +17,6 @@ variable "s3_tags" {
   default = {
     "Env" = "dev"
     "tag-1" = "first"
-    "tag-2"
+    "tag-2" = "second"
   }
 }
