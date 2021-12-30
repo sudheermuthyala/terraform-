@@ -1,3 +1,3 @@
 output "arn" {
-  
+  description = "ARN"
 }
