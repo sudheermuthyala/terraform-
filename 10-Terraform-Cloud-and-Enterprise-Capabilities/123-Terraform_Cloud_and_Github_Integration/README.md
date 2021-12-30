@@ -31,7 +31,7 @@
 ```t
 # Clone Github Repo
 git clone https://github.com/<YOUR_GITHUB_ID>/<YOUR_REPO>.git
-git clone https://github.com/stacksimplify/terraform-cloud-demo1.git
+git clone https://github.com/sudheermuthyala/terraform-cloud.git
 ```
 
 ## Step-05: Copy files from terraform-manifests to local repo & Check-In Code
