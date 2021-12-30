@@ -46,6 +46,9 @@ git clone https://github.com/sudheermuthyala/terraform-cloud.git
 - Source Location: Section-11-01 - Inside terraform-manifests folder
 - Destination Location: Newly cloned github repository folder in your local desktop `terraform-cloud-demo1`
 - Verify locally before commiting to GIT Repository
+# Verify the same on Remote Repository
+[Remote Repository](https://github.com/sudheermuthyala/terraform-cloud)
+
 ```t
 # Terraform Init
 terraform init
