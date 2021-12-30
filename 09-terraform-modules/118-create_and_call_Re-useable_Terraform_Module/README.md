@@ -1,1 +1,1 @@
-## Build a Terraform Module To Host a Static Website on AWS
+## Build a Terraform Module To Host a Static Website on AWS S3
