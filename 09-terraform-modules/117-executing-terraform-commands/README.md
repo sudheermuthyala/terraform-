@@ -1,3 +1,5 @@
+## Execute Terraform Commands & Verify the bucket
+
 # Terraform Initialize
 terraform init
 
