@@ -12,7 +12,7 @@ output "name" {
   value = aws_s3_bucket.s3_bucket.id
 }
 
-## Domine Name of the Bucket
+## Website Domine Name of the Bucket
 output "domain" {
   description = "Domain Name of the Bucket"
    value = aws_s3_bucket.s3_bucket.website_domain
