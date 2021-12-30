@@ -12,5 +12,5 @@ variable "bucket_name" {
 }
 
 variable "s3_tags" {
-  
+  description = "tags to "
 }
