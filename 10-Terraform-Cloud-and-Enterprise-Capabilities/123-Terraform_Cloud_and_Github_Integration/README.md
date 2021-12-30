@@ -69,6 +69,6 @@ git commit -am "TF Files First Commit"
 git push
 
 # Verify the same on Remote Repository
-https://github.com/stacksimplify/terraform-cloud-demo1.git
+
 ```
 
