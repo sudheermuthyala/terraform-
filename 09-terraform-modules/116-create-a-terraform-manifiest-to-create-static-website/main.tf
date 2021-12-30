@@ -1,5 +1,5 @@
 ## Creating S3 Bucket for satatic website using terraform configuration 
 
-resource "" "name" {
+resource "aws_s3_bucket" "name" {
   
 }
