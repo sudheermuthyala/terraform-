@@ -5,5 +5,5 @@ variable "bucket_name" {
 
 variable "tags" {
   description = "Tags related to s3 Bucket"
-  Type
+  type = list()
 }
