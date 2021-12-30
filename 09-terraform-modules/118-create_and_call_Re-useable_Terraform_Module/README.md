@@ -7,4 +7,5 @@
         - Module-1: aws-s3-static-website-buscket
             - main.tf
             - variables.tf
-            - outputs
+            - outputs.tf
+            - README.md
