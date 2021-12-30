@@ -23,7 +23,7 @@ resource "aws_s3_bucket" "s3_bucket" {
 }
   EOF
   website {
-    error_document = "error.i"
-    index_document = ""
+    error_document = "error.index"
+    index_document = "index."
   }
 }
