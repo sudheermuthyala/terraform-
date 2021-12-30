@@ -14,5 +14,6 @@ output "name" {
 
 ## Domine Name of the Bucket
 output "domain" {
-  description = "Domain Name of the "
+  description = "Domain Name of the Bucket"
+   value = aws_s3_bucket.s3_bucket
 }
