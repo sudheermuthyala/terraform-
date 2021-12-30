@@ -20,4 +20,5 @@
 - create Terraform Configuration in Root module by calling the newly created module
 - c1-versions.tf
 - c2-variables.tf
-- c3-s3
+- c3-s3-bucket.tf
+- c4-outputs.tf
