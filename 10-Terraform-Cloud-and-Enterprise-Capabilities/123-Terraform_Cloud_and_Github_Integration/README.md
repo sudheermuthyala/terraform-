@@ -1,6 +1,6 @@
 # Terraform Cloud & Github Integration
 
-## Step-01: Introduction
+##  Introduction
 - Create Github Repository on github.com
 - Clone Github Repository to local desktop
 - Copy & Check-In Terraform Configurations in to Github Repository
@@ -10,7 +10,7 @@
 - Learn about Workspace related Queue Plan, Runs, States, Variables and Settings
 
 
-## : Create new github Repository
+## Create new github Repository
 - **URL:** github.com
 - Click on **Create a new repository**
 - **Repository Name:** terraform-cloud-demo1
