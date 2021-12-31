@@ -34,7 +34,7 @@ git clone https://github.com/<YOUR_GITHUB_ID>/<YOUR_REPO>.git
 git clone https://github.com/sudheermuthyala/terraform-cloud.git
 ```
 
-## Step-05: Copy files from terraform-manifests to local repo & Check-In Code
+##  Copy files from terraform-manifests to local repo & Check-In Code
 - List of files to be copied
   - apache-install.sh
   - c1-versions.tf
