@@ -10,7 +10,7 @@
 - Learn about Workspace related Queue Plan, Runs, States, Variables and Settings
 
 
-## Step-02: Create new github Repository
+## : Create new github Repository
 - **URL:** github.com
 - Click on **Create a new repository**
 - **Repository Name:** terraform-cloud-demo1
@@ -24,10 +24,10 @@
 - **Select License:** Apache 2.0 License
 - Click on **Create repository**
 
-## Step-03: Review .gitignore created for Terraform
+##  Review .gitignore created for Terraform
 - Review .gitignore created for Terraform projects
 
-## Step-04: Clone Github Repository to Local Desktop
+##  Clone Github Repository to Local Desktop
 ```t
 # Clone Github Repo
 git clone https://github.com/<YOUR_GITHUB_ID>/<YOUR_REPO>.git
